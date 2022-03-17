@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "locust",
+	"git": "https://github.com/locustio/locust.git",
+	"fixed_pr_id": "885f380fb4a1da85aff12ce58ff42dca754597d8",
+	"code_files": [
+		"locust/rpc/zmqrpc.py"
+	],
+	"test_files": [
+		"locust/test/test_zmqrpc.py"
+	]
+}

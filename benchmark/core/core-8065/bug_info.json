@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "18935440edaf8e5f1d9bb7a3e6432f606c700fde",
+	"code_files": [
+		"homeassistant/helpers/entity_component.py"
+	],
+	"test_files": [
+		"tests/helpers/test_entity_component.py"
+	]
+}

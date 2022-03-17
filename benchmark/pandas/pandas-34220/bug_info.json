@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "e71052cc40ebd3a8ce163320c47b8b8f7000b088",
+	"code_files": [
+		"doc/source/whatsnew/v1.1.0.rst",
+		"pandas/core/arrays/sparse/array.py",
+		"pandas/core/dtypes/missing.py",
+		"pandas/core/nanops.py"
+	],
+	"test_files": [
+		"pandas/tests/arrays/sparse/test_array.py"
+	]
+}

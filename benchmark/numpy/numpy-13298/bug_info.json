@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "numpy",
+	"git": "https://github.com/numpy/numpy.git",
+	"fixed_pr_id": "f64ec0ca21466d3d461b88e232451c750982e9e6",
+	"code_files": [
+		"numpy/lib/function_base.py"
+	],
+	"test_files": [
+		"numpy/lib/tests/test_function_base.py"
+	]
+}

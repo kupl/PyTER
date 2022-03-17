@@ -1,0 +1,20 @@
+{
+	"py_version": "3.6.9",
+	"repo": "airflow",
+	"git": "https://github.com/apache/airflow.git",
+	"fixed_pr_id": "5b7a28c7e0dade62bb4d087f25687821e7f11083",
+	"code_files": [
+		"airflow/contrib/hooks/bigquery_hook.py",
+		"airflow/contrib/hooks/databricks_hook.py",
+		"airflow/contrib/hooks/gcp_dataflow_hook.py",
+		"airflow/contrib/hooks/gcp_mlengine_hook.py",
+		"airflow/contrib/hooks/gcs_hook.py",
+		"airflow/contrib/operators/mlengine_operator.py"
+	],
+	"test_files": [
+		"tests/contrib/hooks/test_bigquery_hook.py",
+		"tests/contrib/hooks/test_databricks_hook.py",
+		"tests/contrib/hooks/test_gcp_dataflow_hook.py",
+		"tests/contrib/hooks/test_gcs_hook.py"
+	]
+}

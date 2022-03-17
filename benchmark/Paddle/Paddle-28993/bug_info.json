@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "85292e0b46cb28ccd1c78e0ddea15e1faf58e291",
+	"code_files": [
+		"python/paddle/fluid/dygraph/dygraph_to_static/convert_operators.py",
+		"python/paddle/fluid/dygraph/dygraph_to_static/logical_transformer.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/dygraph_to_static/test_logical.py"
+	]
+}

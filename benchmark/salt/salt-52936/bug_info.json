@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "10688936656eb3270f76fc57abac0dd45b0439cb",
+	"code_files": [
+		"salt/cloud/clouds/ec2.py"
+	],
+	"test_files": [
+		"tests/unit/cloud/clouds/test_ec2.py"
+	]
+}

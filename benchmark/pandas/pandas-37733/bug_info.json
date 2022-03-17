@@ -1,0 +1,26 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "68f53cd9e556698fe786aefe90466f233eb55841",
+	"code_files": [
+		"doc/source/whatsnew/v1.2.0.rst",
+		"pandas/core/arrays/_mixins.py",
+		"pandas/core/arrays/categorical.py",
+		"pandas/core/arrays/datetimelike.py",
+		"pandas/core/arrays/interval.py",
+		"pandas/core/indexes/multi.py"
+	],
+	"test_files": [
+		"pandas/tests/arrays/categorical/test_take.py",
+		"pandas/tests/arrays/test_datetimelike.py",
+		"pandas/tests/arrays/test_period.py",
+		"pandas/tests/extension/test_interval.py",
+		"pandas/tests/frame/test_stack_unstack.py",
+		"pandas/tests/indexes/categorical/test_category.py",
+		"pandas/tests/indexes/categorical/test_reindex.py",
+		"pandas/tests/indexes/interval/test_interval.py",
+		"pandas/tests/indexing/test_categorical.py",
+		"pandas/tests/series/methods/test_shift.py"
+	]
+}

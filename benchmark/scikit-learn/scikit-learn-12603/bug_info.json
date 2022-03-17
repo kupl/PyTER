@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "scikit-learn",
+	"git": "https://github.com/scikit-learn/scikit-learn.git",
+	"fixed_pr_id": "a7a834bdb7a51ec260ff005715d50ab6ed01a16b",
+	"code_files": [
+		"sklearn/gaussian_process/kernels.py"
+	],
+	"test_files": [
+		"sklearn/gaussian_process/tests/test_kernels.py"
+	]
+}

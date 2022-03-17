@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "superset",
+	"git": "https://github.com/apache/superset.git",
+	"fixed_pr_id": "c44ee06b5d633a13221ff037065765f936b51b65",
+	"code_files": [
+		"superset-frontend/src/chart/Chart.jsx",
+		"superset/charts/api.py",
+		"superset/common/query_context.py",
+		"superset/connectors/sqla/models.py"
+	],
+	"test_files": [
+		"tests/charts/api_tests.py"
+	]
+}

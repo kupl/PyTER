@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "f0cd23ca6485940e3a6572cc4f5afdce4c3921ab",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.0.txt",
+		"pandas/core/indexes/timedeltas.py",
+		"pandas/core/ops.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/timedeltas/test_arithmetic.py",
+		"pandas/tests/series/test_operators.py"
+	]
+}

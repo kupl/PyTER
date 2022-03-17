@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "d7e4b9d755535d8c626007ff99c813073c239f79",
+	"code_files": [
+		"salt/utils/stringutils.py"
+	],
+	"test_files": [
+		"tests/unit/utils/test_stringutils.py"
+	]
+}

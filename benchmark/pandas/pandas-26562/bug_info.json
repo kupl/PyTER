@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "5a724b5cd796a6ede3cb95b8687eaf561e9d57b2",
+	"code_files": [
+		"pandas/core/arrays/integer.py",
+		"pandas/core/dtypes/base.py",
+		"pandas/core/dtypes/dtypes.py"
+	],
+	"test_files": [
+		"pandas/tests/dtypes/test_dtypes.py",
+		"pandas/tests/extension/base/dtype.py"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "scikit-learn",
+	"git": "https://github.com/scikit-learn/scikit-learn.git",
+	"fixed_pr_id": "0e54f44b4e26b28819c1e745793fe5bec9b1cea9",
+	"code_files": [
+		"sklearn/ensemble/gradient_boosting.py",
+		"sklearn/pipeline.py"
+	],
+	"test_files": [
+		"sklearn/tests/test_pipeline.py"
+	]
+}

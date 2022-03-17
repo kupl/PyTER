@@ -1,0 +1,17 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "47d0da67be1ab53c92863365a72a4936be281442",
+	"code_files": [
+		"doc/source/whatsnew/v1.2.0.rst",
+		"pandas/core/arrays/base.py"
+	],
+	"test_files": [
+		"pandas/tests/extension/arrow/test_bool.py",
+		"pandas/tests/extension/base/interface.py",
+		"pandas/tests/extension/decimal/array.py",
+		"pandas/tests/extension/json/test_json.py",
+		"pandas/tests/extension/test_categorical.py"
+	]
+}

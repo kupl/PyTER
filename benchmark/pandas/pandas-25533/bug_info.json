@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "221be3b4adde0f45927803b1c593b56d4678faeb",
+	"code_files": [
+		"doc/source/whatsnew/v0.25.0.rst",
+		"pandas/core/series.py"
+	],
+	"test_files": [
+		"pandas/tests/indexing/test_scalar.py"
+	]
+}

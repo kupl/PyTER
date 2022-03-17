@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "sanic",
+	"git": "https://github.com/sanic-org/sanic.git",
+	"fixed_pr_id": "6c03dd87b191cf49874935b70bc19646740be089",
+	"code_files": [
+		"sanic/static.py"
+	],
+	"test_files": [
+		"tests/test_static.py"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "d481c13b807bade91d35b4ab456e2fd48058c16e",
+	"code_files": [
+		"pandas/plotting/_matplotlib/core.py"
+	],
+	"test_files": [
+		"pandas/tests/plotting/frame/test_frame.py",
+		"pandas/tests/plotting/frame/test_frame_color.py",
+		"pandas/tests/plotting/test_backend.py",
+		"pandas/tests/plotting/test_boxplot_method.py",
+		"pandas/tests/plotting/test_hist_method.py",
+		"pandas/tests/plotting/test_series.py"
+	]
+}

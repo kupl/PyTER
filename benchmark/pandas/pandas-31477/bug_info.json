@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "c3e32d739271355757f8cdba54c0daab2bca8226",
+	"code_files": [
+		"doc/source/whatsnew/v1.0.1.rst",
+		"pandas/core/groupby/ops.py"
+	],
+	"test_files": [
+		"pandas/tests/groupby/aggregate/test_aggregate.py"
+	]
+}

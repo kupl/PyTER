@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "e2c7b6821a817ba762b7f2a25a7b844f34cdaeb9",
+	"code_files": [
+		"paddle/fluid/operators/uniform_random_op.cc",
+		"python/paddle/fluid/layers/nn.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_uniform_random_op.py"
+	]
+}

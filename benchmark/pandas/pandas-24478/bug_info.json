@@ -1,0 +1,16 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "70bc919316db6be6be8cce1a53dd54d34f25ff98",
+	"code_files": [
+		"pandas/core/arrays/datetimes.py",
+		"pandas/core/reshape/tile.py"
+	],
+	"test_files": [
+		"pandas/tests/arrays/test_datetimelike.py",
+		"pandas/tests/arrays/test_datetimes.py",
+		"pandas/tests/arrays/test_timedeltas.py",
+		"pandas/tests/dtypes/test_common.py"
+	]
+}

@@ -1,0 +1,1 @@
+pytest tests/models/test_taskinstance.py::TestTaskInstance::test_set_state_up_for_retry

@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "7c71498a52f14991a20a816082594ea093c4fd6a",
+	"code_files": [
+		"pandas/core/apply.py"
+	],
+	"test_files": [
+		"pandas/tests/apply/test_invalid_arg.py"
+	]
+}

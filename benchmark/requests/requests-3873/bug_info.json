@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "requests",
+	"git": "https://github.com/psf/requests.git",
+	"fixed_pr_id": "2414fa82c84db39dedb6e78c54cd5bfef423d89f",
+	"code_files": [
+		"requests/utils.py"
+	],
+	"test_files": [
+		"tests/test_requests.py"
+	]
+}

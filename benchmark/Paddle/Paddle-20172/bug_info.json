@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "729f5846cc19eb8d730d667ff3a02ecb88676e33",
+	"code_files": [
+		"paddle/fluid/operators/sum_op.cc",
+		"python/paddle/fluid/layers/nn.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_fc_op.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "scikit-learn",
+	"git": "https://github.com/scikit-learn/scikit-learn.git",
+	"fixed_pr_id": "9e913c04d748e261d5bc0ba0c657e194c6ab0fc6",
+	"code_files": [
+		"sklearn/svm/base.py"
+	],
+	"test_files": [
+		"sklearn/svm/tests/test_svm.py"
+	]
+}

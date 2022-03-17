@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "d09db1fe8dc3bc08c5ca0eff97d43d2b30d5233e",
+	"code_files": [
+		"doc/source/whatsnew/v0.24.0.txt",
+		"pandas/core/arrays/categorical.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/multi/test_constructor.py"
+	]
+}

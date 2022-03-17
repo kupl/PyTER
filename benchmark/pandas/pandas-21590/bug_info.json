@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "8cb6be0eced3bd3742efd0c03b2d903e3513cb11",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.2.txt",
+		"pandas/core/generic.py"
+	],
+	"test_files": [
+		"pandas/tests/frame/test_operators.py"
+	]
+}

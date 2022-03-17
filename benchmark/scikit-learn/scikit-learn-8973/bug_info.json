@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "scikit-learn",
+	"git": "https://github.com/scikit-learn/scikit-learn.git",
+	"fixed_pr_id": "0e4bdfdfc6934515fc03fae1845f223e947ce28f",
+	"code_files": [
+		"sklearn/linear_model/coordinate_descent.py"
+	],
+	"test_files": [
+		"sklearn/linear_model/tests/test_coordinate_descent.py"
+	]
+}

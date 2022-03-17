@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "wagtail",
+	"git": "https://github.com/wagtail/wagtail.git",
+	"fixed_pr_id": "bc6c469d92b2bb15331858aa4361baf172b0f705",
+	"code_files": [
+		"wagtail/core/telepath.py"
+	],
+	"test_files": [
+		"wagtail/core/tests/test_telepath.py"
+	]
+}

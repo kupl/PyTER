@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "007214f7bf582d6193f5e5066cbec729cd29af0f",
+	"code_files": [
+		"salt/cloud/clouds/dimensiondata.py"
+	],
+	"test_files": [
+		"tests/integration/cloud/providers/test_dimensiondata.py",
+		"tests/integration/files/conf/cloud.profiles.d/dimensiondata.conf",
+		"tests/integration/files/conf/cloud.providers.d/dimensiondata.conf"
+	]
+}

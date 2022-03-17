@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "4cbed3a3f6cc834191cfc2fba2347a12da33dc8d",
+	"code_files": [
+		"python/paddle/fluid/data.py",
+		"python/paddle/fluid/layers/io.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_data.py"
+	]
+}

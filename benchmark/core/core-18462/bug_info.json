@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "22ab83acae11780c62741cd8be2557b9bc5001f7",
+	"code_files": [
+		"homeassistant/components/sensor/bom.py",
+		"homeassistant/components/weather/bom.py"
+	],
+	"test_files": [
+		"tests/components/sensor/test_bom.py"
+	]
+}

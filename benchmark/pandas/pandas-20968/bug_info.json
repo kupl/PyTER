@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "4f1704e51221eb4db1b29c32a536a759b5e0f190",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.1.txt",
+		"pandas/plotting/_core.py"
+	],
+	"test_files": [
+		"pandas/tests/plotting/test_frame.py"
+	]
+}

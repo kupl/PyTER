@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "ddcb81d14ad70cc264abfca9be1b6711a49e5af8",
+	"code_files": [
+		"python/paddle/fluid/framework.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_compare_op.py"
+	]
+}

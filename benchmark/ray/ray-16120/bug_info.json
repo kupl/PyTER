@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "ray",
+	"git": "https://github.com/ray-project/ray.git",
+	"fixed_pr_id": "9c73591a4e4a8fb1d0b0ef6d023d3f60520d882e",
+	"code_files": [
+		"doc/source/ray-tracing.rst",
+		"python/ray/util/tracing/tracing_helper.py"
+	],
+	"test_files": [
+		"python/ray/tests/test_tracing.py"
+	]
+}

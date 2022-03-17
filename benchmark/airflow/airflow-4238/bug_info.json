@@ -1,0 +1,13 @@
+{
+	"py_version": "3.6.9",
+	"repo": "airflow",
+	"git": "https://github.com/apache/airflow.git",
+	"fixed_pr_id": "e947c6c034238ede29a6c8f51307458d3e40c1b5",
+	"code_files": [
+		"airflow/bin/cli.py",
+		"airflow/security/kerberos.py"
+	],
+	"test_files": [
+		"tests/security/test_kerberos.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "airflow",
+	"git": "https://github.com/apache/airflow.git",
+	"fixed_pr_id": "aa2dc603abce3a4e8885afddd1b267876613a466",
+	"code_files": [
+		"airflow/contrib/hooks/bigquery_hook.py"
+	],
+	"test_files": [
+		"tests/contrib/operators/test_bigquery_operator.py"
+	]
+}

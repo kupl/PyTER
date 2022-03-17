@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "transformers",
+	"git": "https://github.com/huggingface/transformers.git",
+	"fixed_pr_id": "175cd45e13b2e33d1efec9e2ac217cba99f6ae58",
+	"code_files": [
+		"examples/text-classification/run_pl_glue.py"
+	],
+	"test_files": [
+		"examples/seq2seq/test_seq2seq_examples.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "ray",
+	"git": "https://github.com/ray-project/ray.git",
+	"fixed_pr_id": "1d033fb5524ad8e82642033aa8ece22918f4cbb4",
+	"code_files": [
+		"python/ray/exceptions.py"
+	],
+	"test_files": [
+		"python/ray/tests/test_client.py"
+	]
+}

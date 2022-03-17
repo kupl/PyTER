@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "6cc5f235b083a3505eb4ca9b18cad1f3eda29f5b",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.1.txt",
+		"pandas/compat/__init__.py"
+	],
+	"test_files": [
+		"pandas/tests/test_compat.py"
+	]
+}

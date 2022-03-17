@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "superset",
+	"git": "https://github.com/apache/superset.git",
+	"fixed_pr_id": "3e076cb60b385e675ed1c9a8053493375e43370b",
+	"code_files": [
+		"superset/sql_parse.py"
+	],
+	"test_files": [
+		"tests/db_engine_specs_test.py"
+	]
+}

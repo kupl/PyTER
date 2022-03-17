@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "14a581d6cbeb8ac63583a65fa817d0d53e1ba86c",
+	"code_files": [
+		"pandas/core/algorithms.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/ranges/test_range.py"
+	]
+}

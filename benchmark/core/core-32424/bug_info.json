@@ -1,0 +1,22 @@
+{
+	"py_version": "..",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "a0403a88641972d27df253aabe316539e35a0fc7",
+	"code_files": [
+		"homeassistant/components/coronavirus/__init__.py",
+		"homeassistant/components/coronavirus/config_flow.py",
+		"homeassistant/components/coronavirus/sensor.py",
+		"homeassistant/components/coronavirus/strings.json",
+		"homeassistant/components/eight_sleep/manifest.json",
+		"homeassistant/components/eight_sleep/sensor.py",
+		"homeassistant/components/minecraft_server/__init__.py",
+		"homeassistant/const.py",
+		"homeassistant/helpers/entity_registry.py",
+		"requirements_all.txt"
+	],
+	"test_files": [
+		"tests/components/coronavirus/test_config_flow.py",
+		"tests/components/coronavirus/test_init.py"
+	]
+}

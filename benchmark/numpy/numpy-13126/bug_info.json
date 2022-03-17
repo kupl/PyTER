@@ -1,0 +1,24 @@
+{
+	"py_version": "..",
+	"repo": "numpy",
+	"git": "https://github.com/numpy/numpy.git",
+	"fixed_pr_id": "f12758396ad4a9dbae7d656b25fe189f75224a6d",
+	"code_files": [
+		"doc/release/1.17.0-notes.rst",
+		"numpy/polynomial/chebyshev.py",
+		"numpy/polynomial/hermite.py",
+		"numpy/polynomial/hermite_e.py",
+		"numpy/polynomial/laguerre.py",
+		"numpy/polynomial/legendre.py",
+		"numpy/polynomial/polynomial.py",
+		"numpy/polynomial/polyutils.py"
+	],
+	"test_files": [
+		"numpy/polynomial/tests/test_chebyshev.py",
+		"numpy/polynomial/tests/test_hermite.py",
+		"numpy/polynomial/tests/test_hermite_e.py",
+		"numpy/polynomial/tests/test_laguerre.py",
+		"numpy/polynomial/tests/test_legendre.py",
+		"numpy/polynomial/tests/test_polynomial.py"
+	]
+}

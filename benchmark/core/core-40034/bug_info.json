@@ -1,0 +1,12 @@
+{
+	"py_version": "3.7.9",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "cd26384634170aeead9c0ad4f5a2c8d35215d4c0",
+	"code_files": [
+		"homeassistant/helpers/condition.py"
+	],
+	"test_files": [
+		"tests/helpers/test_condition.py"
+	]
+}

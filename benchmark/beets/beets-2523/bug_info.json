@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "beets",
+	"git": "https://github.com/beetbox/beets.git",
+	"fixed_pr_id": "84febb13c1c8e6c7dcc305b2498d9e5f55b370b7",
+	"code_files": [
+		"beets/dbcore/query.py",
+		"beets/library.py"
+	],
+	"test_files": [
+		"test/test_datequery.py",
+		"test/test_query.py"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "19578e364fb47ce10dd14174cffc3ecfea1a58cd",
+	"code_files": [
+		"doc/source/whatsnew/v1.0.0.rst",
+		"pandas/core/groupby/generic.py",
+		"pandas/core/groupby/groupby.py"
+	],
+	"test_files": [
+		"pandas/tests/groupby/test_transform.py"
+	]
+}

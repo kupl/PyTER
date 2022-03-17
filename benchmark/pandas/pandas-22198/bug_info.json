@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "028492d04bd500995621931ad1c985bbe8865956",
+	"code_files": [
+		"doc/source/whatsnew/v0.24.0.txt",
+		"pandas/core/indexes/base.py"
+	],
+	"test_files": [
+		"pandas/tests/frame/test_asof.py"
+	]
+}

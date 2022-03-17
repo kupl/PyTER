@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "4003a74296e6b0c8960af007cd387fca505c2909",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.0.txt",
+		"pandas/core/indexes/interval.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/interval/test_interval.py"
+	]
+}

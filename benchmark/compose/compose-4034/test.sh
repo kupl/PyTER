@@ -1,0 +1,1 @@
+pytest tests/acceptance/cli_test.py::CLITestCase::test_config_restart

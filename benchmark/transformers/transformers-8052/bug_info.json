@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "transformers",
+	"git": "https://github.com/huggingface/transformers.git",
+	"fixed_pr_id": "7bff0af0a4b09b9bfc3ade2532c2a3acdff95eda",
+	"code_files": [
+		"src/transformers/trainer_callback.py"
+	],
+	"test_files": [
+		"tests/test_trainer_callback.py"
+	]
+}

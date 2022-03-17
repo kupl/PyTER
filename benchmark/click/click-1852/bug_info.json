@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "click",
+	"git": "https://github.com/pallets/click.git",
+	"fixed_pr_id": "cef43dec86d22413d13573f6c58a45565dbe2861",
+	"code_files": [
+		"CHANGES.rst",
+		"src/click/core.py",
+		"src/click/types.py"
+	],
+	"test_files": [
+		"tests/test_arguments.py",
+		"tests/test_options.py"
+	]
+}

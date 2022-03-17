@@ -1,0 +1,17 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "5bd08366748a9f5e217d08f2eecba0f2d7aaa5d8",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.0.txt",
+		"pandas/core/indexes/datetimes.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/datetimes/test_datetime.py",
+		"pandas/tests/indexes/test_base.py",
+		"pandas/tests/indexing/test_coercion.py",
+		"pandas/tests/series/test_indexing.py",
+		"pandas/tests/test_base.py"
+	]
+}

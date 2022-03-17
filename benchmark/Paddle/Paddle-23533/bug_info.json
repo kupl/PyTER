@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "475de6da22d962949a97ce42806c9d5a149ae4ca",
+	"code_files": [
+		"python/paddle/fluid/dygraph/nn.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_lookup_table_v2_op.py"
+	]
+}

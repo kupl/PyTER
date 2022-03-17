@@ -1,0 +1,19 @@
+{
+	"py_version": "..",
+	"repo": "numpy",
+	"git": "https://github.com/numpy/numpy.git",
+	"fixed_pr_id": "a79a913efd9bd7b7d8f8fc8619768dd2b30067f7",
+	"code_files": [
+		"doc/release/upcoming_changes/19135.change.rst",
+		"numpy/__init__.pyi",
+		"numpy/core/code_generators/generate_umath.py",
+		"numpy/core/src/umath/loops.c.src",
+		"numpy/core/src/umath/loops.h.src"
+	],
+	"test_files": [
+		"numpy/core/tests/test_umath.py",
+		"numpy/ma/tests/test_core.py",
+		"numpy/typing/tests/data/pass/arithmetic.py",
+		"numpy/typing/tests/data/reveal/arithmetic.py"
+	]
+}

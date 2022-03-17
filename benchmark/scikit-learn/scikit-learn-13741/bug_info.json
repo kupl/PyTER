@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "scikit-learn",
+	"git": "https://github.com/scikit-learn/scikit-learn.git",
+	"fixed_pr_id": "dc5e4d8896cb61e802da9dc845fbc873ddf5de3e",
+	"code_files": [
+		"doc/whats_new/v0.21.rst",
+		"sklearn/utils/sparsefuncs.py"
+	],
+	"test_files": [
+		"sklearn/utils/tests/test_sparsefuncs.py"
+	]
+}

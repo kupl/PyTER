@@ -1,0 +1,1 @@
+pytest tests/providers/slack/hooks/test_slack.py::TestSlackHook::test_call_with_failure

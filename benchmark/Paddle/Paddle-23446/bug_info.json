@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "2ca5801d8ceb6324b9515f9ccdb174ea5265ee1a",
+	"code_files": [
+		"python/paddle/fluid/backward.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_backward.py"
+	]
+}

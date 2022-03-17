@@ -1,0 +1,1 @@
+pytest tests/serialization/test_dag_serialization.py::TestStringifiedDAGs::test_roundtrip_provider_example_dags

@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "0ed385210f3cbab2aaff8b7c924495dcfec0384f",
+	"code_files": [
+		"salt/modules/artifactory.py",
+		"salt/states/artifactory.py"
+	],
+	"test_files": [
+		"tests/unit/states/artifactory_test.py"
+	]
+}

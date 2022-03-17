@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "b0111778b8373e7e191ffa06324c5b70e1c10d2a",
+	"code_files": [
+		"python/paddle/fluid/dygraph/dygraph_to_static/program_translator.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/dygraph_to_static/test_declarative.py"
+	]
+}

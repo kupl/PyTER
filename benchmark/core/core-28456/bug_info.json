@@ -1,0 +1,20 @@
+{
+	"py_version": "..",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "6c138e298247987db4e53f23070fa69ae4fe3237",
+	"code_files": [
+		"homeassistant/components/abode/__init__.py",
+		"homeassistant/components/abode/config_flow.py",
+		"homeassistant/components/abode/const.py",
+		"homeassistant/components/knx/light.py",
+		"homeassistant/components/plex/media_player.py",
+		"homeassistant/components/plex/server.py",
+		"homeassistant/components/snmp/switch.py",
+		"homeassistant/const.py",
+		"homeassistant/requirements.py"
+	],
+	"test_files": [
+		"tests/test_requirements.py"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pipenv",
+	"git": "https://github.com/pypa/pipenv.git",
+	"fixed_pr_id": "753f65a48395eb6f39b4a88f2f365f84d21dd171",
+	"code_files": [
+		"pipenv/cli.py"
+	],
+	"test_files": [
+		"test_pipenv.py",
+		"tests/requirements_django.txt",
+		"tests/requirements_requests.txt",
+		"tests/requirements_requests_socks.txt"
+	]
+}

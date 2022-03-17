@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "luigi",
+	"git": "https://github.com/spotify/luigi.git",
+	"fixed_pr_id": "bd10d39a284e238ac8021054de96677ff03ced04",
+	"code_files": [
+		"luigi/contrib/hive.py"
+	],
+	"test_files": [
+		"test/contrib/hive_test.py"
+	]
+}

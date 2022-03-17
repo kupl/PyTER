@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "luigi",
+	"git": "https://github.com/spotify/luigi.git",
+	"fixed_pr_id": "2a5eef7a22ffc901048d87d5aa7fb583bb8aefb9",
+	"code_files": [
+		"luigi/contrib/pig.py"
+	],
+	"test_files": [
+		"test/contrib/pig_test.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "airflow",
+	"git": "https://github.com/apache/airflow.git",
+	"fixed_pr_id": "8c060d55dfb3ded21cb9d2305cffe14e1c610680",
+	"code_files": [
+		"airflow/providers/slack/hooks/slack.py"
+	],
+	"test_files": [
+		"tests/providers/slack/hooks/test_slack.py"
+	]
+}

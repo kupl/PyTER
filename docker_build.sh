@@ -1,0 +1,1 @@
+docker build -t ${1}-test --build-arg PROJECT=${1} --build-arg VERSION=${2} .

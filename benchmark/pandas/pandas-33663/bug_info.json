@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "93769600b96a7bca2c198eb3724efa002a619f93",
+	"code_files": [
+		"pandas/core/array_algos/transforms.py",
+		"pandas/core/arrays/categorical.py",
+		"pandas/core/arrays/datetimelike.py"
+	],
+	"test_files": [
+		"pandas/tests/arrays/categorical/test_algos.py",
+		"pandas/tests/frame/test_reshape.py"
+	]
+}

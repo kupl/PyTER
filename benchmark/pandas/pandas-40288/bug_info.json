@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "dd943c8bfdcc282ea1fdaa705127df176b02cbad",
+	"code_files": [
+		"doc/source/whatsnew/v1.3.0.rst",
+		"pandas/core/apply.py"
+	],
+	"test_files": [
+		"pandas/tests/apply/test_frame_transform.py",
+		"pandas/tests/apply/test_invalid_arg.py",
+		"pandas/tests/apply/test_series_apply.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "baf83190f81e92981972f8128ed4cadc248c9b94",
+	"code_files": [
+		"salt/state.py"
+	],
+	"test_files": [
+		"tests/unit/test_state.py"
+	]
+}

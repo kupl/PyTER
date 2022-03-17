@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "04893a954b91574279c402e8730a4b5fae2ae9e1",
+	"code_files": [
+		"pandas/_libs/tslibs/parsing.pyx",
+		"pandas/core/indexes/datetimes.py",
+		"pandas/core/indexes/period.py",
+		"pandas/core/indexes/timedeltas.py"
+	],
+	"test_files": [
+		"pandas/tests/tslibs/test_parsing.py"
+	]
+}

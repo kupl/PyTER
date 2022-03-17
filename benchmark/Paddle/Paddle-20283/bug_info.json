@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "3a0f93b3f9e3ffd650239e592289d9e8538ae0d5",
+	"code_files": [
+		"paddle/fluid/operators/elementwise/elementwise_op.h",
+		"paddle/fluid/operators/elementwise/elementwise_op_function.h",
+		"python/paddle/fluid/layers/nn.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_elementwise_add_op.py",
+		"python/paddle/fluid/tests/unittests/test_elementwise_mul_op.py"
+	]
+}

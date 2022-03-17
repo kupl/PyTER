@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "2d2606d8541ecf114b8708d9e6e8f9a1af7ee115",
+	"code_files": [
+		"doc/source/whatsnew/v0.25.0.rst",
+		"pandas/core/arrays/categorical.py"
+	],
+	"test_files": [
+		"pandas/tests/reshape/test_pivot.py"
+	]
+}

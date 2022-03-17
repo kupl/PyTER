@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "62b26a79f8d64f8efbf02a2bba3ca8c099729db2",
+	"code_files": [
+		"pandas/_libs/tslibs/timedeltas.pyx",
+		"pandas/core/arrays/timedeltas.py",
+		"pandas/core/tools/timedeltas.py"
+	],
+	"test_files": [
+		"pandas/tests/tools/test_to_timedelta.py"
+	]
+}

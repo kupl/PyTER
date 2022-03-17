@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "cookiecutter",
+	"git": "https://github.com/cookiecutter/cookiecutter.git",
+	"fixed_pr_id": "c59e2980e6b1f75b37531f2158b89b4ae86577d0",
+	"code_files": [
+		"cookiecutter/vcs.py"
+	],
+	"test_files": [
+		"tests/vcs/test_clone.py"
+	]
+}

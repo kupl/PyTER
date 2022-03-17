@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "superset",
+	"git": "https://github.com/apache/superset.git",
+	"fixed_pr_id": "7ff18f060c32e7559976e6def3b3323e9ef9cf22",
+	"code_files": [
+		"superset/utils/core.py"
+	],
+	"test_files": [
+		"tests/utils_tests.py"
+	]
+}

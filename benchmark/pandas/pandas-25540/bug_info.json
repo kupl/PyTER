@@ -1,0 +1,15 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "16edaaf756ce0b3b1d5ab74ca754a9ccd774825a",
+	"code_files": [
+		"doc/source/whatsnew/v0.25.0.rst",
+		"pandas/plotting/_core.py"
+	],
+	"test_files": [
+		"pandas/tests/plotting/test_datetimelike.py",
+		"pandas/tests/plotting/test_frame.py",
+		"pandas/tests/plotting/test_series.py"
+	]
+}

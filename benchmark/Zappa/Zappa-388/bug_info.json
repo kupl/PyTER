@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "Zappa",
+	"git": "https://github.com/Miserlou/Zappa.git",
+	"fixed_pr_id": "c69d667e311aea68cee66217e7ca3ca2672d6209",
+	"code_files": [
+		"zappa/wsgi.py"
+	],
+	"test_files": [
+		"tests/tests.py"
+	]
+}

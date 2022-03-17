@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "8687dbc3b2729a49f08e4dbc7cef8d787f15c49c",
+	"code_files": [
+		"salt/cloud/clouds/joyent.py"
+	],
+	"test_files": [
+		"tests/unit/cloud/clouds/joyent_test.py"
+	]
+}

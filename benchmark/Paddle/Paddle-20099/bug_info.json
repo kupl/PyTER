@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "Paddle",
+	"git": "https://github.com/PaddlePaddle/Paddle.git",
+	"fixed_pr_id": "670937e11dca65253c5693a0328284cd4003cb2f",
+	"code_files": [
+		"paddle/fluid/operators/reshape_op.cc",
+		"python/paddle/fluid/layers/nn.py"
+	],
+	"test_files": [
+		"python/paddle/fluid/tests/unittests/test_reshape_op.py"
+	]
+}

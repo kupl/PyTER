@@ -1,0 +1,14 @@
+{
+	"py_version": "3.8.1",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "a7741be9bbbd2f3fc52cb01fb11dd65cf2c041fd",
+	"code_files": [
+		"homeassistant/components/automation/__init__.py",
+		"homeassistant/helpers/script.py",
+		"homeassistant/helpers/trigger.py"
+	],
+	"test_files": [
+		"tests/helpers/test_script.py"
+	]
+}

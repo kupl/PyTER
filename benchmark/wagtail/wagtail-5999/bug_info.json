@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "wagtail",
+	"git": "https://github.com/wagtail/wagtail.git",
+	"fixed_pr_id": "11561822839c0ad7d8a8c454eb3e2800e2fd78bd",
+	"code_files": [
+		"docs/reference/pages/model_reference.rst",
+		"docs/topics/writing_templates.rst",
+		"wagtail/core/models.py"
+	],
+	"test_files": [
+		"wagtail/core/tests/test_page_model.py"
+	]
+}

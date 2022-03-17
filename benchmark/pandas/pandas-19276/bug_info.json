@@ -1,0 +1,13 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "94cdc16b6357cde99ca08a2b81a3901a748f3d2a",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.0.txt",
+		"pandas/core/indexes/datetimes.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/datetimes/test_datetime.py"
+	]
+}

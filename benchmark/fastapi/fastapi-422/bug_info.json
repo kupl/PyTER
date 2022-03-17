@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "fastapi",
+	"git": "https://github.com/tiangolo/fastapi.git",
+	"fixed_pr_id": "38495fffa560fa57a8f0e6437d8e43c36c8e5612",
+	"code_files": [
+		"fastapi/routing.py"
+	],
+	"test_files": [
+		"tests/test_skip_defaults.py"
+	]
+}

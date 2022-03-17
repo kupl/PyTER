@@ -1,0 +1,16 @@
+{
+	"py_version": "..",
+	"repo": "mitmproxy",
+	"git": "https://github.com/mitmproxy/mitmproxy.git",
+	"fixed_pr_id": "d5427c7298b0c6aee009a86dec041011427689e9",
+	"code_files": [
+		"netlib/http/headers.py",
+		"netlib/strutils.py",
+		"pathod/language/http2.py",
+		"pathod/protocols/http2.py"
+	],
+	"test_files": [
+		"test/netlib/http/test_headers.py",
+		"test/netlib/test_strutils.py"
+	]
+}

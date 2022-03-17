@@ -1,0 +1,1 @@
+pytest test/contrib/spark_test.py::PySparkTaskTest::test_pyspark_runner

@@ -1,0 +1,12 @@
+{
+	"py_version": "..",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "d42b98a7775041edf0e835cfb1ad1e37df9c8831",
+	"code_files": [
+		"salt/netapi/rest_cherrypy/app.py"
+	],
+	"test_files": [
+		"tests/support/cptestcase.py"
+	]
+}

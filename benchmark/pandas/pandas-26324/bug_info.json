@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "2bca899a6e96a310fcc14c1ad978340a71ba04ed",
+	"code_files": [
+		"doc/source/whatsnew/v0.25.0.rst",
+		"pandas/core/base.py",
+		"pandas/core/indexes/range.py"
+	],
+	"test_files": [
+		"pandas/tests/reductions/test_reductions.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "airflow",
+	"git": "https://github.com/apache/airflow.git",
+	"fixed_pr_id": "8917ce6befc8cb69cefc7f11fd069fe2bd94aa8d",
+	"code_files": [
+		"airflow/configuration.py"
+	],
+	"test_files": [
+		"tests/test_configuration.py"
+	]
+}

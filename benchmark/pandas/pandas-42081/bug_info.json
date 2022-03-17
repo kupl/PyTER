@@ -1,0 +1,14 @@
+{
+	"py_version": "..",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "04b8b32571656439a3824a32a98d094e8e354403",
+	"code_files": [
+		"doc/source/whatsnew/v1.3.0.rst",
+		"pandas/core/indexes/base.py",
+		"pandas/core/indexes/multi.py"
+	],
+	"test_files": [
+		"pandas/tests/indexes/multi/test_setops.py"
+	]
+}
