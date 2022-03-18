@@ -74,7 +74,6 @@
 |salt-38947|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/38947)
 |salt-50958|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/50958)
 |salt-52624|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/52624)
-|salt-52710|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/52710)
 |salt-53394|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/53394)
 |salt-54240|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/54240)
 |salt-54785|Ours|[Git_Commit_Link](https://github.com/saltstack/salt/pull/54785)
