@@ -1,5 +1,5 @@
 {
-	"py_version": "..",
+	"py_version": "3.6.9",
 	"repo": "numpy",
 	"git": "https://github.com/numpy/numpy.git",
 	"fixed_pr_id": "2d140f11857fc1353d6b2dcbb801e693128fd09a",

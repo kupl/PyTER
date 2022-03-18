@@ -1,0 +1,4 @@
+pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_offset_array
+pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_offset_array
+pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_with_offset_series
+pytest 

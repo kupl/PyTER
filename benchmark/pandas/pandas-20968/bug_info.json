@@ -1,5 +1,5 @@
 {
-	"py_version": "..",
+	"py_version": "3.6.9",
 	"repo": "pandas",
 	"git": "https://github.com/pandas-dev/pandas.git",
 	"fixed_pr_id": "4f1704e51221eb4db1b29c32a536a759b5e0f190",

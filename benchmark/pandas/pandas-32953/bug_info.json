@@ -1,14 +1,14 @@
 {
-	"py_version": "..",
+	"py_version": "3.7.9",
 	"repo": "pandas",
 	"git": "https://github.com/pandas-dev/pandas.git",
 	"fixed_pr_id": "d917b33a9c267ecba1aebbaed9a7233fb571d4e7",
 	"code_files": [
 		"doc/source/whatsnew/v1.1.0.rst",
-		"pandas/core/reshape/concat.py"
+		"pandas/core/reshape/concat.py",
+		"pandas/conftest.py"
 	],
 	"test_files": [
-		"pandas/conftest.py",
 		"pandas/tests/reshape/test_concat.py",
 		"pandas/tests/series/test_apply.py",
 		"pandas/tests/series/test_constructors.py"

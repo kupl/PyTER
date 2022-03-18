@@ -1,5 +1,5 @@
 {
-	"py_version": "..",
+	"py_version": "3.8.1",
 	"repo": "rich",
 	"git": "https://github.com/willmcgugan/rich.git",
 	"fixed_pr_id": "170e8ffec7c98acbf7c74de8a1316eb8166ad0a1",

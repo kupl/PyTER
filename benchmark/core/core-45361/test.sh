@@ -1,1 +1,0 @@
-pytest tests/helpers/test_script.py::test_wait_for_trigger_generated_exception

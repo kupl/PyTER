@@ -1,3 +1,0 @@
-pytest tests/contrib/hooks/test_gcp_api_base_hook.py::TestGoogleCloudBaseHook::test_num_retries_is_not_none_by_default
-
-# 에러가 제대로 실행이 안됨..

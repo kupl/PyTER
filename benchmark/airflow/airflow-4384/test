@@ -1,3 +1,0 @@
-pytest tests/contrib/operators/test_bigquery_operator.py::BigQueryOperatorTest
-
-# 테스트가 통과해버림

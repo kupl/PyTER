@@ -1,5 +1,5 @@
 {
-	"py_version": "..",
+	"py_version": "3.7.9",
 	"repo": "scikit-learn",
 	"git": "https://github.com/scikit-learn/scikit-learn.git",
 	"fixed_pr_id": "6b68144f179b9a56e05ae401da7527bc5da97f21",

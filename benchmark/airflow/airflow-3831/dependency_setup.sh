@@ -1,3 +1,4 @@
+sudo apt-get update
 sudo apt-get install -y apt-utils mysql-server libmysqlclient-dev libxml2 libpq-dev
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
 

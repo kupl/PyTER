@@ -1,5 +1,5 @@
 {
-	"py_version": "..",
+	"py_version": "3.6.9",
 	"repo": "salt",
 	"git": "https://github.com/saltstack/salt.git",
 	"fixed_pr_id": "baf83190f81e92981972f8128ed4cadc248c9b94",
