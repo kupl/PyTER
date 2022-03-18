@@ -1,11 +1,13 @@
-To add new benchmark,
+### Installation
+
+We have packaged our artifacts in a Docker image for each resources to reproduce the main results of our paper.
 
 ```
-git worktree add -b <branch-name> <path>
+./docker_build.sh <project> <id>
 ```
 
-To clone existing benchmark,
+After then,
 
 ```
-git worktree add --checkout <path> <branch-name>
+docker run -it <project>-<id>
 ```
