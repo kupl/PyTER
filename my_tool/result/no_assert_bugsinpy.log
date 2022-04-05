@@ -1,0 +1,298 @@
+nohup: ignoring input
+PASSED :  0 / 1
+PASSED :  0 / 3
+[36m[[[keras-39]]][0m
+[[[ Node ]]]
+if not force and now - self.last_update < self.interval and (current < (0 if isinstance(self.target, type(None)) else self.target)):
+    return
+[32mPASSED![0m
+Time :  14.73 seconds
+
+PASSED :  1 / 6
+[36m[[[luigi-4]]][0m
+[[[ Node ]]]
+if self.columns and len(self.columns) > 0:
+    colnames = ','.join([x[0] for x in self.columns])
+    colnames = '({})'.format(colnames)
+[32mPASSED![0m
+Time :  3.28 seconds
+
+[36m[[[luigi-25]]][0m
+[[[ Node ]]]
+path = self.s3_load_path
+[32mPASSED![0m
+Time :  3.15 seconds
+
+[36m[[[luigi-26]]][0m
+[[[ Node ]]]
+if ssh_config:
+    host = ssh_config.get('host', None)
+    key_file = ssh_config.get('key_file', None)
+    username = ssh_config.get('username', None)
+    if not host or not key_file or (not username) or (not job.jar()):
+        raise HadoopJarJobError('missing some config for HadoopRemoteJarJobRunner')
+    arglist = ['ssh', '-i', key_file, '-o', 'BatchMode=yes']
+    if ssh_config.get('no_host_key_check', False):
+        arglist += ['-o', 'UserKnownHostsFile=/dev/null', '-o', 'StrictHostKeyChecking=no']
+    arglist.append('{}@{}'.format(username, host))
+else:
+    arglist = []
+    if job.jar() and (not job.jar() or not os.path.exists(job.jar())):
+        logger.error("Can't find jar: %s, full path %s", job.jar(), os.path.abspath(job.jar()))
+        raise HadoopJarJobError('job jar does not exist')
+[32mPASSED![0m
+Time :  10.55 seconds
+
+PASSED :  3 / 10
+PASSED :  0 / 2
+[36m[[[pandas-30]]][0m
+[[[ Node ]]]
+try:
+    new_data = to_datetime(new_data, errors='raise', unit=date_unit)
+except (ValueError, OverflowError):
+    continue
+except TypeError:
+    continue
+[32mPASSED![0m
+Time :  12.15 seconds
+
+[36m[[[pandas-48]]][0m
+[[[ Node ]]]
+try:
+    result = type(block.values)._from_sequence(result.ravel(), dtype=block.values.dtype)
+except ValueError:
+    result = result.reshape(1, -1)
+except TypeError:
+    result = result.reshape(1, -1)
+[32mPASSED![0m
+Time :  62.01 seconds
+
+[36m[[[pandas-49]]][0m
+[[[ Node ]]]
+def rep(x, r):
+    import pandas
+    if isinstance(x, pandas._libs.missing.NAType):
+        return x
+    try:
+        return bytes.__mul__(x, r)
+    except TypeError:
+        return str.__mul__(x, r)
+[32mPASSED![0m
+Time :  18.83 seconds
+
+[36m[[[pandas-106]]][0m
+[[[ Node ]]]
+if labels is not None:
+    if isinstance(labels, list):
+        continue
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+[32mPASSED![0m
+Time :  21.13 seconds
+
+[36m[[[pandas-138]]][0m
+[[[ Node ]]]
+def quantile(x, q, interpolation_method='fraction'):
+    """
+    Compute sample quantile or quantiles of the input array. For example, q=0.5
+    computes the median.
+
+    The `interpolation_method` parameter supports three values, namely
+    `fraction` (default), `lower` and `higher`. Interpolation is done only,
+    if the desired quantile lies between two data points `i` and `j`. For
+    `fraction`, the result is an interpolated value between `i` and `j`;
+    for `lower`, the result is `i`, for `higher` the result is `j`.
+
+    Parameters
+    ----------
+    x : ndarray
+        Values from which to extract score.
+    q : scalar or array
+        Percentile at which to extract score.
+    interpolation_method : {'fraction', 'lower', 'higher'}, optional
+        This optional parameter specifies the interpolation method to use,
+        when the desired quantile lies between two data points `i` and `j`:
+
+        - fraction: `i + (j - i)*fraction`, where `fraction` is the
+                    fractional part of the index surrounded by `i` and `j`.
+        -lower: `i`.
+        - higher: `j`.
+
+    Returns
+    -------
+    score : float
+        Score at percentile.
+
+    Examples
+    --------
+    >>> from scipy import stats
+    >>> a = np.arange(100)
+    >>> stats.scoreatpercentile(a, 50)
+    49.5
+
+    """
+    x = np.asarray(x)
+    mask = isna(x)
+    x = x[~mask]
+    import numpy
+    if not (numpy.issubdtype(x.dtype, numpy.number)):
+        x = x.astype(numpy.number)
+    values = np.sort(x)
+
+    def _interpolate(a, b, fraction):
+        """Returns the point at the given fraction between a and b, where
+        'fraction' must be between 0 and 1.
+        """
+        return a + (b - a) * fraction
+
+    def _get_score(at):
+        if len(values) == 0:
+            return np.nan
+        idx = at * (len(values) - 1)
+        if idx % 1 == 0:
+            score = values[int(idx)]
+        elif interpolation_method == 'fraction':
+            score = _interpolate(values[int(idx)], values[int(idx) + 1], idx % 1)
+        elif interpolation_method == 'lower':
+            score = values[np.floor(idx)]
+        elif interpolation_method == 'higher':
+            score = values[np.ceil(idx)]
+        else:
+            raise ValueError("interpolation_method can only be 'fraction' , 'lower' or 'higher'")
+        return score
+    if is_scalar(q):
+        return _get_score(q)
+    else:
+        q = np.asarray(q, np.float64)
+        result = [_get_score(x) for x in q]
+        result = np.array(result, dtype=np.float64)
+        return result
+[32mPASSED![0m
+Time :  82.17 seconds
+
+[36m[[[pandas-142]]][0m
+[[[ Node ]]]
+if is_timedelta:
+    res = arr[res_indexer]
+    lag = arr[lag_indexer]
+    mask = (arr[res_indexer] == na) | (arr[lag_indexer] == na)
+    if mask.any():
+        res = res.copy()
+        res[mask] = 0
+        lag = lag.copy()
+        lag[mask] = 0
+    result = res - lag
+    result[mask] = na
+    out_arr[res_indexer] = result
+else:
+    import numpy
+    if isinstance(arr, numpy.ndarray) and arr.dtype.type is numpy.bool_:
+        out_arr[res_indexer] = arr[res_indexer] ^ arr[lag_indexer]
+    else:
+        out_arr[res_indexer] = arr[res_indexer] - arr[lag_indexer]
+[32mPASSED![0m
+Time :  421.89 seconds
+
+[36m[[[pandas-152]]][0m
+[[[ Node ]]]
+to_concat = [self] + list(to_append)
+[32mPASSED![0m
+Time :  9.91 seconds
+
+PASSED :  7 / 33
+[36m[[[scrapy-1]]][0m
+[[[ Node ]]]
+for domain in allowed_domains:
+    if domain and url_pattern.match(domain):
+        message = 'allowed_domains accepts only domains, not URLs. Ignoring URL entry %s in allowed_domains.' % domain
+        warnings.warn(message, URLWarning)
+[32mPASSED![0m
+Time :  2.24 seconds
+
+[36m[[[scrapy-2]]][0m
+[[[ Node ]]]
+def __setitem__(self, key, value):
+    if not isinstance(self.limit, type(None)):
+        while len(self) >= self.limit:
+            self.popitem(last=False)
+    super(LocalCache, self).__setitem__(key, value)
+[32mPASSED![0m
+Time :  3.37 seconds
+
+[36m[[[scrapy-17]]][0m
+[[[ Node ]]]
+def to_native_str(text, encoding=None, errors='strict'):
+    """ Return str representation of `text`
+    (bytes in Python 2.x and unicode in Python 3.x). """
+    if not isinstance(text, type(None)):
+        if six.PY2:
+            return to_bytes(text, encoding, errors)
+        else:
+            return to_unicode(text, encoding, errors)
+[32mPASSED![0m
+Time :  2.94 seconds
+
+[36m[[[scrapy-29]]][0m
+[[[ Node ]]]
+s += b'Host: ' + to_bytes('' if parsed.hostname is None else parsed.hostname) + b'\r\n'
+[32mPASSED![0m
+Time :  2.09 seconds
+
+[36m[[[scrapy-40]]][0m
+[[[ Node ]]]
+def _serialize_value(self, value):
+    if isinstance(value, BaseItem):
+        return self.export_item(value)
+    if isinstance(value, dict):
+        return dict(self._serialize_dict(value))
+    if is_listlike(value):
+        return [self._serialize_value(v) for v in value]
+    if not (isinstance(value, str)):
+        return value
+    if self.binary:
+        return to_bytes(value, encoding=self.encoding)
+    else:
+        return to_unicode(value, encoding=self.encoding)
+[32mPASSED![0m
+Time :  15.4 seconds
+
+PASSED :  5 / 15
+PASSED :  0 / 1
+[36m[[[tornado-9]]][0m
+[[[ Node ]]]
+def url_concat(url, args):
+    if isinstance(args, type(None)):
+        return url
+    'Concatenate url and arguments regardless of whether\n    url has existing query parameters.\n\n    ``args`` may be either a dictionary or a list of key-value pairs\n    (the latter allows for multiple values with the same key.\n\n    >>> url_concat("http://example.com/foo", dict(c="d"))\n    \'http://example.com/foo?c=d\'\n    >>> url_concat("http://example.com/foo?a=b", dict(c="d"))\n    \'http://example.com/foo?a=b&c=d\'\n    >>> url_concat("http://example.com/foo?a=b", [("c", "d"), ("c", "d2")])\n    \'http://example.com/foo?a=b&c=d&c=d2\'\n    '
+    parsed_url = urlparse(url)
+    if isinstance(args, dict):
+        parsed_query = parse_qsl(parsed_url.query, keep_blank_values=True)
+        parsed_query.extend(args.items())
+    elif isinstance(args, list) or isinstance(args, tuple):
+        parsed_query = parse_qsl(parsed_url.query, keep_blank_values=True)
+        parsed_query.extend(args)
+    else:
+        err = "'args' parameter should be dict, list or tuple. Not {0}".format(type(args))
+        raise TypeError(err)
+    final_query = urlencode(parsed_query)
+    url = urlunparse((parsed_url[0], parsed_url[1], parsed_url[2], parsed_url[3], final_query, parsed_url[5]))
+    return url
+[32mPASSED![0m
+Time :  1.44 seconds
+
+PASSED :  1 / 4
+PASSED :  0 / 4
+[36m[[[youtubedl-11]]][0m
+[[[ Node ]]]
+def str_to_int(int_str):
+    """ A more relaxed version of int_or_none """
+    if int_str is None:
+        return None
+    if isinstance(int_str, int):
+        int_str = str(int_str)
+    int_str = re.sub('[,\\.\\+]', '', int_str)
+    return int(int_str)
+[32mPASSED![0m
+Time :  5.75 seconds
+
+PASSED :  1 / 3
+Total :  18 / 82

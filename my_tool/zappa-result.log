@@ -1,0 +1,16 @@
+[36m[[[Zappa-388]]][0m
+None Type Casting Other Type
+Type :  unicode
+Filename :  /home/wonseok/benchmark/Zappa-388/zappa/wsgi.py
+[[[ Patch Node ]]]
+if isinstance(body, type(None)):
+    body = unicode()
+[32mPASSED![0m
+Time :  151.98 seconds
+
+[36m[[[Zappa-1434]]][0m
+???
+[31mFAILED...[0m
+Time :  64.73 seconds
+
+PASSED :  1 / 2

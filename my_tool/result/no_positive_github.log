@@ -1,0 +1,715 @@
+[36m[[[airflow-5686]]][0m
+[[ SBFL ]]
+Function :                       get_conn Line :   62 Score : 0.0385 Count :   1
+Function :                       get_conn Line :   60 Score : 0.0385 Count :   2
+Function :                       get_conn Line :   59 Score : 0.0385 Count :   3
+Function :                       get_conn Line :   58 Score : 0.0385 Count :   4
+[[[ Node ]]]
+if self.http_conn_id:
+    conn = self.get_connection(self.http_conn_id)
+    if conn.host and '://' in conn.host:
+        self.base_url = conn.host
+    else:
+        schema = conn.schema if conn.schema else 'http'
+        self.base_url = schema + '://' + ('' if isinstance(conn.host, type(None)) else conn.host)
+    if conn.port:
+        self.base_url = self.base_url + ':' + str(conn.port)
+    if conn.login:
+        session.auth = (conn.login, conn.password)
+    if conn.extra:
+        try:
+            session.headers.update(conn.extra_dejson)
+        except TypeError:
+            self.log.warn('Connection to %s has invalid extra field.', conn.host)
+[32mPASSED![0m
+Time :  12.02 seconds
+
+[36m[[[airflow-6036]]][0m
+[31mFAILED...[0m
+Time :  0.01 seconds
+
+[36m[[[airflow-14513]]][0m
+[[ SBFL ]]
+Function :                    monitor_pod Line :  143 Score :    1.0 Count :   1
+Function :                    monitor_pod Line :  142 Score :    1.0 Count :   2
+Function :                    monitor_pod Line :  139 Score :    1.0 Count :   3
+Function :                    monitor_pod Line :  137 Score :    1.0 Count :   4
+Function :                    monitor_pod Line :  133 Score :    1.0 Count :   5
+Function :                    monitor_pod Line :  132 Score :    1.0 Count :   6
+Function :                    monitor_pod Line :  131 Score :    1.0 Count :   7
+Function :                    monitor_pod Line :  130 Score :    1.0 Count :   8
+Function :                    monitor_pod Line :  129 Score :    1.0 Count :   9
+Function :                    monitor_pod Line :  128 Score :    1.0 Count :  10
+None Type Casting Other Type
+Type :  None
+[33mERROR...[0m
+'delta'
+Time :  25.55 seconds
+
+PASSED :  1 / 3
+PASSED :  0 / 0
+PASSED :  0 / 0
+[36m[[[core-1972]]][0m
+[[[ Node ]]]
+check = condition.from_config(action)(self.hass, variables)
+[32mPASSED![0m
+Time :  2.29 seconds
+
+[36m[[[core-8065]]][0m
+[[ SBFL ]]
+Function :             async_update_group Line :  241 Score :    0.5 Count :   1
+Function :             async_update_group Line :  245 Score : 0.3333 Count :   2
+Function :             async_update_group Line :  244 Score : 0.3333 Count :   3
+Function :             async_update_group Line :  243 Score : 0.3333 Count :   4
+Function :             async_update_group Line :  242 Score : 0.3333 Count :   5
+Function :             async_add_entities Line :  375 Score :    0.1 Count :   6
+Function :             async_add_entities Line :  374 Score :    0.1 Count :   7
+Function :             async_add_entities Line :  372 Score :    0.1 Count :   8
+Function :             async_add_entities Line :  363 Score :    0.1 Count :   9
+Function :             async_add_entities Line :  360 Score :    0.1 Count :  10
+Function :             async_update_group Line :  240 Score :    0.1 Count :  11
+Function :             async_add_entities Line :  383 Score : 0.0667 Count :  12
+Function :             async_add_entities Line :  382 Score : 0.0667 Count :  13
+Function :             async_add_entities Line :  379 Score : 0.0625 Count :  14
+Function :             async_add_entities Line :  378 Score : 0.0625 Count :  15
+Function :             async_add_entities Line :  377 Score : 0.0526 Count :  16
+[33mERROR...[0m
+'ids'
+Time :  4.42 seconds
+
+[36m[[[core-20233]]][0m
+[[[ Node ]]]
+try:
+    variables['value_json'] = json.loads(value)
+except ValueError:
+    pass
+except TypeError:
+    pass
+[32mPASSED![0m
+Time :  3.73 seconds
+
+[36m[[[core-32222]]][0m
+[[ SBFL ]]
+Function :                   is_connected Line :  192 Score : 0.3333 Count :   1
+Function :                   is_connected Line :  194 Score :   0.25 Count :   2
+Function :                   is_connected Line :  199 Score :    0.2 Count :   3
+Function :                   is_connected Line :  197 Score :    0.2 Count :   4
+Function :              _async_add_entity Line :  379 Score : 0.1579 Count :   5
+Function :              _async_add_entity Line :  377 Score : 0.1579 Count :   6
+Function :              _async_add_entity Line :  376 Score : 0.1579 Count :   7
+Function :              _async_add_entity Line :  373 Score : 0.1579 Count :   8
+Function :              _async_add_entity Line :  372 Score : 0.1579 Count :   9
+Function :              _async_add_entity Line :  371 Score : 0.1579 Count :  10
+Function :              _async_add_entity Line :  370 Score : 0.1579 Count :  11
+Function :              _async_add_entity Line :  369 Score : 0.1579 Count :  12
+Function :              _async_add_entity Line :  368 Score : 0.1579 Count :  13
+Function :              _async_add_entity Line :  367 Score : 0.1579 Count :  14
+Function :              _async_add_entity Line :  366 Score : 0.1579 Count :  15
+Function :              _async_add_entity Line :  365 Score : 0.1579 Count :  16
+Function :              _async_add_entity Line :  364 Score : 0.1579 Count :  17
+Function :              _async_add_entity Line :  363 Score : 0.1579 Count :  18
+Function :              _async_add_entity Line :  362 Score : 0.1579 Count :  19
+Function :              _async_add_entity Line :  361 Score : 0.1579 Count :  20
+Function :              _async_add_entity Line :  360 Score : 0.1579 Count :  21
+Function :              _async_add_entity Line :  359 Score : 0.1579 Count :  22
+Function :              _async_add_entity Line :  356 Score : 0.1579 Count :  23
+Function :              _async_add_entity Line :  355 Score : 0.1579 Count :  24
+Function :              _async_add_entity Line :  353 Score : 0.1579 Count :  25
+Function :              _async_add_entity Line :  352 Score : 0.1579 Count :  26
+Function :              _async_add_entity Line :  351 Score : 0.1579 Count :  27
+Function :              _async_add_entity Line :  348 Score : 0.1579 Count :  28
+Function :              _async_add_entity Line :  340 Score : 0.1579 Count :  29
+Function :              _async_add_entity Line :  339 Score : 0.1579 Count :  30
+Function :              _async_add_entity Line :  338 Score : 0.1579 Count :  31
+Function :              _async_add_entity Line :  337 Score : 0.1579 Count :  32
+Function :              _async_add_entity Line :  335 Score : 0.1579 Count :  33
+Function :              _async_add_entity Line :  334 Score : 0.1579 Count :  34
+Function :              _async_add_entity Line :  330 Score : 0.1579 Count :  35
+Function :              _async_add_entity Line :  329 Score : 0.1579 Count :  36
+Function :              _async_add_entity Line :  326 Score : 0.1579 Count :  37
+Function :              _async_add_entity Line :  324 Score : 0.1579 Count :  38
+Function :              _async_add_entity Line :  321 Score : 0.1579 Count :  39
+Function :                   is_connected Line :  190 Score : 0.1389 Count :  40
+Function :              _async_add_entity Line :  349 Score : 0.1351 Count :  41
+Function :              _async_add_entity Line :  434 Score : 0.1321 Count :  42
+Function :              _async_add_entity Line :  432 Score : 0.1321 Count :  43
+Function :              _async_add_entity Line :  431 Score : 0.1321 Count :  44
+Function :              _async_add_entity Line :  429 Score : 0.1321 Count :  45
+Function :              _async_add_entity Line :  428 Score : 0.1321 Count :  46
+Function :              _async_add_entity Line :  427 Score : 0.1321 Count :  47
+Function :              _async_add_entity Line :  421 Score : 0.1321 Count :  48
+Function :              _async_add_entity Line :  418 Score : 0.1321 Count :  49
+Function :              _async_add_entity Line :  416 Score : 0.1321 Count :  50
+Function :              _async_add_entity Line :  415 Score : 0.1321 Count :  51
+Function :              _async_add_entity Line :  413 Score : 0.1321 Count :  52
+Function :              _async_add_entity Line :  410 Score : 0.1321 Count :  53
+Function :              _async_add_entity Line :  398 Score : 0.1321 Count :  54
+Function :              _async_add_entity Line :  320 Score : 0.1321 Count :  55
+Function :              _async_add_entity Line :  317 Score : 0.1321 Count :  56
+Function :              _async_add_entity Line :  310 Score : 0.1321 Count :  57
+Function :              _async_add_entity Line :  306 Score : 0.1321 Count :  58
+Function :              _async_add_entity Line :  305 Score : 0.1321 Count :  59
+Function :              _async_add_entity Line :  304 Score : 0.1321 Count :  60
+Function :              _async_add_entity Line :  303 Score : 0.1321 Count :  61
+Function :              _async_add_entity Line :  300 Score : 0.1321 Count :  62
+Function :          async_update_ha_state Line :  284 Score : 0.1321 Count :  63
+Function :          async_update_ha_state Line :  277 Score : 0.1321 Count :  64
+Function :          async_update_ha_state Line :  271 Score : 0.1321 Count :  65
+Function :          async_update_ha_state Line :  268 Score : 0.1321 Count :  66
+Function :                          state Line :  131 Score : 0.1277 Count :  67
+Function :                   is_connected Line :  196 Score :  0.125 Count :  68
+Function :                   is_connected Line :  191 Score :  0.125 Count :  69
+Function :                          state Line :  133 Score :  0.125 Count :  70
+Function :                   is_connected Line :  210 Score : 0.1154 Count :  71
+Function :          _async_write_ha_state Line :  320 Score : 0.1129 Count :  72
+Function :                   is_connected Line :  204 Score : 0.1111 Count :  73
+Function :                   is_connected Line :  203 Score : 0.1111 Count :  74
+Function :                   is_connected Line :  202 Score : 0.1111 Count :  75
+Function :          _async_write_ha_state Line :  317 Score : 0.1077 Count :  76
+Function :          _async_write_ha_state Line :  315 Score : 0.1077 Count :  77
+Function :          _async_write_ha_state Line :  314 Score : 0.1077 Count :  78
+Function :          _async_write_ha_state Line :  312 Score : 0.1077 Count :  79
+Function :          _async_write_ha_state Line :  302 Score : 0.1077 Count :  80
+Function :                   is_connected Line :  277 Score :    0.1 Count :  81
+Function :          _async_write_ha_state Line :  328 Score : 0.0984 Count :  82
+Function :          _async_write_ha_state Line :  327 Score : 0.0984 Count :  83
+Function :          _async_write_ha_state Line :  325 Score : 0.0984 Count :  84
+Function :          _async_write_ha_state Line :  322 Score : 0.0984 Count :  85
+Function :                   is_connected Line :  207 Score : 0.0968 Count :  86
+Function :          _async_write_ha_state Line :  417 Score : 0.0938 Count :  87
+Function :          _async_write_ha_state Line :  416 Score : 0.0938 Count :  88
+Function :          _async_write_ha_state Line :  410 Score : 0.0938 Count :  89
+Function :          _async_write_ha_state Line :  398 Score : 0.0938 Count :  90
+Function :          _async_write_ha_state Line :  396 Score : 0.0938 Count :  91
+Function :          _async_write_ha_state Line :  395 Score : 0.0938 Count :  92
+Function :          _async_write_ha_state Line :  394 Score : 0.0938 Count :  93
+Function :          _async_write_ha_state Line :  390 Score : 0.0938 Count :  94
+Function :          _async_write_ha_state Line :  366 Score : 0.0938 Count :  95
+Function :          _async_write_ha_state Line :  364 Score : 0.0938 Count :  96
+Function :          _async_write_ha_state Line :  361 Score : 0.0938 Count :  97
+Function :          _async_write_ha_state Line :  360 Score : 0.0938 Count :  98
+Function :          _async_write_ha_state Line :  357 Score : 0.0938 Count :  99
+Function :          _async_write_ha_state Line :  356 Score : 0.0938 Count : 100
+Function :          _async_write_ha_state Line :  353 Score : 0.0938 Count : 101
+Function :          _async_write_ha_state Line :  352 Score : 0.0938 Count : 102
+Function :          _async_write_ha_state Line :  349 Score : 0.0938 Count : 103
+Function :          _async_write_ha_state Line :  348 Score : 0.0938 Count : 104
+Function :          _async_write_ha_state Line :  345 Score : 0.0938 Count : 105
+Function :          _async_write_ha_state Line :  344 Score : 0.0938 Count : 106
+Function :          _async_write_ha_state Line :  341 Score : 0.0938 Count : 107
+Function :          _async_write_ha_state Line :  340 Score : 0.0938 Count : 108
+Function :          _async_write_ha_state Line :  338 Score : 0.0938 Count : 109
+Function :          _async_write_ha_state Line :  337 Score : 0.0938 Count : 110
+Function :          _async_write_ha_state Line :  336 Score : 0.0938 Count : 111
+Function :          _async_write_ha_state Line :  334 Score : 0.0938 Count : 112
+Function :          _async_write_ha_state Line :  331 Score : 0.0938 Count : 113
+Function :          _async_write_ha_state Line :  330 Score : 0.0938 Count : 114
+Function :                   is_connected Line :  271 Score : 0.0909 Count : 115
+Function :              _async_add_entity Line :  391 Score : 0.0667 Count : 116
+Function :              _async_add_entity Line :  390 Score : 0.0667 Count : 117
+Function :          _async_write_ha_state Line :  342 Score : 0.0667 Count : 118
+None Type Casting Other Type
+Type :  float
+[33mERROR...[0m
+'since_last_seen'
+Time :  8.8 seconds
+
+[36m[[[core-40034]]][0m
+[[ SBFL ]]
+Function :          async_extract_devices Line :  691 Score :    0.5 Count :   1
+Function :          async_extract_devices Line :  688 Score :    0.5 Count :   2
+Function :          async_extract_devices Line :  687 Score :    0.5 Count :   3
+Function :          async_extract_devices Line :  680 Score :    0.5 Count :   4
+Function :          async_extract_devices Line :  679 Score :    0.5 Count :   5
+Function :         async_extract_entities Line :  663 Score :    0.5 Count :   6
+Function :         async_extract_entities Line :  662 Score :    0.5 Count :   7
+Function :         async_extract_entities Line :  655 Score :    0.5 Count :   8
+Function :         async_extract_entities Line :  654 Score :    0.5 Count :   9
+Function :         async_extract_entities Line :  659 Score : 0.4211 Count :  10
+Function :         async_extract_entities Line :  658 Score : 0.4211 Count :  11
+Function :          async_extract_devices Line :  684 Score : 0.4118 Count :  12
+Function :          async_extract_devices Line :  683 Score : 0.4118 Count :  13
+Function :         async_extract_entities Line :  657 Score :    0.4 Count :  14
+Function :          async_extract_devices Line :  682 Score : 0.3889 Count :  15
+Function :         async_extract_entities Line :  661 Score : 0.3889 Count :  16
+Function :          async_extract_devices Line :  686 Score :  0.375 Count :  17
+Function :         async_extract_entities Line :  671 Score : 0.3333 Count :  18
+Function :         async_extract_entities Line :  670 Score : 0.3333 Count :  19
+Function :         async_extract_entities Line :  667 Score : 0.3333 Count :  20
+Function :         async_extract_entities Line :  665 Score : 0.3333 Count :  21
+Function :          async_extract_devices Line :  690 Score :    0.3 Count :  22
+Function :          async_extract_devices Line :  696 Score :   0.25 Count :  23
+Function :          async_extract_devices Line :  695 Score :   0.25 Count :  24
+Function :          async_extract_devices Line :  693 Score :   0.25 Count :  25
+Function :         async_extract_entities Line :  668 Score :   0.25 Count :  26
+[[ SBFL ]]
+Function :          async_extract_devices Line :  691 Score :    0.5 Count :   1
+Function :          async_extract_devices Line :  688 Score :    0.5 Count :   2
+Function :          async_extract_devices Line :  687 Score :    0.5 Count :   3
+Function :          async_extract_devices Line :  680 Score :    0.5 Count :   4
+Function :          async_extract_devices Line :  679 Score :    0.5 Count :   5
+Function :         async_extract_entities Line :  663 Score :    0.5 Count :   6
+Function :         async_extract_entities Line :  662 Score :    0.5 Count :   7
+Function :         async_extract_entities Line :  655 Score :    0.5 Count :   8
+Function :         async_extract_entities Line :  654 Score :    0.5 Count :   9
+Function :         async_extract_entities Line :  659 Score : 0.4211 Count :  10
+Function :         async_extract_entities Line :  658 Score : 0.4211 Count :  11
+Function :          async_extract_devices Line :  684 Score : 0.4118 Count :  12
+Function :          async_extract_devices Line :  683 Score : 0.4118 Count :  13
+Function :         async_extract_entities Line :  657 Score :    0.4 Count :  14
+Function :          async_extract_devices Line :  682 Score : 0.3889 Count :  15
+Function :         async_extract_entities Line :  661 Score : 0.3889 Count :  16
+Function :          async_extract_devices Line :  686 Score :  0.375 Count :  17
+Function :         async_extract_entities Line :  671 Score : 0.3333 Count :  18
+Function :         async_extract_entities Line :  670 Score : 0.3333 Count :  19
+Function :         async_extract_entities Line :  667 Score : 0.3333 Count :  20
+Function :         async_extract_entities Line :  665 Score : 0.3333 Count :  21
+Function :          async_extract_devices Line :  690 Score :    0.3 Count :  22
+Function :          async_extract_devices Line :  696 Score :   0.25 Count :  23
+Function :          async_extract_devices Line :  695 Score :   0.25 Count :  24
+Function :          async_extract_devices Line :  693 Score :   0.25 Count :  25
+Function :         async_extract_entities Line :  668 Score :   0.25 Count :  26
+[[[ Node ]]]
+while to_process:
+    config = to_process.popleft()
+    import homeassistant
+    if isinstance(config, homeassistant.helpers.template.Template):
+        continue
+    condition = config[CONF_CONDITION]
+    if condition in ('and', 'not', 'or'):
+        to_process.extend(config['conditions'])
+        continue
+    entity_ids = config.get(CONF_ENTITY_ID)
+    if isinstance(entity_ids, str):
+        entity_ids = [entity_ids]
+    if entity_ids is not None:
+        referenced.update(entity_ids)
+[[[ Node ]]]
+while to_process:
+    config = to_process.popleft()
+    import homeassistant
+    if isinstance(config, homeassistant.helpers.template.Template):
+        continue
+    condition = config[CONF_CONDITION]
+    if condition in ('and', 'not', 'or'):
+        to_process.extend(config['conditions'])
+        continue
+    if condition != 'device':
+        continue
+    device_id = config.get(CONF_DEVICE_ID)
+    if device_id is not None:
+        referenced.add(device_id)
+[32mPASSED![0m
+Time :  104.96 seconds
+
+PASSED :  3 / 5
+PASSED :  0 / 0
+PASSED :  0 / 0
+[36m[[[pandas-15941]]][0m
+[[ SBFL ]]
+Function :           is_string_like_dtype Line :  306 Score :    1.0 Count :   1
+Function :        is_timedelta64_ns_dtype Line :  212 Score :    1.0 Count :   2
+Function :                is_string_dtype Line :  119 Score :    1.0 Count :   3
+Function :                     _get_dtype Line :  363 Score :   0.75 Count :   4
+Function :                     _get_dtype Line :  362 Score : 0.0117 Count :   5
+[[ SBFL ]]
+Function :           is_string_like_dtype Line :  306 Score :    1.0 Count :   1
+Function :        is_timedelta64_ns_dtype Line :  212 Score :    1.0 Count :   2
+Function :                is_string_dtype Line :  119 Score :    1.0 Count :   3
+Function :                     _get_dtype Line :  363 Score :   0.75 Count :   4
+Function :                     _get_dtype Line :  362 Score : 0.0117 Count :   5
+[[ SBFL ]]
+Function :           is_string_like_dtype Line :  306 Score :    1.0 Count :   1
+Function :        is_timedelta64_ns_dtype Line :  212 Score :    1.0 Count :   2
+Function :                is_string_dtype Line :  119 Score :    1.0 Count :   3
+Function :                     _get_dtype Line :  363 Score :   0.75 Count :   4
+Function :                     _get_dtype Line :  362 Score : 0.0117 Count :   5
+[[[ Node ]]]
+def is_string_dtype(arr_or_dtype):
+    if isinstance(arr_or_dtype, type(None)):
+        return False
+    dtype = _get_dtype(arr_or_dtype)
+    return dtype.kind in ('O', 'S', 'U') and (not is_period_dtype(dtype))
+[[[ Node ]]]
+def is_timedelta64_ns_dtype(arr_or_dtype):
+    if isinstance(arr_or_dtype, type(None)):
+        return False
+    tipo = _get_dtype(arr_or_dtype)
+    return tipo == _TD_DTYPE
+[[[ Node ]]]
+def is_string_like_dtype(arr_or_dtype):
+    if isinstance(arr_or_dtype, type(None)):
+        return False
+    dtype = _get_dtype(arr_or_dtype)
+    return dtype.kind in ('S', 'U')
+[32mPASSED![0m
+Time :  10.44 seconds
+
+[36m[[[pandas-17609]]][0m
+[[ SBFL ]]
+Function :                 make_signature Line :  253 Score :    1.0 Count :   1
+Function :                 make_signature Line :  251 Score :    1.0 Count :   2
+Function :                 make_signature Line :  249 Score :    1.0 Count :   3
+Function :                 make_signature Line :  248 Score :    1.0 Count :   4
+Function :                 make_signature Line :  247 Score :    1.0 Count :   5
+Function :                 make_signature Line :  246 Score :    1.0 Count :   6
+Function :                 make_signature Line :  245 Score :    1.0 Count :   7
+Function :                 make_signature Line :  244 Score :    1.0 Count :   8
+Function :                 make_signature Line :  242 Score :    1.0 Count :   9
+Function :                 make_signature Line :  241 Score :    1.0 Count :  10
+Function :                 make_signature Line :  240 Score :    1.0 Count :  11
+Function :                 make_signature Line :  239 Score :    1.0 Count :  12
+[33mERROR...[0m
+'defaults'
+Time :  13.4 seconds
+
+[36m[[[pandas-19276]]][0m
+[[ SBFL ]]
+Function :                        wrapper Line :  118 Score :    0.5 Count :   1
+Function :     _assert_tzawareness_compat Line :  674 Score :   0.25 Count :   2
+Function :                        wrapper Line :  113 Score :   0.25 Count :   3
+Function :                        wrapper Line :  111 Score :   0.25 Count :   4
+Function :                        wrapper Line :  140 Score :    0.2 Count :   5
+Function :                        wrapper Line :  117 Score :    0.2 Count :   6
+Function :                        wrapper Line :  116 Score :    0.2 Count :   7
+Function :                        wrapper Line :  115 Score :    0.2 Count :   8
+Function :     _assert_tzawareness_compat Line :  673 Score : 0.1429 Count :   9
+Function :     _assert_tzawareness_compat Line :  669 Score : 0.1091 Count :  10
+Function :     _assert_tzawareness_compat Line :  665 Score : 0.1091 Count :  11
+Function :     _assert_tzawareness_compat Line :  664 Score : 0.1091 Count :  12
+Function :                        wrapper Line :  110 Score : 0.1081 Count :  13
+Function :                        wrapper Line :  108 Score : 0.1081 Count :  14
+Function :     _assert_tzawareness_compat Line :  670 Score : 0.0882 Count :  15
+Function :                        wrapper Line :  144 Score : 0.0882 Count :  16
+Function :                        wrapper Line :  143 Score : 0.0882 Count :  17
+Function :                        wrapper Line :  139 Score : 0.0882 Count :  18
+[[[ Node ]]]
+if isinstance(other, (datetime, compat.string_types)):
+    import pandas
+    if not isinstance(other, pandas._libs.tslibs.nattype.NaTType):
+        if isinstance(other, datetime):
+            self._assert_tzawareness_compat(other)
+    other = _to_m8(other, tz=self.tz)
+    result = func(other)
+    if isna(other):
+        result.fill(nat_result)
+else:
+    if isinstance(other, list):
+        other = DatetimeIndex(other)
+    elif not isinstance(other, (np.ndarray, Index, ABCSeries)):
+        other = _ensure_datetime64(other)
+    if is_datetimelike(other):
+        self._assert_tzawareness_compat(other)
+    result = func(np.asarray(other))
+    result = _values_from_object(result)
+    if isinstance(other, Index):
+        o_mask = other.values.view('i8') == libts.iNaT
+    else:
+        o_mask = other.view('i8') == libts.iNaT
+    if o_mask.any():
+        result[o_mask] = nat_result
+[32mPASSED![0m
+Time :  12.24 seconds
+
+[36m[[[pandas-20968]]][0m
+[[[ Node ]]]
+def boxplot_frame_groupby(grouped, subplots=True, column=None, fontsize=None, rot=0, grid=True, ax=None, figsize=None, layout=None, sharey=True, sharex=False, **kwds):
+    """
+    Make box plots from DataFrameGroupBy data.
+
+    Parameters
+    ----------
+    grouped : Grouped DataFrame
+    subplots :
+        * ``False`` - no subplots will be used
+        * ``True`` - create a subplot for each group
+    column : column name or list of names, or vector
+        Can be any valid input to groupby
+    fontsize : int or string
+    rot : label rotation angle
+    grid : Setting this to True will show the grid
+    ax : Matplotlib axis object, default None
+    figsize : A tuple (width, height) in inches
+    layout : tuple (optional)
+        (rows, columns) for the layout of the plot
+    `**kwds` : Keyword Arguments
+        All other plotting keyword arguments to be passed to
+        matplotlib's boxplot function
+
+    Returns
+    -------
+    dict of key/value = group key/DataFrame.boxplot return value
+    or DataFrame.boxplot return value in case subplots=figures=False
+
+    Examples
+    --------
+    >>> import pandas
+    >>> import numpy as np
+    >>> import itertools
+    >>>
+    >>> tuples = [t for t in itertools.product(range(1000), range(4))]
+    >>> index = pandas.MultiIndex.from_tuples(tuples, names=['lvl0', 'lvl1'])
+    >>> data = np.random.randn(len(index),4)
+    >>> df = pandas.DataFrame(data, columns=list('ABCD'), index=index)
+    >>>
+    >>> grouped = df.groupby(level='lvl1')
+    >>> boxplot_frame_groupby(grouped)
+    >>>
+    >>> grouped = df.unstack(level='lvl1').groupby(level=0, axis=1)
+    >>> boxplot_frame_groupby(grouped, subplots=False)
+    """
+    _raise_if_no_mpl()
+    _converter._WARN = False
+    if subplots is True:
+        naxes = len(grouped)
+        (fig, axes) = _subplots(naxes=naxes, squeeze=False, ax=ax, sharex=sharex, sharey=sharey, figsize=figsize, layout=layout)
+        axes = _flatten(axes)
+        from pandas.core.series import Series
+        ret = Series()
+        for ((key, group), ax) in zip(grouped, axes):
+            d = group.boxplot(ax=ax, column=column, fontsize=fontsize, rot=rot, grid=grid, **kwds)
+            ax.set_title(pprint_thing(key))
+            ret.loc[key] = d
+        fig.subplots_adjust(bottom=0.15, top=0.9, left=0.1, right=0.9, wspace=0.2)
+    else:
+        from pandas.core.reshape.concat import concat
+        (keys, frames) = zip(*grouped)
+        if grouped.axis == 0:
+            df = concat(frames, keys=keys, axis=1)
+        elif len(frames) > 1:
+            df = frames[0].join(frames[1:])
+        else:
+            df = frames[0]
+        ret = df.boxplot(column=column, fontsize=fontsize, rot=rot, grid=grid, ax=ax, figsize=figsize, layout=layout, **kwds)
+    return ret
+[32mPASSED![0m
+Time :  58.27 seconds
+
+[36m[[[pandas-21540]]][0m
+[[ SBFL ]]
+Function :                 json_normalize Line :  262 Score :    0.5 Count :   1
+Function :               _transform_index Line : 5298 Score : 0.3333 Count :   2
+Function :               _transform_index Line : 5290 Score : 0.3333 Count :   3
+Function :                         rename Line : 3783 Score : 0.3333 Count :   4
+Function :                         rename Line : 3782 Score : 0.3333 Count :   5
+Function :                         rename Line : 3781 Score : 0.3333 Count :   6
+Function :                         rename Line : 3779 Score : 0.3333 Count :   7
+Function :                         rename Line : 3778 Score : 0.3333 Count :   8
+Function :                    rename_axis Line : 3340 Score : 0.3333 Count :   9
+Function :                    rename_axis Line : 3339 Score : 0.3333 Count :  10
+Function :                         rename Line :  973 Score : 0.3333 Count :  11
+Function :                         rename Line :  972 Score : 0.3333 Count :  12
+Function :                         rename Line :  970 Score : 0.3333 Count :  13
+Function :                         rename Line :  969 Score : 0.3333 Count :  14
+Function :                         rename Line :  967 Score : 0.3333 Count :  15
+Function :                         rename Line :  966 Score : 0.3333 Count :  16
+Function :                         rename Line :  965 Score : 0.3333 Count :  17
+Function :                         rename Line :  964 Score : 0.3333 Count :  18
+Function :                         rename Line :  960 Score : 0.3333 Count :  19
+Function :                         rename Line :  959 Score : 0.3333 Count :  20
+Function :                         rename Line :  946 Score : 0.3333 Count :  21
+Function :                         rename Line :  942 Score : 0.3333 Count :  22
+Function :                         rename Line :  938 Score : 0.3333 Count :  23
+Function :                         rename Line :  935 Score : 0.3333 Count :  24
+Function :                         rename Line :  934 Score : 0.3333 Count :  25
+Function :                         rename Line :  933 Score : 0.3333 Count :  26
+Function :                         rename Line :  932 Score : 0.3333 Count :  27
+Function :                         rename Line :  931 Score : 0.3333 Count :  28
+Function :                         rename Line :  930 Score : 0.3333 Count :  29
+Function :                       <lambda> Line :  262 Score : 0.3333 Count :  30
+Function :                         rename Line :  963 Score :   0.25 Count :  31
+Function :                 json_normalize Line :  207 Score :   0.25 Count :  32
+Function :                 json_normalize Line :  189 Score : 0.1667 Count :  33
+Function :                        wrapper Line :  187 Score : 0.1667 Count :  34
+Function :                     <listcomp> Line : 5298 Score : 0.1429 Count :  35
+Function :                     <listcomp> Line : 3916 Score : 0.1429 Count :  36
+Function :                 json_normalize Line :  204 Score :    0.1 Count :  37
+Function :                 json_normalize Line :  261 Score : 0.0769 Count :  38
+Function :                 json_normalize Line :  259 Score : 0.0769 Count :  39
+Function :                 json_normalize Line :  257 Score : 0.0714 Count :  40
+Function :                 json_normalize Line :  222 Score : 0.0714 Count :  41
+Function :                 json_normalize Line :  220 Score : 0.0714 Count :  42
+Function :                 json_normalize Line :  218 Score : 0.0714 Count :  43
+Function :                 json_normalize Line :  217 Score : 0.0714 Count :  44
+Function :                 json_normalize Line :  215 Score : 0.0714 Count :  45
+Function :                 json_normalize Line :  214 Score : 0.0714 Count :  46
+Function :                 json_normalize Line :  211 Score : 0.0714 Count :  47
+Function :                 json_normalize Line :  206 Score : 0.0714 Count :  48
+Function :                 json_normalize Line :  203 Score : 0.0714 Count :  49
+Function :                 json_normalize Line :  191 Score :   0.05 Count :  50
+Function :                 json_normalize Line :  188 Score :   0.05 Count :  51
+Function :                     <listcomp> Line : 3266 Score : 0.0488 Count :  52
+Function :                 json_normalize Line :  184 Score : 0.0476 Count :  53
+Function :                 json_normalize Line :  174 Score : 0.0476 Count :  54
+Function :                     <listcomp> Line : 3785 Score : 0.0374 Count :  55
+[33mERROR...[0m
+'index'
+Time :  46.46 seconds
+
+[36m[[[pandas-21590]]][0m
+[[ SBFL ]]
+Function :                        __pos__ Line : 1135 Score :    0.6 Count :   1
+Function :                        __pos__ Line : 1134 Score :    0.6 Count :   2
+Function :                        __pos__ Line : 1131 Score : 0.3333 Count :   3
+Function :                        __neg__ Line : 1124 Score : 0.3333 Count :   4
+Function :                        __neg__ Line : 1123 Score : 0.3333 Count :   5
+Function :                        __pos__ Line : 1129 Score : 0.2727 Count :   6
+Function :                        __pos__ Line : 1128 Score : 0.2727 Count :   7
+Function :                        __neg__ Line : 1120 Score :    0.2 Count :   8
+Function :                        __neg__ Line : 1118 Score : 0.0488 Count :   9
+Function :                        __neg__ Line : 1117 Score : 0.0488 Count :  10
+[[ SBFL ]]
+Function :                        __pos__ Line : 1135 Score :    0.6 Count :   1
+Function :                        __pos__ Line : 1134 Score :    0.6 Count :   2
+Function :                        __pos__ Line : 1131 Score : 0.3333 Count :   3
+Function :                        __neg__ Line : 1124 Score : 0.3333 Count :   4
+Function :                        __neg__ Line : 1123 Score : 0.3333 Count :   5
+Function :                        __pos__ Line : 1129 Score : 0.2727 Count :   6
+Function :                        __pos__ Line : 1128 Score : 0.2727 Count :   7
+Function :                        __neg__ Line : 1120 Score :    0.2 Count :   8
+Function :                        __neg__ Line : 1118 Score : 0.0488 Count :   9
+Function :                        __neg__ Line : 1117 Score : 0.0488 Count :  10
+[[[ Node ]]]
+if is_numeric_dtype(values) or is_timedelta64_dtype(values):
+    arr = operator.neg(values)
+else:
+    import numpy
+    if isinstance(values, numpy.ndarray) and values.dtype.type is numpy.object_:
+        arr = operator.neg(values)
+    else:
+        raise TypeError('Unary negative expects numeric dtype, not {}'.format(values.dtype))
+[[[ Node ]]]
+if is_bool_dtype(values) or is_period_arraylike(values):
+    arr = values
+else:
+    import numpy
+    if isinstance(values, numpy.ndarray) and values.dtype.type is numpy.object_:
+        arr = values
+    elif is_numeric_dtype(values) or is_timedelta64_dtype(values):
+        arr = operator.pos(values)
+    else:
+        raise TypeError('Unary plus expects numeric dtype, not {}'.format(values.dtype))
+[32mPASSED![0m
+Time :  297.7 seconds
+
+[36m[[[pandas-22072]]][0m
+[[[ Node ]]]
+cat = Categorical(values, ordered=False)
+[32mPASSED![0m
+Time :  6.12 seconds
+
+[36m[[[pandas-22198]]][0m
+[[ SBFL ]]
+Function :     _assert_tzawareness_compat Line :  449 Score :    1.0 Count :   1
+Function :     _assert_tzawareness_compat Line :  448 Score :    1.0 Count :   2
+Function :                           asof Line : 6312 Score : 0.6667 Count :   3
+Function :                           asof Line : 6300 Score :    0.5 Count :   4
+Function :                           asof Line : 6296 Score :    0.5 Count :   5
+Function :                           asof Line : 6295 Score :    0.5 Count :   6
+Function :                           asof Line : 6323 Score : 0.3333 Count :   7
+Function :                           asof Line : 6336 Score :    0.2 Count :   8
+Function :                      asof_locs Line : 2466 Score :    0.2 Count :   9
+Function :                      asof_locs Line : 2465 Score :    0.2 Count :  10
+Function :                      asof_locs Line : 2463 Score :    0.2 Count :  11
+Function :                      asof_locs Line : 2462 Score :    0.2 Count :  12
+Function :                      asof_locs Line : 2460 Score :    0.2 Count :  13
+Function :     _assert_tzawareness_compat Line :  444 Score : 0.1667 Count :  14
+Function :     _assert_tzawareness_compat Line :  441 Score : 0.1667 Count :  15
+Function :     _assert_tzawareness_compat Line :  438 Score : 0.1667 Count :  16
+Function :     _assert_tzawareness_compat Line :  437 Score : 0.1667 Count :  17
+Function :                        wrapper Line :  105 Score : 0.1667 Count :  18
+Function :                        wrapper Line :  103 Score : 0.1667 Count :  19
+Function :                        wrapper Line :  102 Score : 0.1667 Count :  20
+Function :                        wrapper Line :  100 Score : 0.1667 Count :  21
+Function :                        wrapper Line :   93 Score : 0.1667 Count :  22
+Function :                           asof Line : 6289 Score : 0.1538 Count :  23
+Function :                           asof Line : 6326 Score : 0.1333 Count :  24
+Function :                           asof Line : 6325 Score : 0.1333 Count :  25
+Function :                           asof Line : 6322 Score : 0.1333 Count :  26
+Function :                           asof Line : 6294 Score :  0.125 Count :  27
+Function :                           asof Line : 6293 Score :  0.125 Count :  28
+Function :                           asof Line : 6290 Score :  0.125 Count :  29
+Function :                           asof Line : 6288 Score :  0.125 Count :  30
+Function :                           asof Line : 6284 Score :  0.125 Count :  31
+Function :                           asof Line : 6281 Score :  0.125 Count :  32
+Function :                           asof Line : 6280 Score :  0.125 Count :  33
+Function :                           asof Line : 6277 Score :  0.125 Count :  34
+Function :                           asof Line : 6273 Score :  0.125 Count :  35
+None Type Casting Other Type
+Type :  pandas.core.indexes.datetimes.DatetimeIndex
+None Type Casting Other Type
+Type :  numpy.datetime64
+[33mERROR...[0m
+'result'
+Time :  14.18 seconds
+
+[36m[[[pandas-22804]]][0m
+[[ SBFL ]]
+Function :             _recursive_extract Line :  239 Score : 0.3333 Count :   1
+Function :             _recursive_extract Line :  238 Score : 0.3333 Count :   2
+Function :             _recursive_extract Line :  233 Score :   0.25 Count :   3
+Function :                 json_normalize Line :  216 Score :    0.2 Count :   4
+Function :             _recursive_extract Line :  232 Score : 0.1818 Count :   5
+Function :             _recursive_extract Line :  234 Score : 0.1429 Count :   6
+Function :                 json_normalize Line :  198 Score : 0.1429 Count :   7
+Function :             _recursive_extract Line :  242 Score : 0.0714 Count :   8
+Function :                 json_normalize Line :  265 Score : 0.0667 Count :   9
+Function :                 json_normalize Line :  231 Score : 0.0667 Count :  10
+Function :                 json_normalize Line :  229 Score : 0.0667 Count :  11
+Function :                 json_normalize Line :  227 Score : 0.0667 Count :  12
+Function :                 json_normalize Line :  226 Score : 0.0667 Count :  13
+Function :                 json_normalize Line :  224 Score : 0.0667 Count :  14
+Function :                 json_normalize Line :  223 Score : 0.0667 Count :  15
+Function :                 json_normalize Line :  220 Score : 0.0667 Count :  16
+Function :                 json_normalize Line :  215 Score : 0.0667 Count :  17
+Function :                 json_normalize Line :  212 Score : 0.0667 Count :  18
+Function :                 json_normalize Line :  200 Score : 0.0476 Count :  19
+Function :                 json_normalize Line :  197 Score : 0.0476 Count :  20
+Function :             _recursive_extract Line :  241 Score : 0.0465 Count :  21
+Function :                 json_normalize Line :  193 Score : 0.0455 Count :  22
+Function :                 json_normalize Line :  183 Score : 0.0455 Count :  23
+Function :                    _pull_field Line :  189 Score :  0.037 Count :  24
+Function :                    _pull_field Line :  185 Score : 0.0159 Count :  25
+Function :                    _pull_field Line :  184 Score : 0.0159 Count :  26
+[33mERROR...[0m
+'recs'
+Time :  5.94 seconds
+
+[36m[[[pandas-25533]]][0m
+[[[ Node ]]]
+try:
+    if takeable:
+        self._values[label] = value
+    else:
+        self.index._engine.set_value(self._values, label, value)
+except KeyError:
+    self.loc[label] = value
+except TypeError:
+    self.loc[label] = value
+[32mPASSED![0m
+Time :  5.18 seconds
+
+[36m[[[pandas-25759]]][0m
+[[ SBFL ]]
+Function :               _has_valid_tuple Line :  224 Score : 0.1579 Count :   1
+Function :                  _validate_key Line : 2081 Score :  0.028 Count :   2
+Function :                  _validate_key Line : 2079 Score :  0.028 Count :   3
+Function :                  _validate_key Line : 2078 Score :  0.028 Count :   4
+Function :                  _validate_key Line : 2076 Score : 0.0278 Count :   5
+Function :                  _validate_key Line : 2072 Score : 0.0278 Count :   6
+Function :                  _validate_key Line : 2070 Score : 0.0038 Count :   7
+Function :                 _getitem_tuple Line : 2145 Score : 0.0036 Count :   8
+Function :                    __getitem__ Line : 1494 Score : 0.0036 Count :   9
+Function :                    __getitem__ Line : 1490 Score : 0.0035 Count :  10
+Function :                    __getitem__ Line : 1489 Score : 0.0035 Count :  11
+Function :                    __getitem__ Line : 1488 Score : 0.0035 Count :  12
+Function :                    __getitem__ Line : 1487 Score : 0.0035 Count :  13
+Function :                    __getitem__ Line : 1486 Score : 0.0033 Count :  14
+Function :                  _validate_key Line : 2068 Score : 0.0024 Count :  15
+Function :                  _validate_key Line : 2058 Score : 0.0024 Count :  16
+Function :               _has_valid_tuple Line :  223 Score : 0.0022 Count :  17
+Function :               _has_valid_tuple Line :  222 Score : 0.0022 Count :  18
+Function :               _has_valid_tuple Line :  220 Score : 0.0022 Count :  19
+Function :               _has_valid_tuple Line :  219 Score : 0.0015 Count :  20
+Function :                  _validate_key Line : 2069 Score : 0.0012 Count :  21
+Time :  1484.01 seconds

@@ -1,0 +1,221 @@
+nohup: ignoring input
+PASSED :  0 / 0
+PASSED :  0 / 0
+[36m[[[keras-39]]][0m
+[[[ Node ]]]
+if not force and now - self.last_update < self.interval and (current < (0 if isinstance(self.target, type(None)) else self.target)):
+    return
+[32mPASSED![0m
+Time :  14.67 seconds
+
+PASSED :  1 / 1
+[36m[[[luigi-4]]][0m
+[[[ Node ]]]
+def copy(self, cursor, f):
+    """
+        Defines copying from s3 into redshift.
+
+        If both key-based and role-based credentials are provided, role-based will be used.
+        """
+    logger.info('Inserting file: %s', f)
+    colnames = ''
+    if self.columns and len(self.columns) > 0:
+        colnames = ','.join([x[0] for x in self.columns])
+        colnames = '({})'.format(colnames)
+    cursor.execute("\n         COPY {table} {colnames} from '{source}'\n         CREDENTIALS '{creds}'\n         {options}\n         ;".format(table=self.table, colnames=colnames, source=f, creds=self._credentials(), options=self.copy_options))
+[32mPASSED![0m
+Time :  5.37 seconds
+
+[36m[[[luigi-25]]][0m
+[[[ Node ]]]
+path = self.s3_load_path
+[32mPASSED![0m
+Time :  3.09 seconds
+
+[36m[[[luigi-26]]][0m
+[[[ Node ]]]
+if not job.jar() or not os.path.exists(job.jar()):
+    if not isinstance(job.jar(), type(None)):
+        logger.error("Can't find jar: %s, full path %s", job.jar(), os.path.abspath(job.jar()))
+    raise HadoopJarJobError('job jar does not exist')
+[32mPASSED![0m
+Time :  8.94 seconds
+
+PASSED :  3 / 3
+PASSED :  0 / 0
+[36m[[[pandas-30]]][0m
+[[[ Node ]]]
+try:
+    new_data = to_datetime(new_data, errors='raise', unit=date_unit)
+except (ValueError, OverflowError):
+    continue
+except TypeError:
+    continue
+[32mPASSED![0m
+Time :  11.44 seconds
+
+[36m[[[pandas-48]]][0m
+[[[ Node ]]]
+try:
+    result = type(block.values)._from_sequence(result.ravel(), dtype=block.values.dtype)
+except ValueError:
+    result = result.reshape(1, -1)
+except TypeError:
+    result = result.reshape(1, -1)
+[32mPASSED![0m
+Time :  61.32 seconds
+
+[36m[[[pandas-49]]][0m
+[[[ Node ]]]
+def rep(x, r):
+    import pandas
+    if isinstance(x, pandas._libs.missing.NAType):
+        return x
+    try:
+        return bytes.__mul__(x, r)
+    except TypeError:
+        return str.__mul__(x, r)
+[32mPASSED![0m
+Time :  18.32 seconds
+
+[36m[[[pandas-106]]][0m
+[[[ Node ]]]
+@Appender(_index_shared_docs['get_indexer_non_unique'] % _index_doc_kwargs)
+def get_indexer_non_unique(self, target):
+    target = ensure_index(target)
+    (pself, ptarget) = self._maybe_promote(target)
+    if pself is not self or ptarget is not target:
+        return pself.get_indexer_non_unique(ptarget)
+    if is_categorical(target):
+        tgt_values = np.asarray(target)
+    elif self.is_all_dates:
+        tgt_values = target.asi8
+    else:
+        tgt_values = target._ndarray_values
+    if isinstance(tgt_values, type(None)):
+        tgt_values = target._ndarray_values
+    (indexer, missing) = self._engine.get_indexer_non_unique(tgt_values)
+    return (ensure_platform_int(indexer), missing)
+[32mPASSED![0m
+Time :  1422.34 seconds
+
+[36m[[[pandas-138]]][0m
+Timeout!
+Time :  3602.08 seconds
+
+[36m[[[pandas-142]]][0m
+[[[ Node ]]]
+if is_timedelta:
+    res = arr[res_indexer]
+    lag = arr[lag_indexer]
+    mask = (arr[res_indexer] == na) | (arr[lag_indexer] == na)
+    if mask.any():
+        res = res.copy()
+        res[mask] = 0
+        lag = lag.copy()
+        lag[mask] = 0
+    result = res - lag
+    result[mask] = na
+    out_arr[res_indexer] = result
+else:
+    import numpy
+    if isinstance(arr, numpy.ndarray) and arr.dtype.type is numpy.bool_:
+        out_arr[res_indexer] = arr[res_indexer] ^ arr[lag_indexer]
+    else:
+        out_arr[res_indexer] = arr[res_indexer] - arr[lag_indexer]
+[32mPASSED![0m
+Time :  34.53 seconds
+
+[36m[[[pandas-152]]][0m
+[[[ Node ]]]
+to_concat = [self] + list(to_append)
+[32mPASSED![0m
+Time :  7.49 seconds
+
+PASSED :  6 / 7
+[36m[[[scrapy-1]]][0m
+[[[ Node ]]]
+for domain in allowed_domains:
+    if domain and url_pattern.match(domain):
+        message = 'allowed_domains accepts only domains, not URLs. Ignoring URL entry %s in allowed_domains.' % domain
+        warnings.warn(message, URLWarning)
+[32mPASSED![0m
+Time :  12.39 seconds
+
+[36m[[[scrapy-2]]][0m
+[[[ Node ]]]
+def __setitem__(self, key, value):
+    if not isinstance(self.limit, type(None)):
+        while len(self) >= self.limit:
+            self.popitem(last=False)
+    super(LocalCache, self).__setitem__(key, value)
+[32mPASSED![0m
+Time :  3.43 seconds
+
+[36m[[[scrapy-17]]][0m
+[31mFAILED...[0m
+Time :  123.8 seconds
+
+[36m[[[scrapy-29]]][0m
+[[[ Node ]]]
+s += b'Host: ' + to_bytes(b'' if parsed.hostname is None else parsed.hostname) + b'\r\n'
+[32mPASSED![0m
+Time :  2.03 seconds
+
+[36m[[[scrapy-40]]][0m
+[[[ Node ]]]
+def to_unicode(text, encoding=None, errors='strict'):
+    if isinstance(encoding, str):
+        return text
+    'Return the unicode representation of a bytes object `text`. If `text`\n    is already an unicode object, return it as-is.'
+    if isinstance(text, six.text_type):
+        return text
+    if not isinstance(text, (bytes, six.text_type)):
+        raise TypeError('to_unicode must receive a bytes, str or unicode object, got %s' % type(text).__name__)
+    if encoding is None:
+        encoding = 'utf-8'
+    return text.decode(encoding, errors)
+[32mPASSED![0m
+Time :  52.82 seconds
+
+PASSED :  4 / 5
+PASSED :  0 / 0
+[36m[[[tornado-9]]][0m
+[[[ Node ]]]
+def url_concat(url, args):
+    if isinstance(args, type(None)):
+        return url
+    'Concatenate url and arguments regardless of whether\n    url has existing query parameters.\n\n    ``args`` may be either a dictionary or a list of key-value pairs\n    (the latter allows for multiple values with the same key.\n\n    >>> url_concat("http://example.com/foo", dict(c="d"))\n    \'http://example.com/foo?c=d\'\n    >>> url_concat("http://example.com/foo?a=b", dict(c="d"))\n    \'http://example.com/foo?a=b&c=d\'\n    >>> url_concat("http://example.com/foo?a=b", [("c", "d"), ("c", "d2")])\n    \'http://example.com/foo?a=b&c=d&c=d2\'\n    '
+    parsed_url = urlparse(url)
+    if isinstance(args, dict):
+        parsed_query = parse_qsl(parsed_url.query, keep_blank_values=True)
+        parsed_query.extend(args.items())
+    elif isinstance(args, list) or isinstance(args, tuple):
+        parsed_query = parse_qsl(parsed_url.query, keep_blank_values=True)
+        parsed_query.extend(args)
+    else:
+        err = "'args' parameter should be dict, list or tuple. Not {0}".format(type(args))
+        raise TypeError(err)
+    final_query = urlencode(parsed_query)
+    url = urlunparse((parsed_url[0], parsed_url[1], parsed_url[2], parsed_url[3], final_query, parsed_url[5]))
+    return url
+[32mPASSED![0m
+Time :  1.55 seconds
+
+PASSED :  1 / 1
+PASSED :  0 / 0
+[36m[[[youtubedl-11]]][0m
+[[[ Node ]]]
+def str_to_int(int_str):
+    """ A more relaxed version of int_or_none """
+    if int_str is None:
+        return None
+    if isinstance(int_str, int):
+        int_str = str(int_str)
+    int_str = re.sub('[,\\.\\+]', '', int_str)
+    return int(int_str)
+[32mPASSED![0m
+Time :  5.75 seconds
+
+PASSED :  1 / 1
+Total :  16 / 18

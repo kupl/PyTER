@@ -1,0 +1,1808 @@
+PASSED :  0 / 0
+PASSED :  0 / 0
+[36m[[[keras-39]]][0m
+[[ SBFL ]]
+Function :                         update Line :  419 Score :    1.0 Count :   1
+Function :                         update Line :  417 Score :    1.0 Count :   2
+Function :                         update Line :  416 Score :    1.0 Count :   3
+Function :                         update Line :  414 Score :    1.0 Count :   4
+Function :                         update Line :  413 Score :    1.0 Count :   5
+Function :                         update Line :  411 Score :    1.0 Count :   6
+Function :                         update Line :  410 Score :    1.0 Count :   7
+Function :                         update Line :  409 Score :    1.0 Count :   8
+Function :                         update Line :  408 Score :    1.0 Count :   9
+Function :                         update Line :  407 Score :    1.0 Count :  10
+Function :                         update Line :  406 Score :    1.0 Count :  11
+Function :                         update Line :  405 Score :    1.0 Count :  12
+Function :                         update Line :  404 Score :    1.0 Count :  13
+Function :                         update Line :  402 Score :    1.0 Count :  14
+Function :                         update Line :  401 Score :    1.0 Count :  15
+Function :                         update Line :  399 Score :    1.0 Count :  16
+Function :                         update Line :  398 Score :    1.0 Count :  17
+Function :                         update Line :  396 Score :    1.0 Count :  18
+Function :                         update Line :  395 Score :    1.0 Count :  19
+Function :                         update Line :  394 Score :    1.0 Count :  20
+Function :                         update Line :  390 Score :    1.0 Count :  21
+Function :                         update Line :  388 Score :    1.0 Count :  22
+Function :                         update Line :  387 Score :    1.0 Count :  23
+Function :                         update Line :  386 Score :    1.0 Count :  24
+Function :                         update Line :  385 Score :    1.0 Count :  25
+Function :                         update Line :  384 Score :    1.0 Count :  26
+Function :                         update Line :  383 Score :    1.0 Count :  27
+Function :                         update Line :  382 Score :    1.0 Count :  28
+Function :                         update Line :  380 Score :    1.0 Count :  29
+Function :                         update Line :  378 Score :    1.0 Count :  30
+Function :                         update Line :  377 Score :    1.0 Count :  31
+Function :                         update Line :  375 Score :    1.0 Count :  32
+Function :                         update Line :  373 Score :    1.0 Count :  33
+Function :                         update Line :  371 Score :    1.0 Count :  34
+Function :                         update Line :  368 Score :    1.0 Count :  35
+Function :                         update Line :  366 Score :    1.0 Count :  36
+Function :                         update Line :  365 Score :    1.0 Count :  37
+Function :                         update Line :  364 Score :    1.0 Count :  38
+Function :                         update Line :  363 Score :    1.0 Count :  39
+Function :                         update Line :  361 Score :    1.0 Count :  40
+Function :                         update Line :  360 Score :    1.0 Count :  41
+Function :                         update Line :  358 Score :    1.0 Count :  42
+Function :                         update Line :  357 Score :    1.0 Count :  43
+Function :                         update Line :  355 Score :    1.0 Count :  44
+Function :                         update Line :  353 Score :    1.0 Count :  45
+Function :                         update Line :  352 Score :    1.0 Count :  46
+Function :                         update Line :  351 Score :    1.0 Count :  47
+Function :                         update Line :  349 Score :    1.0 Count :  48
+Function :                         update Line :  348 Score :    1.0 Count :  49
+Function :                         update Line :  347 Score :    1.0 Count :  50
+Function :                         update Line :  346 Score :    1.0 Count :  51
+Function :                         update Line :  345 Score :    1.0 Count :  52
+Function :                         update Line :  344 Score :    1.0 Count :  53
+Function :                         update Line :  343 Score :    1.0 Count :  54
+Function :                         update Line :  342 Score :    1.0 Count :  55
+Function :                         update Line :  341 Score :    1.0 Count :  56
+Function :                         update Line :  340 Score :    1.0 Count :  57
+Function :                         update Line :  338 Score :    1.0 Count :  58
+Function :                         update Line :  334 Score :    1.0 Count :  59
+Function :                         update Line :  333 Score :    1.0 Count :  60
+Function :                         update Line :  331 Score :    1.0 Count :  61
+Function :                         update Line :  330 Score :    1.0 Count :  62
+Function :                         update Line :  329 Score :    1.0 Count :  63
+Function :                         update Line :  328 Score :    1.0 Count :  64
+Function :                         update Line :  327 Score :    1.0 Count :  65
+Function :                         update Line :  326 Score :    1.0 Count :  66
+Function :                         update Line :  324 Score :    1.0 Count :  67
+Function :                         update Line :  323 Score :    1.0 Count :  68
+Function :                         update Line :  322 Score :    1.0 Count :  69
+Function :                         update Line :  320 Score :    1.0 Count :  70
+Function :                         update Line :  319 Score :    1.0 Count :  71
+Function :                         update Line :  318 Score :    1.0 Count :  72
+Function :                         update Line :  317 Score :    1.0 Count :  73
+Function :                         update Line :  316 Score :    1.0 Count :  74
+Function :                         update Line :  315 Score :    1.0 Count :  75
+[[ START TYPE DIFF ]]
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+Function :                         update Name : ['self.target'] Diff :    0.5 Equal :      0 Types :                                  ['int']
+[[ START FUNC ANAL ]]
+Function :                         update Name :         current Diff : 14.3333 Equal :    0.0 Types :                                ('None',)
+Function :                         update Name :          values Diff :    9.0 Equal :    0.0 Types :  ('List', 'Set', 'Tuple', 'bool', 'str')
+Function :                         update Name :          values Diff :   27.2 Equal :    6.8 Types :  ('List', 'Set', 'Tuple', 'bool', 'str')
+Function :                         update Name :           force Diff :    0.0 Equal :   43.0 Types :                                ('bool',)
+[[ END FUNC ANAL ]]
+Function :                         update Name : ['self.interval'] Diff :      0 Equal :      0 Types :                                  ['str']
+Function :                         update Name : ['self.last_update'] Diff :      0 Equal :      0 Types :                         ['int', 'float']
+Function :                         update Name :     ['current'] Diff :    0.8 Equal :    0.2 Types :  ['str', 'float', 'bool', 'int', 'None']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                         update Line :  330 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  329 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  328 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  327 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  326 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  324 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  316 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  315 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                         update Line :  330 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  329 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  328 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  327 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  326 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  324 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  316 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  315 Score :    1.0 Name :         current Diff :    0 Equal :    0
+Function :                         update Line :  330 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  329 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  328 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  327 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  326 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  324 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  316 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+Function :                         update Line :  315 Score :    1.0 Name :     self.target Diff :    0 Equal :    0
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.71 seconds
+
+PASSED :  0 / 1
+[36m[[[luigi-4]]][0m
+[[ SBFL ]]
+Function :                           copy Line :  356 Score : 0.1667 Count :   1
+Function :                           copy Line :  355 Score : 0.1667 Count :   2
+Function :                           copy Line :  354 Score : 0.1667 Count :   3
+Function :                            run Line :  338 Score :  0.125 Count :   4
+Function :                            run Line :  337 Score :  0.125 Count :   5
+Function :                            run Line :  335 Score :  0.125 Count :   6
+Function :                            run Line :  334 Score :  0.125 Count :   7
+Function :                            run Line :  333 Score :  0.125 Count :   8
+Function :                            run Line :  332 Score :  0.125 Count :   9
+Function :                            run Line :  329 Score :  0.125 Count :  10
+[[ START TYPE DIFF ]]
+Function :                            run Line :  338 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                            run Line :  337 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                            run Line :  335 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                            run Line :  334 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                            run Line :  333 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                            run Line :  332 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                            run Line :  329 Score :  0.125 Name :            self Diff :    7 Equal :    0
+Function :                           copy Line :  356 Score : 0.166667 Name :            self Diff :    5 Equal :    0
+Function :                           copy Line :  355 Score : 0.166667 Name :            self Diff :    5 Equal :    0
+Function :                           copy Line :  354 Score : 0.166667 Name :            self Diff :    5 Equal :    0
+Function :                           copy Line :  356 Score : 0.166667 Name :    self.columns Diff :    5 Equal :    0
+Function :                           copy Line :  355 Score : 0.166667 Name :    self.columns Diff :    5 Equal :    0
+Function :                           copy Line :  354 Score : 0.166667 Name :    self.columns Diff :    5 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :                           copy Name :          cursor Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           copy Name :               f Diff :    0.0 Equal :    0.0 Types :                                       ()
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                            run Line :  338 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  337 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  335 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  334 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  333 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  332 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  329 Score :  0.125 Name :       self.copy Diff :    3 Equal :    4
+Function :                            run Line :  338 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  337 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  335 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  334 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  333 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  332 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  329 Score :  0.125 Name :            path Diff :    0 Equal :    7
+Function :                            run Line :  338 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+Function :                            run Line :  337 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+Function :                            run Line :  335 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+Function :                            run Line :  334 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+Function :                            run Line :  333 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+Function :                            run Line :  332 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+Function :                            run Line :  329 Score :  0.125 Name :          cursor Diff :    0 Equal :    7
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.15 seconds
+
+[36m[[[luigi-25]]][0m
+[[ SBFL ]]
+Function :                            run Line :  166 Score :    1.0 Count :   1
+Function :                            run Line :  163 Score :    1.0 Count :   2
+[[ START TYPE DIFF ]]
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+[[ END FUNC ANAL ]]
+Function :                            run Name : ['self.s3_load_path()'] Diff :      0 Equal :      0 Types :                               ['method']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                            run Line :  166 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                            run Line :  163 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                            run Line :  166 Score :    1.0 Name : self.s3_load_path Diff :    0 Equal :    0
+Function :                            run Line :  163 Score :    1.0 Name : self.s3_load_path Diff :    0 Equal :    0
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.05 seconds
+
+[36m[[[luigi-26]]][0m
+[[ SBFL ]]
+Function :                        run_job Line :   87 Score :    1.0 Count :   1
+Function :                        run_job Line :   86 Score :    0.5 Count :   2
+Function :                        run_job Line :   85 Score :    0.5 Count :   3
+Function :                            run Line :  651 Score :   0.25 Count :   4
+Function :                            run Line :  650 Score :   0.25 Count :   5
+Function :                        run_job Line :   72 Score :   0.25 Count :   6
+Function :                        run_job Line :   71 Score :   0.25 Count :   7
+[[ START TYPE DIFF ]]
+Function :                            run Line :  651 Score :   0.25 Name :            self Diff :    3 Equal :    0
+Function :                            run Line :  650 Score :   0.25 Name :            self Diff :    3 Equal :    0
+[[ START FUNC DIFF ]]
+Function :                        run_job Line :  1st Name :               0 Diff :      3 Equal :      0
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :                        run_job Name :             job Diff :    0.0 Equal :    0.0 Types :                                       ()
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                        run_job Line :   87 Score :    1.0 Name :             job Diff :    0 Equal :    0
+Function :                        run_job Line :   87 Score :    1.0 Name :       job.jar() Diff :    0 Equal :    0
+Function :                        run_job Line :   87 Score :    1.0 Name :         job.jar Diff :    0 Equal :    0
+Function :                        run_job Line :   86 Score :    0.5 Name :             job Diff :    0 Equal :    0
+Function :                        run_job Line :   85 Score :    0.5 Name :             job Diff :    0 Equal :    0
+Function :                        run_job Line :   86 Score :    0.5 Name :       job.jar() Diff :    0 Equal :    0
+Function :                        run_job Line :   85 Score :    0.5 Name :       job.jar() Diff :    0 Equal :    0
+Function :                        run_job Line :   86 Score :    0.5 Name :         job.jar Diff :    0 Equal :    0
+Function :                        run_job Line :   85 Score :    0.5 Name :         job.jar Diff :    0 Equal :    0
+Function :                        run_job Line :   72 Score :   0.25 Name :             job Diff :    0 Equal :    0
+Function :                        run_job Line :   71 Score :   0.25 Name :             job Diff :    0 Equal :    0
+Function :                        run_job Line :   72 Score :   0.25 Name :       job.jar() Diff :    0 Equal :    0
+Function :                        run_job Line :   71 Score :   0.25 Name :       job.jar() Diff :    0 Equal :    0
+Function :                        run_job Line :   72 Score :   0.25 Name :         job.jar Diff :    0 Equal :    0
+Function :                        run_job Line :   71 Score :   0.25 Name :         job.jar Diff :    0 Equal :    0
+Function :                            run Line :  651 Score :   0.25 Name : self.job_runner() Diff :    0 Equal :    3
+Function :                            run Line :  650 Score :   0.25 Name : self.job_runner() Diff :    0 Equal :    3
+Function :                            run Line :  651 Score :   0.25 Name : self.job_runner Diff :    0 Equal :    3
+Function :                            run Line :  650 Score :   0.25 Name : self.job_runner Diff :    0 Equal :    3
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.18 seconds
+
+PASSED :  0 / 3
+PASSED :  0 / 0
+[36m[[[pandas-30]]][0m
+[[ SBFL ]]
+Function :                    to_datetime Line :  747 Score : 0.0374 Count :   1
+Function :                    to_datetime Line :  744 Score : 0.0374 Count :   2
+Function :                    to_datetime Line :  743 Score : 0.0374 Count :   3
+Function :             _try_convert_types Line : 1032 Score : 0.0112 Count :   4
+Function :             _try_convert_types Line : 1031 Score : 0.0112 Count :   5
+Function :             _try_convert_types Line : 1029 Score : 0.0112 Count :   6
+Function :             _get_object_parser Line :  758 Score : 0.0112 Count :   7
+Function :             _get_object_parser Line :  756 Score : 0.0112 Count :   8
+Function :                        wrapper Line :  212 Score : 0.0089 Count :   9
+Function :                      read_json Line :  579 Score : 0.0053 Count :  10
+Function :           _try_convert_to_date Line :  985 Score : 0.0048 Count :  11
+Function :    _convert_listlike_datetimes Line :  330 Score : 0.0045 Count :  12
+Function :    _convert_listlike_datetimes Line :  329 Score : 0.0045 Count :  13
+Function :    _convert_listlike_datetimes Line :  324 Score : 0.0045 Count :  14
+Function :    _convert_listlike_datetimes Line :  320 Score : 0.0045 Count :  15
+Function :    _convert_listlike_datetimes Line :  318 Score : 0.0045 Count :  16
+Function :    _convert_listlike_datetimes Line :  317 Score : 0.0045 Count :  17
+Function :           _try_convert_to_date Line :  984 Score : 0.0043 Count :  18
+Function :           _try_convert_to_date Line :  983 Score : 0.0043 Count :  19
+Function :    _convert_listlike_datetimes Line :  303 Score : 0.0043 Count :  20
+Function :                      read_json Line :  577 Score : 0.0043 Count :  21
+Function :                    to_datetime Line :  742 Score : 0.0043 Count :  22
+Function :                    to_datetime Line :  735 Score : 0.0043 Count :  23
+Function :                    to_datetime Line :  732 Score : 0.0043 Count :  24
+Function :                    to_datetime Line :  731 Score : 0.0043 Count :  25
+Function :                    to_datetime Line :  730 Score : 0.0043 Count :  26
+Function :                    to_datetime Line :  729 Score : 0.0043 Count :  27
+Function :                    to_datetime Line :  728 Score : 0.0043 Count :  28
+Function :                    to_datetime Line :  727 Score : 0.0043 Count :  29
+Function :                    to_datetime Line :  726 Score : 0.0043 Count :  30
+Function :                    to_datetime Line :  725 Score : 0.0043 Count :  31
+Function :                    to_datetime Line :  724 Score : 0.0043 Count :  32
+Function :                    to_datetime Line :  723 Score : 0.0043 Count :  33
+Function :                    to_datetime Line :  720 Score : 0.0043 Count :  34
+Function :                    to_datetime Line :  717 Score : 0.0043 Count :  35
+Function :    _convert_listlike_datetimes Line :  294 Score : 0.0043 Count :  36
+Function :    _convert_listlike_datetimes Line :  290 Score : 0.0043 Count :  37
+Function :    _convert_listlike_datetimes Line :  285 Score : 0.0043 Count :  38
+Function :    _convert_listlike_datetimes Line :  284 Score : 0.0043 Count :  39
+Function :                        wrapper Line :  311 Score : 0.0039 Count :  40
+Function :                        wrapper Line :  305 Score : 0.0039 Count :  41
+Function :                        wrapper Line :  302 Score : 0.0039 Count :  42
+Function :                        wrapper Line :  301 Score : 0.0039 Count :  43
+Function :                        wrapper Line :  300 Score : 0.0039 Count :  44
+Function :                        wrapper Line :  175 Score : 0.0039 Count :  45
+Function :                        wrapper Line :  173 Score : 0.0039 Count :  46
+Function :           _try_convert_to_date Line :  981 Score : 0.0036 Count :  47
+Function :           _try_convert_to_date Line :  982 Score : 0.0036 Count :  48
+Function :           _try_convert_to_date Line :  986 Score : 0.0036 Count :  49
+Function :              _try_convert_data Line :  903 Score : 0.0031 Count :  50
+Function :           _try_convert_to_date Line :  972 Score : 0.0031 Count :  51
+Function :           _try_convert_to_date Line :  965 Score : 0.0031 Count :  52
+Function :           _try_convert_to_date Line :  964 Score : 0.0031 Count :  53
+Function :                          parse Line :  862 Score :  0.003 Count :  54
+Function :           _try_convert_to_date Line :  961 Score : 0.0029 Count :  55
+Function :           _try_convert_to_date Line :  979 Score : 0.0027 Count :  56
+Function :           _try_convert_to_date Line :  978 Score : 0.0025 Count :  57
+Function :           _try_convert_to_date Line :  976 Score : 0.0025 Count :  58
+Function :           _try_convert_to_date Line :  975 Score : 0.0025 Count :  59
+Function :           _try_convert_to_date Line :  974 Score : 0.0025 Count :  60
+Function :           _try_convert_to_date Line :  973 Score : 0.0025 Count :  61
+Function :                          parse Line :  857 Score : 0.0025 Count :  62
+Function :                           read Line :  731 Score :  0.002 Count :  63
+Function :                          parse Line :  863 Score :  0.002 Count :  64
+Function :                          parse Line :  861 Score :  0.002 Count :  65
+Function :                          parse Line :  859 Score :  0.002 Count :  66
+Function :             _get_object_parser Line :  755 Score :  0.002 Count :  67
+Function :                          parse Line :  853 Score :  0.002 Count :  68
+Function :                          parse Line :  852 Score :  0.002 Count :  69
+Function :             _get_object_parser Line :  752 Score :  0.002 Count :  70
+Function :             _get_object_parser Line :  751 Score :  0.002 Count :  71
+Function :             _get_object_parser Line :  749 Score :  0.002 Count :  72
+Function :             _get_object_parser Line :  748 Score :  0.002 Count :  73
+Function :             _get_object_parser Line :  747 Score :  0.002 Count :  74
+Function :             _get_object_parser Line :  746 Score :  0.002 Count :  75
+Function :             _get_object_parser Line :  745 Score :  0.002 Count :  76
+Function :             _get_object_parser Line :  744 Score :  0.002 Count :  77
+Function :             _get_object_parser Line :  743 Score :  0.002 Count :  78
+Function :             _get_object_parser Line :  742 Score :  0.002 Count :  79
+Function :             _get_object_parser Line :  741 Score :  0.002 Count :  80
+Function :             _get_object_parser Line :  740 Score :  0.002 Count :  81
+Function :             _get_object_parser Line :  739 Score :  0.002 Count :  82
+Function :                           read Line :  727 Score :  0.002 Count :  83
+Function :                           read Line :  725 Score :  0.002 Count :  84
+Function :                      read_json Line :  608 Score :  0.002 Count :  85
+Function :                      read_json Line :  605 Score :  0.002 Count :  86
+Function :                      read_json Line :  602 Score :  0.002 Count :  87
+Function :                      read_json Line :  601 Score :  0.002 Count :  88
+Function :                      read_json Line :  600 Score :  0.002 Count :  89
+Function :                      read_json Line :  599 Score :  0.002 Count :  90
+Function :                      read_json Line :  598 Score :  0.002 Count :  91
+Function :                      read_json Line :  597 Score :  0.002 Count :  92
+Function :                      read_json Line :  596 Score :  0.002 Count :  93
+Function :                      read_json Line :  595 Score :  0.002 Count :  94
+Function :                      read_json Line :  594 Score :  0.002 Count :  95
+Function :                      read_json Line :  593 Score :  0.002 Count :  96
+Function :                      read_json Line :  592 Score :  0.002 Count :  97
+Function :                      read_json Line :  591 Score :  0.002 Count :  98
+Function :                      read_json Line :  590 Score :  0.002 Count :  99
+Function :                      read_json Line :  589 Score :  0.002 Count : 100
+Function :                      read_json Line :  588 Score :  0.002 Count : 101
+Function :                      read_json Line :  585 Score :  0.002 Count : 102
+Function :                      read_json Line :  584 Score :  0.002 Count : 103
+Function :                      read_json Line :  583 Score :  0.002 Count : 104
+Function :                      read_json Line :  581 Score :  0.002 Count : 105
+Function :                      read_json Line :  580 Score :  0.002 Count : 106
+Function :                      read_json Line :  578 Score :  0.002 Count : 107
+Function :                      read_json Line :  576 Score :  0.002 Count : 108
+Function :                      read_json Line :  573 Score :  0.002 Count : 109
+Function :                      read_json Line :  571 Score :  0.002 Count : 110
+Function :              _try_convert_data Line :  947 Score : 0.0016 Count : 111
+Function :              _try_convert_data Line :  946 Score : 0.0016 Count : 112
+Function :              _try_convert_data Line :  945 Score : 0.0016 Count : 113
+Function :              _try_convert_data Line :  904 Score : 0.0016 Count : 114
+Function :              _try_convert_data Line :  902 Score : 0.0014 Count : 115
+Function :              _try_convert_data Line :  889 Score : 0.0012 Count : 116
+Function :              _try_convert_data Line :  885 Score : 0.0009 Count : 117
+Function :              _try_convert_data Line :  888 Score : 0.0008 Count : 118
+Function :              _try_convert_data Line :  951 Score : 0.0007 Count : 119
+Function :              _try_convert_data Line :  942 Score : 0.0007 Count : 120
+Function :              _try_convert_data Line :  930 Score : 0.0007 Count : 121
+Function :              _try_convert_data Line :  918 Score : 0.0007 Count : 122
+Function :              _try_convert_data Line :  909 Score : 0.0007 Count : 123
+Function :              _try_convert_data Line :  907 Score : 0.0007 Count : 124
+Function :              _try_convert_data Line :  886 Score : 0.0006 Count : 125
+Function :                        wrapper Line :  370 Score : 0.0005 Count : 126
+[[ START TYPE DIFF ]]
+Function :                    to_datetime Line :  747 Score : 0.037383 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  744 Score : 0.037383 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  743 Score : 0.037383 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  742 Score : 0.004251 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  735 Score : 0.004251 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  724 Score : 0.004251 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  723 Score : 0.004251 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  720 Score : 0.004251 Name :     arg._values Diff :  103 Equal :    0
+Function :                    to_datetime Line :  717 Score : 0.004251 Name :     arg._values Diff :  103 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :    _convert_listlike_datetimes Name :            unit Diff :   12.0 Equal :    0.0 Types :                                ('None',)
+Function :    _convert_listlike_datetimes Name :              tz Diff : 11.6667 Equal :    0.0 Types :                                 ('str',)
+Function :                    to_datetime Name :             arg Diff : 6.8571 Equal :    0.0 Types : ('(ABCDataFrame, abc.MutableMapping)', 'None')
+Function :    _convert_listlike_datetimes Name :             arg Diff : 5.3333 Equal :    0.0 Types :      ('(DatetimeArray, DatetimeIndex)',)
+Function :           _try_convert_to_date Name :            data Diff :    2.0 Equal :    0.0 Types :           ('pandas.core.series.Series',)
+Function :                      read_json Name :          orient Diff :    1.0 Equal :    0.0 Types :                          ('bool', 'str')
+Function :                      read_json Name :           dtype Diff :   0.75 Equal :    0.0 Types :                                ('bool',)
+Function :                      read_json Name :    convert_axes Diff :   0.75 Equal :    0.0 Types :                                ('bool',)
+Function :                    to_datetime Name :             arg Diff : 0.5714 Equal :    0.0 Types : ('(ABCDataFrame, abc.MutableMapping)', 'None')
+Function :                    to_datetime Name :             arg Diff : 0.5714 Equal :    0.0 Types : ('(ABCDataFrame, abc.MutableMapping)', 'None')
+Function :    _convert_listlike_datetimes Name :             arg Diff : 0.4444 Equal :    0.0 Types :      ('(DatetimeArray, DatetimeIndex)',)
+Function :    _convert_listlike_datetimes Name :             arg Diff : 0.4444 Equal :    0.0 Types :      ('(DatetimeArray, DatetimeIndex)',)
+Function :    _convert_listlike_datetimes Name :            name Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :    _convert_listlike_datetimes Name :        dayfirst Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :    _convert_listlike_datetimes Name :       yearfirst Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :    _convert_listlike_datetimes Name :           exact Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :        dayfirst Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :       yearfirst Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :             utc Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :          format Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :           exact Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :            unit Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :            unit Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name : infer_datetime_format Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    to_datetime Name :           cache Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :              _try_convert_data Name :            name Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :              _try_convert_data Name :            data Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :              _try_convert_data Name :            data Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :              _try_convert_data Name :      use_dtypes Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :              _try_convert_data Name :   convert_dates Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :             _get_object_parser Name :            json Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :     path_or_buf Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :             typ Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :   convert_dates Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name : keep_default_dates Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :           numpy Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :   precise_float Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :       date_unit Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :           lines Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :       chunksize Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :     compression Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      read_json Name :        encoding Diff :    0.5 Equal :    0.5 Types :                          ('None', 'str')
+Function :    _convert_listlike_datetimes Name :            unit Diff :    0.0 Equal :    2.0 Types :                                ('None',)
+Function :           _try_convert_to_date Name :            data Diff :    0.0 Equal :    3.0 Types :           ('pandas.core.series.Series',)
+Function :    _convert_listlike_datetimes Name :          format Diff :    0.0 Equal :    8.4 Types :                                ('None',)
+Function :    _convert_listlike_datetimes Name :          errors Diff :    0.0 Equal :   14.0 Types :                                 ('str',)
+Function :    _convert_listlike_datetimes Name : infer_datetime_format Diff :    0.0 Equal :   14.0 Types :                                ('bool',)
+Function :                    to_datetime Name :          errors Diff :    0.0 Equal :   14.0 Types :                                 ('str',)
+Function :                    to_datetime Name :          origin Diff :    0.0 Equal :   14.0 Types :                                 ('str',)
+[[ END FUNC ANAL ]]
+Function :    _convert_listlike_datetimes Name :      ['errors'] Diff :      0 Equal :      0 Types :                                  ['str']
+Function :                    to_datetime Name :      ['values'] Diff :      0 Equal :      0 Types :       ['numpy.ndarray<<bool_>>', 'None']
+Function :                    to_datetime Name : ['convert_listlike(arg._values, format)'] Diff :      0 Equal :      0 Types :                               ['method']
+Function :                           read Name :         ['obj'] Diff :      0 Equal :      0 Types :                                  ['str']
+Function :                        wrapper Name : ['func(*args, **kwargs)'] Diff :      0 Equal :      0 Types :                               ['method']
+Function :                        wrapper Name : ['func(*args, **kwargs)'] Diff :      0 Equal :      0 Types :                               ['method']
+Function :           _try_convert_to_date Name :    ['new_data'] Diff : 0.6667 Equal : 0.3333 Types : ['pandas.core.series.Series', 'bool', 'pandas.core.indexes.range.RangeIndex']
+Function :           _try_convert_to_date Name :    ['new_data'] Diff :      0 Equal :    1.0 Types :            ['pandas.core.series.Series']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :              _try_convert_data Line :  903 Score : 0.003096 Name :            data Diff :  568 Equal :   76
+Function :              _try_convert_data Line :  902 Score : 0.001417 Name :            data Diff :  568 Equal :   76
+Function :              _try_convert_data Line :  889 Score : 0.001192 Name :            data Diff :  568 Equal :   76
+Function :              _try_convert_data Line :  885 Score : 0.00093 Name :            data Diff :  568 Equal :   76
+Function :              _try_convert_data Line :  888 Score : 0.000821 Name :            data Diff :  568 Equal :   76
+Function :              _try_convert_data Line :  886 Score : 0.000632 Name :            data Diff :  568 Equal :   76
+Function :                          parse Line :  862 Score : 0.00304 Name :            self Diff :  412 Equal :   88
+Function :                          parse Line :  857 Score : 0.002481 Name :            self Diff :  412 Equal :   88
+Function :                          parse Line :  863 Score : 0.001996 Name :            self Diff :  412 Equal :   88
+Function :                          parse Line :  861 Score : 0.001996 Name :            self Diff :  412 Equal :   88
+Function :                          parse Line :  859 Score : 0.001996 Name :            self Diff :  412 Equal :   88
+Function :                          parse Line :  853 Score : 0.00198 Name :            self Diff :  412 Equal :   88
+Function :                          parse Line :  852 Score : 0.00198 Name :            self Diff :  412 Equal :   88
+Function :             _get_object_parser Line :  758 Score : 0.011236 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  756 Score : 0.011236 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  758 Score : 0.011236 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  756 Score : 0.011236 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  758 Score : 0.011236 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  756 Score : 0.011236 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  755 Score : 0.001996 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  755 Score : 0.001996 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  755 Score : 0.001996 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  752 Score : 0.00198 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  751 Score : 0.00198 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  741 Score : 0.00198 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  740 Score : 0.00198 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  739 Score : 0.00198 Name :            json Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  752 Score : 0.00198 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  751 Score : 0.00198 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  741 Score : 0.00198 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  740 Score : 0.00198 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  739 Score : 0.00198 Name :          kwargs Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  752 Score : 0.00198 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  751 Score : 0.00198 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  741 Score : 0.00198 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  740 Score : 0.00198 Name :             obj Diff :    0 Equal :   88
+Function :             _get_object_parser Line :  739 Score : 0.00198 Name :             obj Diff :    0 Equal :   88
+Function :           _try_convert_to_date Line :  984 Score : 0.004338 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  983 Score : 0.004338 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  981 Score : 0.003584 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  982 Score : 0.003581 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  972 Score : 0.003091 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  965 Score : 0.003091 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  964 Score : 0.003091 Name :        new_data Diff :  816 Equal :  102
+Function :           _try_convert_to_date Line :  961 Score : 0.002907 Name :        new_data Diff :  816 Equal :  102
+Function :                    to_datetime Line :  747 Score : 0.037383 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  744 Score : 0.037383 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  743 Score : 0.037383 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  747 Score : 0.037383 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  744 Score : 0.037383 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  743 Score : 0.037383 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  747 Score : 0.037383 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  744 Score : 0.037383 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  743 Score : 0.037383 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  742 Score : 0.004251 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  735 Score : 0.004251 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  724 Score : 0.004251 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  723 Score : 0.004251 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  720 Score : 0.004251 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  717 Score : 0.004251 Name :             arg Diff :    0 Equal :  103
+Function :                    to_datetime Line :  742 Score : 0.004251 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  735 Score : 0.004251 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  724 Score : 0.004251 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  723 Score : 0.004251 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  720 Score : 0.004251 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  717 Score : 0.004251 Name :          format Diff :    0 Equal :  103
+Function :                    to_datetime Line :  742 Score : 0.004251 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  735 Score : 0.004251 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  724 Score : 0.004251 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  723 Score : 0.004251 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  720 Score : 0.004251 Name : convert_listlike Diff :    0 Equal :  103
+Function :                    to_datetime Line :  717 Score : 0.004251 Name : convert_listlike Diff :    0 Equal :  103
+Function :              _try_convert_data Line :  903 Score : 0.003096 Name :            self Diff :  480 Equal :  164
+Function :              _try_convert_data Line :  902 Score : 0.001417 Name :            self Diff :  480 Equal :  164
+Function :              _try_convert_data Line :  889 Score : 0.001192 Name :            self Diff :  480 Equal :  164
+Function :              _try_convert_data Line :  885 Score : 0.00093 Name :            self Diff :  480 Equal :  164
+Function :              _try_convert_data Line :  888 Score : 0.000821 Name :            self Diff :  480 Equal :  164
+Function :              _try_convert_data Line :  886 Score : 0.000632 Name :            self Diff :  480 Equal :  164
+Function :             _try_convert_types Line : 1031 Score : 0.011236 Name :            self Diff :    0 Equal :  176
+Function :             _try_convert_types Line : 1029 Score : 0.011236 Name :            self Diff :    0 Equal :  176
+Function :             _try_convert_types Line : 1031 Score : 0.011236 Name : self._try_convert_data Diff :    0 Equal :  176
+Function :             _try_convert_types Line : 1029 Score : 0.011236 Name : self._try_convert_data Diff :    0 Equal :  176
+Function :                        wrapper Line :  212 Score : 0.004464 Name :            args Diff :    0 Equal :  223
+Function :                        wrapper Line :  212 Score : 0.004464 Name :          kwargs Diff :    0 Equal :  223
+Function :                        wrapper Line :  212 Score : 0.004464 Name :            func Diff :    0 Equal :  223
+Function :                        wrapper Line :  175 Score : 0.001969 Name :            args Diff :    0 Equal :  223
+Function :                        wrapper Line :  173 Score : 0.001969 Name :            args Diff :    0 Equal :  223
+Function :                        wrapper Line :  175 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  223
+Function :                        wrapper Line :  173 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  223
+Function :                        wrapper Line :  175 Score : 0.001969 Name :            func Diff :    0 Equal :  223
+Function :                        wrapper Line :  173 Score : 0.001969 Name :            func Diff :    0 Equal :  223
+Function :                           read Line :  731 Score : 0.002004 Name :       self.data Diff :    3 Equal :  495
+Function :                           read Line :  727 Score : 0.00198 Name :       self.data Diff :    3 Equal :  495
+Function :                           read Line :  725 Score : 0.00198 Name :       self.data Diff :    3 Equal :  495
+Function :                           read Line :  731 Score : 0.002004 Name :            self Diff :    0 Equal :  498
+Function :                           read Line :  731 Score : 0.002004 Name : self._get_object_parser Diff :    0 Equal :  498
+Function :                           read Line :  727 Score : 0.00198 Name :            self Diff :    0 Equal :  498
+Function :                           read Line :  725 Score : 0.00198 Name :            self Diff :    0 Equal :  498
+Function :                           read Line :  727 Score : 0.00198 Name : self._get_object_parser Diff :    0 Equal :  498
+Function :                           read Line :  725 Score : 0.00198 Name : self._get_object_parser Diff :    0 Equal :  498
+Function :                          parse Line :  862 Score : 0.00304 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                          parse Line :  857 Score : 0.002481 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                          parse Line :  863 Score : 0.001996 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                          parse Line :  861 Score : 0.001996 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                          parse Line :  859 Score : 0.001996 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                          parse Line :  853 Score : 0.00198 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                          parse Line :  852 Score : 0.00198 Name : self._try_convert_types Diff :    0 Equal :  500
+Function :                      read_json Line :  579 Score : 0.005348 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  579 Score : 0.005348 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  577 Score : 0.004255 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  577 Score : 0.004255 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  608 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  605 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  588 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  584 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  583 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  581 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  580 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  578 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  576 Score : 0.00198 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  608 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  605 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  588 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  584 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  583 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  581 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  580 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  578 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  576 Score : 0.00198 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  573 Score : 0.001976 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  573 Score : 0.001976 Name : json_reader.read Diff :    0 Equal :  504
+Function :                      read_json Line :  571 Score : 0.001969 Name :     json_reader Diff :    0 Equal :  504
+Function :                      read_json Line :  571 Score : 0.001969 Name : json_reader.read Diff :    0 Equal :  504
+Function :                        wrapper Line :  212 Score : 0.004464 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  212 Score : 0.004464 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  212 Score : 0.004464 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  311 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  305 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  302 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  301 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  300 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  175 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  173 Score : 0.001969 Name :            args Diff :    0 Equal :  507
+Function :                        wrapper Line :  311 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  305 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  302 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  301 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  300 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  175 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  173 Score : 0.001969 Name :          kwargs Diff :    0 Equal :  507
+Function :                        wrapper Line :  311 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  305 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  302 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  301 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  300 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  175 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :                        wrapper Line :  173 Score : 0.001969 Name :            func Diff :    0 Equal :  507
+Function :              _try_convert_data Line :  903 Score : 0.003096 Name : self._try_convert_to_date Diff :    0 Equal :  644
+Function :              _try_convert_data Line :  902 Score : 0.001417 Name : self._try_convert_to_date Diff :    0 Equal :  644
+Function :              _try_convert_data Line :  889 Score : 0.001192 Name : self._try_convert_to_date Diff :    0 Equal :  644
+Function :              _try_convert_data Line :  885 Score : 0.00093 Name : self._try_convert_to_date Diff :    0 Equal :  644
+Function :              _try_convert_data Line :  888 Score : 0.000821 Name : self._try_convert_to_date Diff :    0 Equal :  644
+Function :              _try_convert_data Line :  886 Score : 0.000632 Name : self._try_convert_to_date Diff :    0 Equal :  644
+Function :           _try_convert_to_date Line :  984 Score : 0.004338 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  983 Score : 0.004338 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  981 Score : 0.003584 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  982 Score : 0.003581 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  972 Score : 0.003091 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  965 Score : 0.003091 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  964 Score : 0.003091 Name :       date_unit Diff :    0 Equal :  918
+Function :           _try_convert_to_date Line :  961 Score : 0.002907 Name :       date_unit Diff :    0 Equal :  918
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  5.11 seconds
+
+[36m[[[pandas-48]]][0m
+[[ SBFL ]]
+Function :             _cython_agg_blocks Line : 1086 Score :    1.0 Count :   1
+Function :                 _from_sequence Line :  358 Score :    1.0 Count :   2
+Function :                coerce_to_array Line :  263 Score :    1.0 Count :   3
+Function :                coerce_to_array Line :  261 Score :    1.0 Count :   4
+Function :                coerce_to_array Line :  259 Score :    1.0 Count :   5
+Function :                coerce_to_array Line :  258 Score :    1.0 Count :   6
+Function :                coerce_to_array Line :  257 Score :    1.0 Count :   7
+Function :                coerce_to_array Line :  256 Score :    1.0 Count :   8
+Function :                coerce_to_array Line :  250 Score :    1.0 Count :   9
+Function :                coerce_to_array Line :  247 Score :    1.0 Count :  10
+Function :                coerce_to_array Line :  243 Score :    1.0 Count :  11
+Function :                coerce_to_array Line :  241 Score :    1.0 Count :  12
+Function :                coerce_to_array Line :  237 Score :    1.0 Count :  13
+Function :                coerce_to_array Line :  236 Score :    1.0 Count :  14
+Function :                coerce_to_array Line :  233 Score :    1.0 Count :  15
+Function :                coerce_to_array Line :  230 Score :    1.0 Count :  16
+Function :                coerce_to_array Line :  221 Score :    1.0 Count :  17
+Function :                coerce_to_array Line :  218 Score :    1.0 Count :  18
+Function :                coerce_to_array Line :  217 Score :    1.0 Count :  19
+Function :                coerce_to_array Line :  216 Score :    1.0 Count :  20
+Function :                coerce_to_array Line :  215 Score :    1.0 Count :  21
+Function :                coerce_to_array Line :  213 Score :    1.0 Count :  22
+Function :                coerce_to_array Line :  210 Score :    1.0 Count :  23
+Function :                coerce_to_array Line :  208 Score :    1.0 Count :  24
+Function :                coerce_to_array Line :  207 Score :    1.0 Count :  25
+Function :                coerce_to_array Line :  206 Score :    1.0 Count :  26
+Function :                coerce_to_array Line :  205 Score :    1.0 Count :  27
+Function :                coerce_to_array Line :  199 Score :    1.0 Count :  28
+Function :                coerce_to_array Line :  192 Score :    1.0 Count :  29
+Function :                coerce_to_array Line :  191 Score :    1.0 Count :  30
+Function :                coerce_to_array Line :  189 Score :    1.0 Count :  31
+Function :                coerce_to_array Line :  188 Score :    1.0 Count :  32
+Function :                coerce_to_array Line :  187 Score :    1.0 Count :  33
+Function :                      safe_cast Line :  165 Score :    1.0 Count :  34
+Function :                      safe_cast Line :  164 Score :    1.0 Count :  35
+Function :                      safe_cast Line :  163 Score :    1.0 Count :  36
+Function :                      safe_cast Line :  161 Score :    1.0 Count :  37
+Function :                      safe_cast Line :  160 Score :    1.0 Count :  38
+Function :                      safe_cast Line :  159 Score :    1.0 Count :  39
+Function :                      safe_cast Line :  157 Score :    1.0 Count :  40
+Function :                      safe_cast Line :  156 Score :    1.0 Count :  41
+Function :                      safe_cast Line :  155 Score :    1.0 Count :  42
+Function :                  integer_array Line :  145 Score :    1.0 Count :  43
+Function :                  integer_array Line :  144 Score :    1.0 Count :  44
+Function :             _cython_agg_blocks Line : 1084 Score :    0.6 Count :  45
+Function :             _cython_agg_blocks Line : 1083 Score :    0.6 Count :  46
+Function :             _cython_agg_blocks Line : 1081 Score :    0.6 Count :  47
+Function :             _cython_agg_blocks Line : 1080 Score :    0.6 Count :  48
+Function :                            var Line : 1295 Score :   0.25 Count :  49
+Function :                            var Line : 1294 Score :   0.25 Count :  50
+Function :                            var Line : 1293 Score :   0.25 Count :  51
+Function :                           mean Line : 1226 Score :   0.25 Count :  52
+Function :                           mean Line : 1225 Score :   0.25 Count :  53
+Function :                           mean Line : 1224 Score :   0.25 Count :  54
+Function :                           mean Line : 1223 Score :   0.25 Count :  55
+Function :             _cython_agg_blocks Line : 1008 Score : 0.1935 Count :  56
+Function :                         median Line : 1251 Score : 0.1667 Count :  57
+Function :                         median Line : 1250 Score : 0.1667 Count :  58
+Function :                         median Line : 1249 Score : 0.1667 Count :  59
+Function :                         median Line : 1248 Score : 0.1667 Count :  60
+Function :             _cython_agg_blocks Line : 1017 Score : 0.0638 Count :  61
+Function :             _cython_agg_blocks Line : 1015 Score : 0.0638 Count :  62
+Function :             _cython_agg_blocks Line : 1014 Score : 0.0638 Count :  63
+Function :             _cython_agg_blocks Line : 1012 Score : 0.0638 Count :  64
+Function :             _cython_agg_blocks Line : 1011 Score : 0.0638 Count :  65
+Function :             _cython_agg_blocks Line : 1010 Score : 0.0638 Count :  66
+Function :             _cython_agg_blocks Line : 1007 Score : 0.0638 Count :  67
+Function :             _cython_agg_blocks Line : 1005 Score : 0.0638 Count :  68
+Function :            _cython_agg_general Line :  995 Score : 0.0638 Count :  69
+Function :            _cython_agg_general Line :  994 Score : 0.0638 Count :  70
+Function :             _cython_agg_blocks Line : 1076 Score : 0.0375 Count :  71
+Function :             _cython_agg_blocks Line : 1074 Score : 0.0375 Count :  72
+Function :             _cython_agg_blocks Line : 1072 Score : 0.0375 Count :  73
+Function :             _cython_agg_blocks Line : 1070 Score : 0.0375 Count :  74
+Function :             _cython_agg_blocks Line : 1024 Score : 0.0341 Count :  75
+Function :             _cython_agg_blocks Line : 1023 Score : 0.0341 Count :  76
+Function :             _cython_agg_blocks Line : 1022 Score : 0.0341 Count :  77
+Function :             _cython_agg_blocks Line : 1021 Score : 0.0341 Count :  78
+Function :             _cython_agg_blocks Line : 1020 Score : 0.0341 Count :  79
+Function :             _cython_agg_blocks Line : 1018 Score : 0.0227 Count :  80
+[[ START TYPE DIFF ]]
+Function :             _cython_agg_blocks Line : 1083 Score :    0.6 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1081 Score :    0.6 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1080 Score :    0.6 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1083 Score :    0.6 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1081 Score :    0.6 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1080 Score :    0.6 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1083 Score :    0.6 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1081 Score :    0.6 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1080 Score :    0.6 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1008 Score : 0.193548 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1008 Score : 0.193548 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1008 Score : 0.193548 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1017 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1015 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1014 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1012 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1011 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1010 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1007 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1005 Score : 0.06383 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1017 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1015 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1014 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1012 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1011 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1010 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1007 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1005 Score : 0.06383 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1017 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1015 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1014 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1012 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1011 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1010 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1007 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1005 Score : 0.06383 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1076 Score : 0.0375 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1074 Score : 0.0375 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1072 Score : 0.0375 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1070 Score : 0.0375 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1076 Score : 0.0375 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1074 Score : 0.0375 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1072 Score : 0.0375 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1070 Score : 0.0375 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1076 Score : 0.0375 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1074 Score : 0.0375 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1072 Score : 0.0375 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1070 Score : 0.0375 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1023 Score : 0.034091 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1022 Score : 0.034091 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1021 Score : 0.034091 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1020 Score : 0.034091 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1023 Score : 0.034091 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1022 Score : 0.034091 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1021 Score : 0.034091 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1020 Score : 0.034091 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1023 Score : 0.034091 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1022 Score : 0.034091 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1021 Score : 0.034091 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1020 Score : 0.034091 Name :    block.values Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1018 Score : 0.022727 Name :           block Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1018 Score : 0.022727 Name :          result Diff :    8 Equal :    0
+Function :             _cython_agg_blocks Line : 1018 Score : 0.022727 Name :    block.values Diff :    8 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+Function :                coerce_to_array Name :       ['dtype'] Diff :    6.0 Equal :      0 Types :                                 ['bool']
+[[ START FUNC ANAL ]]
+Function :                coerce_to_array Name :           dtype Diff :   20.0 Equal :    0.0 Types :                                ('None',)
+Function :                coerce_to_array Name :          values Diff :   12.0 Equal :    0.0 Types :                        ('IntegerArray',)
+Function :                coerce_to_array Name :          values Diff :   12.0 Equal :    0.0 Types :                        ('IntegerArray',)
+Function :                coerce_to_array Name :          values Diff :   12.0 Equal :    0.0 Types :                        ('IntegerArray',)
+Function :                coerce_to_array Name :          values Diff :    6.0 Equal :    0.0 Types :                        ('IntegerArray',)
+Function :             _cython_agg_blocks Name :             alt Diff :    6.0 Equal :    0.0 Types :                                ('None',)
+Function :                      safe_cast Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      safe_cast Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      safe_cast Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      safe_cast Name :           dtype Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                      safe_cast Name :            copy Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                coerce_to_array Name :            copy Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :          values Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :           dtype Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :           dtype Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  integer_array Name :            copy Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :             _cython_agg_blocks Name :    numeric_only Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :             _cython_agg_blocks Name :       min_count Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :            _cython_agg_general Name :             how Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :            _cython_agg_general Name :             alt Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :            _cython_agg_general Name :    numeric_only Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :            _cython_agg_general Name :       min_count Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           mean Name :    numeric_only Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                         median Name :    numeric_only Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                            var Name :            ddof Diff :    0.0 Equal :    2.0 Types :                                 ('int',)
+Function :             _cython_agg_blocks Name :             how Diff :    0.0 Equal :    6.0 Types :                                 ('str',)
+Function :                coerce_to_array Name :           dtype Diff :    0.0 Equal :    8.0 Types :                                ('None',)
+Function :                coerce_to_array Name :            mask Diff :    0.0 Equal :   42.0 Types :                                ('None',)
+[[ END FUNC ANAL ]]
+Function :                      safe_cast Name :      ['casted'] Diff :      0 Equal :      0 Types :                                 ['type']
+Function :                            var Name :        ['ddof'] Diff :      0 Equal :    2.0 Types :                                  ['int']
+Function :                coerce_to_array Name :      ['values'] Diff :    3.0 Equal :    3.0 Types :     ['numpy.ndarray<<float64>>', 'type']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                      safe_cast Line :  163 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                      safe_cast Line :  160 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                      safe_cast Line :  159 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                      safe_cast Line :  157 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                      safe_cast Line :  156 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                      safe_cast Line :  155 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                      safe_cast Line :  163 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  160 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  159 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  157 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  156 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  155 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  163 Score :    1.0 Name :    values.dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  160 Score :    1.0 Name :    values.dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  159 Score :    1.0 Name :    values.dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  157 Score :    1.0 Name :    values.dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  156 Score :    1.0 Name :    values.dtype Diff :    0 Equal :    0
+Function :                      safe_cast Line :  155 Score :    1.0 Name :    values.dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  261 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  256 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  250 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  247 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  243 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  241 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  237 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  236 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  233 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  230 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  216 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  215 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  205 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  199 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  192 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  191 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  187 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  261 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  256 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  250 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  247 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  243 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  241 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  237 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  236 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  233 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  230 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  216 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  215 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  205 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  199 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  192 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  191 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                coerce_to_array Line :  187 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                  integer_array Line :  144 Score :    1.0 Name :          values Diff :    0 Equal :    0
+Function :                  integer_array Line :  144 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                  integer_array Line :  144 Score :    1.0 Name :            copy Diff :    0 Equal :    0
+Function :                 _from_sequence Line :  358 Score :    1.0 Name :         scalars Diff :    0 Equal :    0
+Function :                 _from_sequence Line :  358 Score :    1.0 Name :           dtype Diff :    0 Equal :    0
+Function :                 _from_sequence Line :  358 Score :    1.0 Name :            copy Diff :    0 Equal :    0
+Function :                           mean Line : 1223 Score :   0.25 Name :            self Diff :    4 Equal :    8
+Function :                            var Line : 1294 Score :   0.25 Name :            self Diff :    2 Equal :   10
+Function :                            var Line : 1293 Score :   0.25 Name :            self Diff :    2 Equal :   10
+Function :                           mean Line : 1223 Score :   0.25 Name :    numeric_only Diff :    0 Equal :   12
+Function :                           mean Line : 1223 Score :   0.25 Name : self._cython_agg_general Diff :    0 Equal :   12
+Function :                            var Line : 1294 Score :   0.25 Name :            ddof Diff :    0 Equal :   12
+Function :                            var Line : 1293 Score :   0.25 Name :            ddof Diff :    0 Equal :   12
+Function :                            var Line : 1294 Score :   0.25 Name : self._cython_agg_general Diff :    0 Equal :   12
+Function :                            var Line : 1293 Score :   0.25 Name : self._cython_agg_general Diff :    0 Equal :   12
+Function :                         median Line : 1248 Score : 0.166667 Name :            self Diff :    0 Equal :   20
+Function :                         median Line : 1248 Score : 0.166667 Name :    numeric_only Diff :    0 Equal :   20
+Function :                         median Line : 1248 Score : 0.166667 Name : self._cython_agg_general Diff :    0 Equal :   20
+Function :            _cython_agg_general Line :  994 Score : 0.06383 Name :            self Diff :    0 Equal :  176
+Function :            _cython_agg_general Line :  994 Score : 0.06383 Name : self._cython_agg_blocks Diff :    0 Equal :  176
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  3.72 seconds
+
+[36m[[[pandas-49]]][0m
+[[ SBFL ]]
+Function :                            rep Line :  781 Score :   0.25 Count :   1
+Function :                            rep Line :  780 Score :   0.25 Count :   2
+Function :                            rep Line :  779 Score :   0.25 Count :   3
+Function :                            rep Line :  778 Score :   0.25 Count :   4
+[[ START TYPE DIFF ]]
+Function :                            rep Line :  781 Score :   0.25 Name :               x Diff :    6 Equal :    0
+Function :                            rep Line :  780 Score :   0.25 Name :               x Diff :    6 Equal :    0
+Function :                            rep Line :  779 Score :   0.25 Name :               x Diff :    6 Equal :    0
+Function :                            rep Line :  778 Score :   0.25 Name :               x Diff :    6 Equal :    0
+[[ START FUNC DIFF ]]
+Function :                            rep Line :  1st Name :               0 Diff :      2 Equal :      0
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :                            rep Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                            rep Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                            rep Name :               r Diff :    0.0 Equal :    0.0 Types :                                       ()
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                            rep Line :  781 Score :   0.25 Name :               r Diff :    0 Equal :    6
+Function :                            rep Line :  780 Score :   0.25 Name :               r Diff :    0 Equal :    6
+Function :                            rep Line :  779 Score :   0.25 Name :               r Diff :    0 Equal :    6
+Function :                            rep Line :  778 Score :   0.25 Name :               r Diff :    0 Equal :    6
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.51 seconds
+
+[36m[[[pandas-106]]][0m
+[[ SBFL ]]
+Function :                get_indexer_for Line : 4576 Score :    1.0 Count :   1
+Function :                get_indexer_for Line : 4574 Score :    1.0 Count :   2
+Function :         get_indexer_non_unique Line : 4559 Score :    1.0 Count :   3
+Function :         get_indexer_non_unique Line : 4555 Score :    1.0 Count :   4
+Function :         get_indexer_non_unique Line : 4554 Score :    1.0 Count :   5
+Function :         get_indexer_non_unique Line : 4552 Score :    1.0 Count :   6
+Function :         get_indexer_non_unique Line : 4549 Score :    1.0 Count :   7
+Function :         get_indexer_non_unique Line : 4548 Score :    1.0 Count :   8
+Function :         get_indexer_non_unique Line : 4547 Score :    1.0 Count :   9
+Function :                     _drop_axis Line : 3943 Score :    1.0 Count :  10
+Function :                     _drop_axis Line : 3941 Score :    1.0 Count :  11
+Function :                     _drop_axis Line : 3932 Score :    1.0 Count :  12
+Function :                     _drop_axis Line : 3931 Score :    1.0 Count :  13
+Function :                     _drop_axis Line : 3920 Score :    0.5 Count :  14
+Function :                     _drop_axis Line : 3918 Score :    0.5 Count :  15
+Function :                     _drop_axis Line : 3917 Score :    0.5 Count :  16
+Function :                     _drop_axis Line : 3916 Score :    0.5 Count :  17
+Function :                           drop Line : 3894 Score :    0.5 Count :  18
+Function :                           drop Line : 3893 Score :    0.5 Count :  19
+Function :                           drop Line : 3890 Score :    0.5 Count :  20
+Function :                           drop Line : 3882 Score :    0.5 Count :  21
+Function :                           drop Line : 3881 Score :    0.5 Count :  22
+Function :                           drop Line : 3879 Score :    0.5 Count :  23
+Function :                           drop Line : 3878 Score :    0.5 Count :  24
+Function :                           drop Line : 3876 Score :    0.5 Count :  25
+Function :                           drop Line : 3824 Score :    0.5 Count :  26
+Function :                           drop Line : 3823 Score :    0.5 Count :  27
+Function :                           drop Line : 3822 Score :    0.5 Count :  28
+Function :                           drop Line : 3821 Score :    0.5 Count :  29
+Function :                           drop Line : 3820 Score :    0.5 Count :  30
+Function :                           drop Line : 3819 Score :    0.5 Count :  31
+Function :                           drop Line : 3818 Score :    0.5 Count :  32
+Function :                           drop Line : 3817 Score :    0.5 Count :  33
+Function :                           drop Line : 3892 Score : 0.3333 Count :  34
+[[ START TYPE DIFF ]]
+Function :                           drop Line : 3817 Score :    0.5 Name :          labels Diff :    2 Equal :    0
+Function :                           drop Line : 3894 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3893 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3890 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3882 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3881 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3879 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3878 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3876 Score :    0.5 Name :          labels Diff :    1 Equal :    0
+Function :                           drop Line : 3892 Score : 0.333333 Name :          labels Diff :    1 Equal :    0
+[[ START FUNC DIFF ]]
+Function :                     _drop_axis Line :  1st Name :               0 Diff :      1 Equal :      0
+Function :                           drop Line :  1st Name :               0 Diff :      1 Equal :      0
+Function :                           drop Line :  1st Name :               0 Diff :      1 Equal :      0
+[[ START ERROR ANAL ]]
+Function :                           drop Name :         ['obj'] Diff :    1.0 Equal :      0 Types :                          ['List', 'str']
+[[ START FUNC ANAL ]]
+Function :         get_indexer_non_unique Name :          target Diff :    1.0 Equal :    0.0 Types :                                ('bool',)
+Function :                     _drop_axis Name :            axis Diff :    1.0 Equal :    0.0 Types :                          ('MultiIndex',)
+Function :                           drop Name :          labels Diff :    1.0 Equal :    0.0 Types :                                ('None',)
+Function :                get_indexer_for Name :          target Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                     _drop_axis Name :          labels Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :            axis Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :           level Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :         inplace Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :          errors Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :          labels Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :            axis Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :           index Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :         columns Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :           level Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :         inplace Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           drop Name :          errors Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                     _drop_axis Name :          errors Diff :    0.5 Equal :    0.5 Types :                          ('bool', 'str')
+Function :                           drop Name :           index Diff :    0.5 Equal :    0.5 Types :                         ('None', 'bool')
+Function :                           drop Name :         columns Diff :    0.5 Equal :    0.5 Types :                         ('None', 'bool')
+Function :                     _drop_axis Name :           level Diff :    0.0 Equal :    1.0 Types :                                ('None',)
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :         get_indexer_non_unique Line : 4559 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4555 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4554 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4552 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4549 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4548 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4547 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4559 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4555 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4554 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4552 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4549 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4548 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4547 Score :    1.0 Name :      tgt_values Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4559 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4555 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4554 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4552 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4549 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4548 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4547 Score :    1.0 Name : self._engine.get_indexer_non_unique Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4559 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4555 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4554 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4552 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4549 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4548 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :         get_indexer_non_unique Line : 4547 Score :    1.0 Name :    self._engine Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4576 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4574 Score :    1.0 Name :            self Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4576 Score :    1.0 Name :          target Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4574 Score :    1.0 Name :          target Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4576 Score :    1.0 Name :          kwargs Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4574 Score :    1.0 Name :          kwargs Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4576 Score :    1.0 Name : self.get_indexer_non_unique Diff :    0 Equal :    0
+Function :                get_indexer_for Line : 4574 Score :    1.0 Name : self.get_indexer_non_unique Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3943 Score :    1.0 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3941 Score :    1.0 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3932 Score :    1.0 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3931 Score :    1.0 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3943 Score :    1.0 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3941 Score :    1.0 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3932 Score :    1.0 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3931 Score :    1.0 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3943 Score :    1.0 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3941 Score :    1.0 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3932 Score :    1.0 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3931 Score :    1.0 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3920 Score :    0.5 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3918 Score :    0.5 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3917 Score :    0.5 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3916 Score :    0.5 Name :          labels Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3920 Score :    0.5 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3918 Score :    0.5 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3917 Score :    0.5 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3916 Score :    0.5 Name :            axis Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3920 Score :    0.5 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3918 Score :    0.5 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3917 Score :    0.5 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                     _drop_axis Line : 3916 Score :    0.5 Name : axis.get_indexer_for Diff :    0 Equal :    0
+Function :                           drop Line : 3894 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3893 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3890 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3882 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3881 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3879 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3878 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3876 Score :    0.5 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3894 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3893 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3890 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3882 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3881 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3879 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3878 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3876 Score :    0.5 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3894 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3893 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3890 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3882 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3881 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3879 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3878 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3876 Score :    0.5 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3894 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3893 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3890 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3882 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3881 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3879 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3878 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3876 Score :    0.5 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3894 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3893 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3890 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3882 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3881 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3879 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3878 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3876 Score :    0.5 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3892 Score : 0.333333 Name :            axis Diff :    0 Equal :    1
+Function :                           drop Line : 3892 Score : 0.333333 Name :           level Diff :    0 Equal :    1
+Function :                           drop Line : 3892 Score : 0.333333 Name :          errors Diff :    0 Equal :    1
+Function :                           drop Line : 3892 Score : 0.333333 Name :             obj Diff :    0 Equal :    1
+Function :                           drop Line : 3892 Score : 0.333333 Name :  obj._drop_axis Diff :    0 Equal :    1
+Function :                           drop Line : 3817 Score :    0.5 Name :            axis Diff :    0 Equal :    2
+Function :                           drop Line : 3817 Score :    0.5 Name :           index Diff :    0 Equal :    2
+Function :                           drop Line : 3817 Score :    0.5 Name :         columns Diff :    0 Equal :    2
+Function :                           drop Line : 3817 Score :    0.5 Name :           level Diff :    0 Equal :    2
+Function :                           drop Line : 3817 Score :    0.5 Name :         inplace Diff :    0 Equal :    2
+Function :                           drop Line : 3817 Score :    0.5 Name :          errors Diff :    0 Equal :    2
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  3.62 seconds
+
+[36m[[[pandas-138]]][0m
+[[ SBFL ]]
+Function :                     _get_score Line : 1076 Score : 0.3659 Count :   1
+Function :                     _get_score Line : 1075 Score : 0.3416 Count :   2
+Function :                     _get_score Line : 1074 Score : 0.3416 Count :   3
+Function :                     _get_score Line : 1071 Score : 0.3416 Count :   4
+Function :                     _get_score Line : 1090 Score : 0.3214 Count :   5
+Function :                     <listcomp> Line : 1096 Score : 0.3112 Count :   6
+Function :                     _get_score Line : 1079 Score : 0.3038 Count :   7
+Function :                     _get_score Line : 1078 Score : 0.3038 Count :   8
+Function :                   _interpolate Line : 1068 Score : 0.3038 Count :   9
+Function :                           qcut Line :  336 Score : 0.2927 Count :  10
+Function :                           qcut Line :  339 Score : 0.2727 Count :  11
+Function :                           qcut Line :  335 Score : 0.2727 Count :  12
+Function :                           qcut Line :  333 Score : 0.2727 Count :  13
+Function :                           qcut Line :  332 Score : 0.2727 Count :  14
+Function :                       quantile Line : 1096 Score : 0.2667 Count :  15
+Function :                       quantile Line : 1095 Score : 0.2667 Count :  16
+Function :                       quantile Line : 1092 Score : 0.2667 Count :  17
+Function :                       quantile Line : 1070 Score : 0.2667 Count :  18
+Function :                       quantile Line : 1064 Score : 0.2667 Count :  19
+Function :                       quantile Line : 1062 Score : 0.2667 Count :  20
+Function :                       quantile Line : 1060 Score : 0.2667 Count :  21
+Function :                       quantile Line : 1058 Score : 0.2667 Count :  22
+Function :                       quantile Line : 1057 Score : 0.2667 Count :  23
+Function :                           qcut Line :  351 Score : 0.1765 Count :  24
+Function :                           qcut Line :  350 Score : 0.1765 Count :  25
+Function :                           qcut Line :  347 Score : 0.1579 Count :  26
+Function :                           qcut Line :  346 Score : 0.1579 Count :  27
+Function :                           qcut Line :  345 Score : 0.1579 Count :  28
+Function :                           qcut Line :  344 Score : 0.1579 Count :  29
+Function :                           qcut Line :  343 Score : 0.1579 Count :  30
+Function :                           qcut Line :  342 Score : 0.1579 Count :  31
+Function :                           qcut Line :  341 Score : 0.1579 Count :  32
+Function :                           qcut Line :  340 Score : 0.1579 Count :  33
+Function :                       quantile Line : 1098 Score : 0.1538 Count :  34
+Function :                       quantile Line : 1097 Score : 0.1538 Count :  35
+[[ START TYPE DIFF ]]
+Function :                       quantile Line : 1096 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1095 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1092 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1070 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1064 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1062 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1060 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1058 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                       quantile Line : 1057 Score : 0.266667 Name :               x Diff :  332 Equal :    0
+Function :                   _interpolate Line : 1068 Score : 0.303797 Name :               a Diff :   55 Equal :    0
+Function :                   _interpolate Line : 1068 Score : 0.303797 Name :               b Diff :   55 Equal :    0
+Function :                     _get_score Line : 1079 Score : 0.303797 Name :          values Diff :   55 Equal :    0
+Function :                     _get_score Line : 1078 Score : 0.303797 Name :          values Diff :   55 Equal :    0
+Function :                     _get_score Line : 1075 Score : 0.341584 Name :          values Diff :   55 Equal :    0
+Function :                     _get_score Line : 1074 Score : 0.341584 Name :          values Diff :   55 Equal :    0
+Function :                     _get_score Line : 1071 Score : 0.341584 Name :          values Diff :   55 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+Function :                       quantile Name :           ['q'] Diff :    6.0 Equal :      0 Types :          ['str', 'List', 'Set', 'Tuple']
+Function :                           qcut Name :   ['quantiles'] Diff :    6.0 Equal :      0 Types :                                  ['int']
+Function :                   _interpolate Name :    ['fraction'] Diff :    6.0 Equal :      0 Types :                          ['numpy.bool_']
+Function :                   _interpolate Name :           ['b'] Diff :    6.0 Equal :      0 Types :                        ['numpy.float64']
+Function :                   _interpolate Name :           ['a'] Diff :    6.0 Equal :      0 Types :                        ['numpy.float64']
+Function :                   _interpolate Name :           ['a'] Diff :    6.0 Equal :      0 Types :                        ['numpy.float64']
+Function :                     _get_score Name :      ['values'] Diff :    1.5 Equal :      0 Types :                                 ['Dict']
+Function :                     _get_score Name :      ['values'] Diff :    1.5 Equal :      0 Types :                                 ['Dict']
+[[ START FUNC ANAL ]]
+Function :                     _get_score Name :              at Diff :  136.0 Equal :    0.0 Types :                                 ('int',)
+Function :                   _interpolate Name :        fraction Diff :   16.8 Equal :    0.0 Types :                         ('numpy.bool_',)
+Function :                   _interpolate Name :               a Diff : 12.8571 Equal :    0.0 Types :                         ('numpy.bool_',)
+Function :                   _interpolate Name :               b Diff : 12.2727 Equal :    0.0 Types :                         ('numpy.bool_',)
+Function :                       quantile Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                       quantile Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                       quantile Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                       quantile Name :               q Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :               x Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :          labels Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :         retbins Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :       precision Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           qcut Name :      duplicates Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                   _interpolate Name :               b Diff :    0.0 Equal : 4.0909 Types :                         ('numpy.bool_',)
+Function :                   _interpolate Name :               a Diff :    0.0 Equal : 4.2857 Types :                         ('numpy.bool_',)
+Function :                           qcut Name :               q Diff :    8.0 Equal :    8.0 Types :      ('int', 'numpy.ndarray<<float64>>')
+Function :                       quantile Name : interpolation_method Diff :    0.0 Equal :   16.0 Types :                                 ('str',)
+[[ END FUNC ANAL ]]
+Function :                     _get_score Name :       ['score'] Diff :      0 Equal :      0 Types :                                  ['int']
+Function :                     _get_score Name : ['_interpolate(values[int(idx)], values[int(idx) + 1], idx % 1)'] Diff :      0 Equal :      0 Types :                               ['method']
+Function :                     <listcomp> Name :           ['q'] Diff :      0 Equal :      0 Types :          ['str', 'List', 'Set', 'Tuple']
+Function :                           qcut Name :        ['bins'] Diff :      0 Equal :      0 Types : ['numpy.ndarray<<bool_>>', 'pandas.core.series.Series', 'numpy.ndarray<<float64>>']
+Function :                     _get_score Name :         ['idx'] Diff :    3.0 Equal :    3.0 Types :                 ['numpy.float64', 'int']
+Function :                     _get_score Name :         ['idx'] Diff :    3.0 Equal :    3.0 Types :                 ['numpy.float64', 'int']
+Function :                     _get_score Name :         ['idx'] Diff :    3.0 Equal :    3.0 Types :                 ['numpy.float64', 'int']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                           qcut Line :  336 Score : 0.292683 Name :               x Diff :   51 Equal :   13
+Function :                           qcut Line :  339 Score : 0.272727 Name :               x Diff :   51 Equal :   13
+Function :                           qcut Line :  335 Score : 0.272727 Name :               x Diff :   51 Equal :   13
+Function :                           qcut Line :  333 Score : 0.272727 Name :               x Diff :   51 Equal :   13
+Function :                           qcut Line :  332 Score : 0.272727 Name :               x Diff :   51 Equal :   13
+Function :                           qcut Line :  336 Score : 0.292683 Name :       quantiles Diff :    2 Equal :   30
+Function :                           qcut Line :  339 Score : 0.272727 Name :       quantiles Diff :    2 Equal :   30
+Function :                           qcut Line :  335 Score : 0.272727 Name :       quantiles Diff :    2 Equal :   30
+Function :                           qcut Line :  333 Score : 0.272727 Name :       quantiles Diff :    2 Equal :   30
+Function :                           qcut Line :  332 Score : 0.272727 Name :       quantiles Diff :    2 Equal :   30
+Function :                       quantile Line : 1096 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1095 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1092 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1070 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1064 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1062 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1060 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1058 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                       quantile Line : 1057 Score : 0.266667 Name :               q Diff :    0 Equal :   33
+Function :                   _interpolate Line : 1068 Score : 0.303797 Name :        fraction Diff :    0 Equal :   55
+Function :                     _get_score Line : 1079 Score : 0.303797 Name :    _interpolate Diff :    0 Equal :   55
+Function :                     _get_score Line : 1078 Score : 0.303797 Name :    _interpolate Diff :    0 Equal :   55
+Function :                     _get_score Line : 1079 Score : 0.303797 Name :             idx Diff :    0 Equal :   55
+Function :                     _get_score Line : 1078 Score : 0.303797 Name :             idx Diff :    0 Equal :   55
+Function :                     _get_score Line : 1075 Score : 0.341584 Name :    _interpolate Diff :    0 Equal :   55
+Function :                     _get_score Line : 1074 Score : 0.341584 Name :    _interpolate Diff :    0 Equal :   55
+Function :                     _get_score Line : 1071 Score : 0.341584 Name :    _interpolate Diff :    0 Equal :   55
+Function :                     _get_score Line : 1075 Score : 0.341584 Name :             idx Diff :    0 Equal :   55
+Function :                     _get_score Line : 1074 Score : 0.341584 Name :             idx Diff :    0 Equal :   55
+Function :                     _get_score Line : 1071 Score : 0.341584 Name :             idx Diff :    0 Equal :   55
+Function :                     <listcomp> Line : 1096 Score : 0.311203 Name :               x Diff :   66 Equal :  266
+Function :                     <listcomp> Line : 1096 Score : 0.311203 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1096 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1095 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1092 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1070 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1064 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1062 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1060 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1058 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+Function :                       quantile Line : 1057 Score : 0.266667 Name :      _get_score Diff :    0 Equal :  398
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  3.94 seconds
+
+[36m[[[pandas-142]]][0m
+[[ SBFL ]]
+Function :                           diff Line : 1920 Score :    1.0 Count :   1
+Function :                           diff Line : 1963 Score : 0.1667 Count :   2
+Function :                           diff Line : 1919 Score : 0.1667 Count :   3
+Function :                           diff Line : 2478 Score : 0.1111 Count :   4
+Function :                           diff Line : 1948 Score : 0.1111 Count :   5
+Function :                           diff Line : 1944 Score : 0.1111 Count :   6
+Function :                           diff Line : 1943 Score : 0.1111 Count :   7
+Function :                           diff Line : 1942 Score : 0.1111 Count :   8
+Function :                           diff Line : 1940 Score : 0.1111 Count :   9
+Function :                           diff Line : 1939 Score : 0.1111 Count :  10
+Function :                           diff Line : 1938 Score : 0.1111 Count :  11
+Function :                           diff Line : 1932 Score : 0.1111 Count :  12
+Function :                           diff Line : 1930 Score : 0.1111 Count :  13
+Function :                           diff Line : 1929 Score : 0.1111 Count :  14
+Function :                           diff Line : 1928 Score : 0.1111 Count :  15
+Function :                           diff Line : 1926 Score : 0.1111 Count :  16
+Function :                           diff Line : 1925 Score : 0.1111 Count :  17
+Function :                           diff Line : 1913 Score : 0.1111 Count :  18
+Function :                           diff Line : 1912 Score : 0.1111 Count :  19
+Function :                           diff Line : 1910 Score : 0.1111 Count :  20
+Function :                           diff Line : 1909 Score : 0.1111 Count :  21
+Function :                           diff Line : 1908 Score : 0.1111 Count :  22
+[[ START TYPE DIFF ]]
+Function :                           diff Line : 1920 Score :    1.0 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1920 Score :    1.0 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1963 Score : 0.166667 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1919 Score : 0.166667 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1963 Score : 0.166667 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1919 Score : 0.166667 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1948 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1944 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1943 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1942 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1940 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1939 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1938 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1932 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1930 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1929 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1928 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1926 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1925 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1913 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1912 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1910 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1909 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1908 Score : 0.111111 Name : arr[lag_indexer] Diff :    5 Equal :    0
+Function :                           diff Line : 1948 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1944 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1943 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1942 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1940 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1939 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1938 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1932 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1930 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1929 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1928 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1926 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1925 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1913 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1912 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1910 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1909 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+Function :                           diff Line : 1908 Score : 0.111111 Name :             arr Diff :    5 Equal :    0
+[[ START FUNC DIFF ]]
+Function :                           diff Line :  1st Name :               0 Diff :      5 Equal :      0
+[[ START ERROR ANAL ]]
+Function :                           diff Name :         ['arr'] Diff :    1.0 Equal :      0 Types :                         ['Dict', 'bool']
+Function :                           diff Name :         ['arr'] Diff :    1.0 Equal :      0 Types :                         ['Dict', 'bool']
+[[ START FUNC ANAL ]]
+Function :                           diff Name :             arr Diff : 0.5455 Equal :    0.0 Types :                                ('Dict',)
+Function :                           diff Name :            axis Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           diff Name :         periods Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                           diff Name :               n Diff :    0.0 Equal :    1.0 Types :                                 ('int',)
+[[ END FUNC ANAL ]]
+Function :                           diff Name :      ['result'] Diff :      0 Equal :      0 Types :     ['pandas.core.series.Series', 'int']
+Function :                           diff Name : ['res_indexer'] Diff :      0 Equal :    1.0 Types :                                ['Tuple']
+Function :                           diff Name : ['res_indexer'] Diff :      0 Equal :    1.0 Types :                                ['Tuple']
+Function :                           diff Name : ['lag_indexer'] Diff :      0 Equal :    1.0 Types :                                ['Tuple']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                           diff Line : 1920 Score :    1.0 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1920 Score :    1.0 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1963 Score : 0.166667 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1919 Score : 0.166667 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1963 Score : 0.166667 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1919 Score : 0.166667 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1948 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1944 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1943 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1942 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1940 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1939 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1938 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1932 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1930 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1929 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1928 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1926 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1925 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1913 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1912 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1910 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1909 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1908 Score : 0.111111 Name : out_arr[res_indexer] Diff :    4 Equal :    1
+Function :                           diff Line : 1948 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1944 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1943 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1942 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1940 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1939 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1938 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1932 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1930 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1929 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1928 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1926 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1925 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1913 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1912 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1910 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1909 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1908 Score : 0.111111 Name :         out_arr Diff :    4 Equal :    1
+Function :                           diff Line : 1920 Score :    1.0 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1920 Score :    1.0 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1963 Score : 0.166667 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1919 Score : 0.166667 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1963 Score : 0.166667 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1919 Score : 0.166667 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1948 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1944 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1943 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1942 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1940 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1939 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1938 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1932 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1930 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1929 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1928 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1926 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1925 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1913 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1912 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1910 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1909 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1908 Score : 0.111111 Name :     res_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1948 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1944 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1943 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1942 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1940 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1939 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1938 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1932 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1930 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1929 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1928 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1926 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1925 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1913 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1912 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1910 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1909 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 1908 Score : 0.111111 Name :     lag_indexer Diff :    0 Equal :    5
+Function :                           diff Line : 2478 Score : 0.111111 Name :            self Diff :    0 Equal :    8
+Function :                           diff Line : 2478 Score : 0.111111 Name :         periods Diff :    0 Equal :    8
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  1.54 seconds
+
+[36m[[[pandas-152]]][0m
+[[ SBFL ]]
+Function :                         append Line : 2733 Score : 0.6667 Count :   1
+Function :                         append Line : 2732 Score : 0.1667 Count :   2
+Function :                         append Line : 2730 Score : 0.1667 Count :   3
+Function :                         append Line : 2737 Score : 0.0909 Count :   4
+Function :                         append Line : 2736 Score : 0.0909 Count :   5
+[[ START TYPE DIFF ]]
+Function :                         append Line : 2733 Score : 0.666667 Name :       to_append Diff :    1 Equal :    0
+Function :                         append Line : 2732 Score : 0.166667 Name :       to_append Diff :    1 Equal :    0
+Function :                         append Line : 2730 Score : 0.166667 Name :       to_append Diff :    1 Equal :    0
+[[ START FUNC DIFF ]]
+Function :                         append Line :  1st Name :               0 Diff :      3 Equal :      0
+[[ START ERROR ANAL ]]
+Function :                         append Name :   ['to_append'] Diff :    1.0 Equal :      0 Types :                                 ['List']
+[[ START FUNC ANAL ]]
+Function :                         append Name :       to_append Diff :    1.0 Equal :    0.0 Types :                ('(list, tuple)', 'List')
+Function :                         append Name :    ignore_index Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                         append Name : verify_integrity Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                         append Name :       to_append Diff :    0.5 Equal :    0.5 Types :                ('(list, tuple)', 'List')
+[[ END FUNC ANAL ]]
+Function :                         append Name :   ['to_concat'] Diff :      0 Equal :      0 Types :                        ['List', 'Tuple']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                         append Line : 2733 Score : 0.666667 Name :            self Diff :    0 Equal :    1
+Function :                         append Line : 2732 Score : 0.166667 Name :            self Diff :    0 Equal :    1
+Function :                         append Line : 2730 Score : 0.166667 Name :            self Diff :    0 Equal :    1
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.45 seconds
+
+PASSED :  0 / 7
+[36m[[[scrapy-1]]][0m
+[[ SBFL ]]
+Function :                 get_host_regex Line :   57 Score :    0.4 Count :   1
+Function :                 get_host_regex Line :   56 Score :    0.4 Count :   2
+Function :                 get_host_regex Line :   59 Score : 0.3077 Count :   3
+Function :                 get_host_regex Line :   58 Score :   0.25 Count :   4
+Function :                  spider_opened Line :   68 Score : 0.1818 Count :   5
+Function :                 get_host_regex Line :   54 Score : 0.1667 Count :   6
+Function :                 get_host_regex Line :   53 Score : 0.1667 Count :   7
+[[ START TYPE DIFF ]]
+Function :                 get_host_regex Line :   57 Score :    0.4 Name :          domain Diff :    9 Equal :    0
+Function :                 get_host_regex Line :   56 Score :    0.4 Name :          domain Diff :    9 Equal :    0
+Function :                 get_host_regex Line :   59 Score : 0.307692 Name :          domain Diff :    9 Equal :    0
+Function :                 get_host_regex Line :   58 Score :   0.25 Name :          domain Diff :    9 Equal :    0
+Function :                 get_host_regex Line :   54 Score : 0.166667 Name :          domain Diff :    9 Equal :    0
+Function :                 get_host_regex Line :   53 Score : 0.166667 Name :          domain Diff :    9 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :                 get_host_regex Name :          spider Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  spider_opened Name :          spider Diff :    0.0 Equal :    0.0 Types :                                       ()
+[[ END FUNC ANAL ]]
+Function :                  spider_opened Name : ['self.host_regex'] Diff :      0 Equal :      0 Types :                ['scrapy.spiders.Spider']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                 get_host_regex Line :   57 Score :    0.4 Name :     url_pattern Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   56 Score :    0.4 Name :     url_pattern Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   57 Score :    0.4 Name : url_pattern.match Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   56 Score :    0.4 Name : url_pattern.match Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   59 Score : 0.307692 Name :     url_pattern Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   59 Score : 0.307692 Name : url_pattern.match Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   58 Score :   0.25 Name :     url_pattern Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   58 Score :   0.25 Name : url_pattern.match Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   54 Score : 0.166667 Name :     url_pattern Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   53 Score : 0.166667 Name :     url_pattern Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   54 Score : 0.166667 Name : url_pattern.match Diff :    0 Equal :    9
+Function :                 get_host_regex Line :   53 Score : 0.166667 Name : url_pattern.match Diff :    0 Equal :    9
+Function :                  spider_opened Line :   68 Score : 0.181818 Name :            self Diff :    0 Equal :    9
+Function :                  spider_opened Line :   68 Score : 0.181818 Name :          spider Diff :    0 Equal :    9
+Function :                  spider_opened Line :   68 Score : 0.181818 Name : self.get_host_regex Diff :    0 Equal :    9
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.13 seconds
+
+[36m[[[scrapy-2]]][0m
+[[ SBFL ]]
+Function :                    __setitem__ Line :  318 Score :    0.2 Count :   1
+[[ START TYPE DIFF ]]
+Function :                    __setitem__ Line :  318 Score :    0.2 Name :      self.limit Diff :    4 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+Function :                    __setitem__ Name :  ['self.limit'] Diff :    1.0 Equal :      0 Types :                                  ['int']
+[[ START FUNC ANAL ]]
+Function :                    __setitem__ Name :             key Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    __setitem__ Name :           value Diff :    0.0 Equal :    0.0 Types :                                       ()
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                    __setitem__ Line :  318 Score :    0.2 Name :            self Diff :    0 Equal :    4
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.05 seconds
+
+[36m[[[scrapy-17]]][0m
+[[ SBFL ]]
+Function :                     to_unicode Line :  104 Score :    1.0 Count :   1
+Function :                     to_unicode Line :  103 Score :    1.0 Count :   2
+Function :        response_status_message Line :   57 Score :    1.0 Count :   3
+Function :                     to_unicode Line :  102 Score : 0.1765 Count :   4
+Function :                  to_native_str Line :  129 Score :  0.125 Count :   5
+Function :                  to_native_str Line :  126 Score :  0.125 Count :   6
+Function :                     to_unicode Line :  107 Score :  0.125 Count :   7
+Function :                     to_unicode Line :  106 Score :  0.125 Count :   8
+Function :                     to_unicode Line :  105 Score :  0.125 Count :   9
+Function :                     to_unicode Line :  100 Score :  0.125 Count :  10
+[[ START TYPE DIFF ]]
+Function :                  to_native_str Line :  129 Score :  0.125 Name :            text Diff :   21 Equal :    0
+Function :                  to_native_str Line :  126 Score :  0.125 Name :            text Diff :   21 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :                     to_unicode Name :            text Diff : 2.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :            text Diff : 0.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :            text Diff : 0.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :          errors Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  to_native_str Name :            text Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  to_native_str Name :            text Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  to_native_str Name :            text Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  to_native_str Name :        encoding Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  to_native_str Name :        encoding Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                  to_native_str Name :          errors Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :        response_status_message Name :          status Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                     to_unicode Name :        encoding Diff :    0.5 Equal :    0.5 Types :                          ('None', 'str')
+Function :                     to_unicode Name :        encoding Diff :    2.5 Equal :    2.5 Types :                          ('None', 'str')
+[[ END FUNC ANAL ]]
+Function :                     to_unicode Name : ['type(text).__name__'] Diff :      0 Equal :      0 Types :                                  ['str']
+Function :        response_status_message Name :              [] Diff :     -1 Equal :      1 Types :                                       []
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                     to_unicode Line :  103 Score :    1.0 Name :            text Diff :    0 Equal :    0
+Function :        response_status_message Line :   57 Score :    1.0 Name :          status Diff :    0 Equal :    0
+Function :                     to_unicode Line :  102 Score : 0.176471 Name :            text Diff :    0 Equal :    0
+Function :                     to_unicode Line :  100 Score :  0.125 Name :            text Diff :    0 Equal :    0
+Function :                  to_native_str Line :  129 Score :  0.125 Name :        encoding Diff :    7 Equal :   14
+Function :                  to_native_str Line :  126 Score :  0.125 Name :        encoding Diff :    7 Equal :   14
+Function :                  to_native_str Line :  129 Score :  0.125 Name :          errors Diff :    0 Equal :   21
+Function :                  to_native_str Line :  126 Score :  0.125 Name :          errors Diff :    0 Equal :   21
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.13 seconds
+
+[36m[[[scrapy-29]]][0m
+[[ SBFL ]]
+Function :                       to_bytes Line :  117 Score :    1.0 Count :   1
+Function :                       to_bytes Line :  116 Score :    1.0 Count :   2
+Function :               request_httprepr Line :   82 Score :   0.25 Count :   3
+Function :               request_httprepr Line :   81 Score :   0.25 Count :   4
+Function :               request_httprepr Line :   80 Score :   0.25 Count :   5
+Function :               request_httprepr Line :   79 Score :   0.25 Count :   6
+Function :                       to_bytes Line :  115 Score : 0.0577 Count :   7
+Function :                       to_bytes Line :  113 Score : 0.0545 Count :   8
+Function :                       to_bytes Line :  120 Score : 0.0392 Count :   9
+Function :                       to_bytes Line :  119 Score : 0.0392 Count :  10
+Function :                       to_bytes Line :  118 Score : 0.0392 Count :  11
+[[ START TYPE DIFF ]]
+Function :               request_httprepr Line :   82 Score :   0.25 Name : parsed.hostname Diff :    3 Equal :    0
+Function :               request_httprepr Line :   81 Score :   0.25 Name : parsed.hostname Diff :    3 Equal :    0
+Function :               request_httprepr Line :   80 Score :   0.25 Name : parsed.hostname Diff :    3 Equal :    0
+Function :               request_httprepr Line :   79 Score :   0.25 Name : parsed.hostname Diff :    3 Equal :    0
+[[ START FUNC DIFF ]]
+[[ START ERROR ANAL ]]
+Function :               request_httprepr Name : ['parsed.hostname'] Diff :    1.0 Equal :      0 Types :                                ['bytes']
+[[ START FUNC ANAL ]]
+Function :                       to_bytes Name :            text Diff :    2.0 Equal :    0.0 Types :            ('bytes', 'six.string_types')
+Function :                       to_bytes Name :            text Diff :    1.0 Equal :    0.0 Types :            ('bytes', 'six.string_types')
+Function :                       to_bytes Name :          errors Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :               request_httprepr Name :         request Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                       to_bytes Name :        encoding Diff :    1.5 Equal :    1.5 Types :                          ('None', 'str')
+[[ END FUNC ANAL ]]
+Function :                       to_bytes Name : ['type(text).__name__'] Diff :      0 Equal :      0 Types :                                  ['str']
+Function :               request_httprepr Name :           ['s'] Diff :    0.5 Equal :    0.5 Types :                        ['bytes', 'None']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                       to_bytes Line :  116 Score :    1.0 Name :            text Diff :    0 Equal :    0
+Function :                       to_bytes Line :  115 Score : 0.057692 Name :            text Diff :    0 Equal :    0
+Function :                       to_bytes Line :  113 Score : 0.054545 Name :            text Diff :    0 Equal :    0
+Function :               request_httprepr Line :   82 Score :   0.25 Name :          parsed Diff :    0 Equal :    3
+Function :               request_httprepr Line :   81 Score :   0.25 Name :          parsed Diff :    0 Equal :    3
+Function :               request_httprepr Line :   80 Score :   0.25 Name :          parsed Diff :    0 Equal :    3
+Function :               request_httprepr Line :   79 Score :   0.25 Name :          parsed Diff :    0 Equal :    3
+Function :               request_httprepr Line :   82 Score :   0.25 Name :               s Diff :    0 Equal :    3
+Function :               request_httprepr Line :   81 Score :   0.25 Name :               s Diff :    0 Equal :    3
+Function :               request_httprepr Line :   80 Score :   0.25 Name :               s Diff :    0 Equal :    3
+Function :               request_httprepr Line :   79 Score :   0.25 Name :               s Diff :    0 Equal :    3
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.08 seconds
+
+[36m[[[scrapy-40]]][0m
+[[ SBFL ]]
+Function :                     to_unicode Line :  104 Score :    0.8 Count :   1
+Function :                     to_unicode Line :  103 Score :    0.8 Count :   2
+Function :                    export_item Line :  287 Score : 0.2857 Count :   3
+Function :               _serialize_value Line :  279 Score :   0.16 Count :   4
+Function :               _serialize_value Line :  276 Score : 0.1379 Count :   5
+Function :                serialize_field Line :  267 Score : 0.1333 Count :   6
+Function :                serialize_field Line :  266 Score : 0.1333 Count :   7
+Function :               _serialize_value Line :  274 Score : 0.1212 Count :   8
+Function :               _serialize_value Line :  272 Score : 0.1143 Count :   9
+Function :               _serialize_value Line :  270 Score : 0.1026 Count :  10
+Function :                     to_unicode Line :  102 Score : 0.1026 Count :  11
+Function :         _get_serialized_fields Line :   65 Score :  0.093 Count :  12
+Function :         _get_serialized_fields Line :   62 Score : 0.0889 Count :  13
+Function :         _get_serialized_fields Line :   60 Score :  0.069 Count :  14
+Function :         _get_serialized_fields Line :   61 Score : 0.0548 Count :  15
+Function :         _get_serialized_fields Line :   59 Score : 0.0548 Count :  16
+Function :                     to_unicode Line :  100 Score : 0.0331 Count :  17
+Function :         _get_serialized_fields Line :   75 Score : 0.0331 Count :  18
+Function :         _get_serialized_fields Line :   74 Score : 0.0331 Count :  19
+Function :         _get_serialized_fields Line :   73 Score : 0.0331 Count :  20
+Function :         _get_serialized_fields Line :   72 Score : 0.0211 Count :  21
+[[ START TYPE DIFF ]]
+Function :         _get_serialized_fields Line :   65 Score : 0.093023 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   62 Score : 0.088889 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   60 Score : 0.068966 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   61 Score : 0.054795 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   59 Score : 0.054795 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   75 Score : 0.033058 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   74 Score : 0.033058 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   73 Score : 0.033058 Name : item[field_name] Diff :  468 Equal :    0
+Function :         _get_serialized_fields Line :   72 Score : 0.021053 Name : item[field_name] Diff :  468 Equal :    0
+Function :                serialize_field Line :  267 Score : 0.133333 Name :           value Diff :  104 Equal :    0
+Function :                serialize_field Line :  266 Score : 0.133333 Name :           value Diff :  104 Equal :    0
+Function :               _serialize_value Line :  279 Score :   0.16 Name :           value Diff :   84 Equal :    0
+Function :               _serialize_value Line :  276 Score : 0.137931 Name :           value Diff :   84 Equal :    0
+Function :               _serialize_value Line :  274 Score : 0.121212 Name :           value Diff :   84 Equal :    0
+Function :               _serialize_value Line :  272 Score : 0.114286 Name :           value Diff :   84 Equal :    0
+Function :               _serialize_value Line :  270 Score : 0.102564 Name :           value Diff :   84 Equal :    0
+Function :                     to_unicode Line :  103 Score :    0.8 Name :            text Diff :    8 Equal :    0
+Function :                     to_unicode Line :  102 Score : 0.102564 Name :            text Diff :    8 Equal :    0
+Function :                     to_unicode Line :  100 Score : 0.033058 Name :            text Diff :    8 Equal :    0
+[[ START FUNC DIFF ]]
+Function :               _serialize_value Line :  1st Name :               0 Diff :      8 Equal :      0
+Function :                serialize_field Line :  1st Name :               2 Diff :      6 Equal :      0
+Function :                     to_unicode Line :  1st Name :               0 Diff :      4 Equal :      0
+[[ START ERROR ANAL ]]
+Function :         _get_serialized_fields Name :        ['item'] Diff :   64.0 Equal :      0 Types :          ['Set', 'str', 'Tuple', 'List']
+[[ START FUNC ANAL ]]
+Function :               _serialize_value Name :           value Diff :    1.0 Equal :    0.0 Types :                     ('BaseItem', 'Dict')
+Function :               _serialize_value Name :           value Diff :    1.0 Equal :    0.0 Types :                     ('BaseItem', 'Dict')
+Function :               _serialize_value Name :           value Diff :    1.0 Equal :    0.0 Types :                     ('BaseItem', 'Dict')
+Function :               _serialize_value Name :           value Diff :    1.0 Equal :    0.0 Types :                     ('BaseItem', 'Dict')
+Function :                     to_unicode Name :            text Diff : 0.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :            text Diff : 0.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :            text Diff : 0.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :            text Diff : 0.6667 Equal :    0.0 Types :              ('(bytes, six.text_type)',)
+Function :                     to_unicode Name :          errors Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                serialize_field Name :           field Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                serialize_field Name :            name Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                serialize_field Name :           value Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                serialize_field Name :           value Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                serialize_field Name :           value Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                serialize_field Name :           value Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :         _get_serialized_fields Name :   default_value Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :                    export_item Name :            item Diff :    0.0 Equal :    0.0 Types :                                       ()
+Function :         _get_serialized_fields Name :            item Diff :    0.0 Equal : 1.1429 Types :                                ('Dict',)
+Function :                     to_unicode Name :        encoding Diff :    2.0 Equal :    2.0 Types :                          ('None', 'str')
+Function :         _get_serialized_fields Name :   include_empty Diff :    2.0 Equal :    2.0 Types :                         ('None', 'bool')
+[[ END FUNC ANAL ]]
+Function :         _get_serialized_fields Name :       ['value'] Diff :      0 Equal :      0 Types : ['Dict', 'str', 'float', 'int', 'datetime.datetime', 'bool']
+Function :                    export_item Name :      ['result'] Diff :      0 Equal :      0 Types :                                 ['Dict']
+Function :                     to_unicode Name : ['type(text).__name__'] Diff :      0 Equal :      0 Types :                                  ['str']
+Function :         _get_serialized_fields Name :  ['field_name'] Diff :    3.2 Equal :    0.8 Types :  ['Dict', 'Set', 'str', 'Tuple', 'List']
+Function :         _get_serialized_fields Name :  ['field_name'] Diff :    3.2 Equal :    0.8 Types :  ['Dict', 'Set', 'str', 'Tuple', 'List']
+Function :         _get_serialized_fields Name :       ['field'] Diff :      0 Equal :    4.0 Types :                                 ['Dict']
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                    export_item Line :  287 Score : 0.285714 Name :            item Diff :   36 Equal :    4
+Function :                    export_item Line :  287 Score : 0.285714 Name :            self Diff :    0 Equal :   10
+Function :                    export_item Line :  287 Score : 0.285714 Name : self._get_serialized_fields Diff :    0 Equal :   10
+Function :               _serialize_value Line :  279 Score :   0.16 Name :            self Diff :    0 Equal :   21
+Function :               _serialize_value Line :  279 Score :   0.16 Name :   self.encoding Diff :    0 Equal :   21
+Function :               _serialize_value Line :  276 Score : 0.137931 Name :            self Diff :    0 Equal :   21
+Function :               _serialize_value Line :  276 Score : 0.137931 Name :   self.encoding Diff :    0 Equal :   21
+Function :               _serialize_value Line :  274 Score : 0.121212 Name :            self Diff :    0 Equal :   21
+Function :               _serialize_value Line :  274 Score : 0.121212 Name :   self.encoding Diff :    0 Equal :   21
+Function :               _serialize_value Line :  272 Score : 0.114286 Name :            self Diff :    0 Equal :   21
+Function :               _serialize_value Line :  272 Score : 0.114286 Name :   self.encoding Diff :    0 Equal :   21
+Function :               _serialize_value Line :  270 Score : 0.102564 Name :            self Diff :    0 Equal :   21
+Function :               _serialize_value Line :  270 Score : 0.102564 Name :   self.encoding Diff :    0 Equal :   21
+Function :         _get_serialized_fields Line :   65 Score : 0.093023 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   62 Score : 0.088889 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   60 Score : 0.068966 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   61 Score : 0.054795 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   59 Score : 0.054795 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   75 Score : 0.033058 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   74 Score : 0.033058 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   73 Score : 0.033058 Name :            self Diff :   95 Equal :   22
+Function :         _get_serialized_fields Line :   72 Score : 0.021053 Name :            self Diff :   95 Equal :   22
+Function :                serialize_field Line :  267 Score : 0.133333 Name :      serializer Diff :    1 Equal :   25
+Function :                serialize_field Line :  266 Score : 0.133333 Name :      serializer Diff :    1 Equal :   25
+Function :         _get_serialized_fields Line :   65 Score : 0.093023 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   62 Score : 0.088889 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   60 Score : 0.068966 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   61 Score : 0.054795 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   59 Score : 0.054795 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   75 Score : 0.033058 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   74 Score : 0.033058 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   73 Score : 0.033058 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   72 Score : 0.021053 Name :           field Diff :   82 Equal :   35
+Function :         _get_serialized_fields Line :   65 Score : 0.093023 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   65 Score : 0.093023 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   62 Score : 0.088889 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   62 Score : 0.088889 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   60 Score : 0.068966 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   60 Score : 0.068966 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   61 Score : 0.054795 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   59 Score : 0.054795 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   61 Score : 0.054795 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   59 Score : 0.054795 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   75 Score : 0.033058 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   74 Score : 0.033058 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   73 Score : 0.033058 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   75 Score : 0.033058 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   74 Score : 0.033058 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   73 Score : 0.033058 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   72 Score : 0.021053 Name :      field_name Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   72 Score : 0.021053 Name : self.serialize_field Diff :    0 Equal :  117
+Function :         _get_serialized_fields Line :   65 Score : 0.093023 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   62 Score : 0.088889 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   60 Score : 0.068966 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   61 Score : 0.054795 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   59 Score : 0.054795 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   75 Score : 0.033058 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   74 Score : 0.033058 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   73 Score : 0.033058 Name :            item Diff :  328 Equal :  140
+Function :         _get_serialized_fields Line :   72 Score : 0.021053 Name :            item Diff :  328 Equal :  140
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.64 seconds
+
+PASSED :  0 / 5
+PASSED :  0 / 0
+[36m[[[tornado-9]]][0m
+[[ SBFL ]]
+Function :                     url_concat Line :  616 Score :    1.0 Count :   1
+Function :                     url_concat Line :  615 Score :    1.0 Count :   2
+Function :                     url_concat Line :  614 Score :    1.0 Count :   3
+Function :                     url_concat Line :  610 Score : 0.0909 Count :   4
+Function :                     url_concat Line :  607 Score : 0.0833 Count :   5
+Function :                     url_concat Line :  606 Score : 0.0833 Count :   6
+[[ START TYPE DIFF ]]
+[[ START FUNC DIFF ]]
+Function :                     url_concat Line :  1st Name :               1 Diff :      3 Equal :      0
+[[ START ERROR ANAL ]]
+[[ START FUNC ANAL ]]
+Function :                     url_concat Name :            args Diff :    1.0 Equal :    0.0 Types :                ('Dict', 'List', 'Tuple')
+Function :                     url_concat Name :             url Diff :    0.0 Equal :    0.0 Types :                                       ()
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+Function :                     url_concat Line :  616 Score :    1.0 Name :             err Diff :    0 Equal :    0
+Function :                     url_concat Line :  615 Score :    1.0 Name :             err Diff :    0 Equal :    0
+Function :                     url_concat Line :  614 Score :    1.0 Name :             err Diff :    0 Equal :    0
+Function :                     url_concat Line :  610 Score : 0.090909 Name :             err Diff :    0 Equal :    0
+Function :                     url_concat Line :  607 Score : 0.083333 Name :             err Diff :    0 Equal :    0
+Function :                     url_concat Line :  606 Score : 0.083333 Name :             err Diff :    0 Equal :    0
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.09 seconds
+
+PASSED :  0 / 1
+PASSED :  0 / 0
+[36m[[[youtubedl-11]]][0m
+[[ SBFL ]]
+Function :                     str_to_int Line : 3524 Score : 0.1667 Count :   1
+Function :                     str_to_int Line : 3522 Score : 0.1667 Count :   2
+[[ START TYPE DIFF ]]
+Function :                     str_to_int Line : 3524 Score : 0.166667 Name :         int_str Diff :    5 Equal :    0
+Function :                     str_to_int Line : 3522 Score : 0.166667 Name :         int_str Diff :    5 Equal :    0
+[[ START FUNC DIFF ]]
+Function :                     str_to_int Line :  1st Name :               0 Diff :      1 Equal :      0
+[[ START ERROR ANAL ]]
+Function :                     str_to_int Name :     ['int_str'] Diff : 0.6667 Equal :      0 Types :                                  ['str']
+[[ START FUNC ANAL ]]
+Function :                     str_to_int Name :         int_str Diff :    1.0 Equal :    0.0 Types :                                ('None',)
+[[ END FUNC ANAL ]]
+[[ END ERROR ANAL ]]
+[[ END FUNC DIFF ]]
+[[ END TYPE DIFF ]]
+[31mFAILED...[0m
+Time :  0.63 seconds
+
+PASSED :  0 / 1
+Total :  0 / 18

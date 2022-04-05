@@ -1,0 +1,218 @@
+PASSED :  0 / 0
+PASSED :  0 / 0
+[36m[[[keras-39]]][0m
+[[[ Node ]]]
+if not force and now - self.last_update < self.interval and (current < (0 if isinstance(self.target, type(None)) else self.target)):
+    return
+[32mPASSED![0m
+Time :  15.37 seconds
+
+PASSED :  1 / 1
+[36m[[[luigi-4]]][0m
+[[[ Node ]]]
+if self.columns and len(self.columns) > 0:
+    colnames = ','.join([x[0] for x in self.columns])
+    colnames = '({})'.format(colnames)
+[32mPASSED![0m
+Time :  3.08 seconds
+
+[36m[[[luigi-25]]][0m
+[[[ Node ]]]
+path = self.s3_load_path
+[32mPASSED![0m
+Time :  2.98 seconds
+
+[36m[[[luigi-26]]][0m
+[[[ Node ]]]
+if not job.jar() or not os.path.exists(job.jar()):
+    if not isinstance(job.jar(), type(None)):
+        logger.error("Can't find jar: %s, full path %s", job.jar(), os.path.abspath(job.jar()))
+    raise HadoopJarJobError('job jar does not exist')
+[32mPASSED![0m
+Time :  29.57 seconds
+
+PASSED :  3 / 3
+PASSED :  0 / 0
+[36m[[[pandas-30]]][0m
+[[[ Node ]]]
+try:
+    new_data = to_datetime(new_data, errors='raise', unit=date_unit)
+except (ValueError, OverflowError):
+    continue
+except TypeError:
+    continue
+[32mPASSED![0m
+Time :  10.67 seconds
+
+[36m[[[pandas-48]]][0m
+[[[ Node ]]]
+try:
+    result = type(block.values)._from_sequence(result.ravel(), dtype=block.values.dtype)
+except ValueError:
+    result = result.reshape(1, -1)
+except TypeError:
+    result = result.reshape(1, -1)
+[32mPASSED![0m
+Time :  68.48 seconds
+
+[36m[[[pandas-49]]][0m
+[[[ Node ]]]
+def rep(x, r):
+    import pandas
+    if isinstance(x, pandas._libs.missing.NAType):
+        return x
+    try:
+        return bytes.__mul__(x, r)
+    except TypeError:
+        return str.__mul__(x, r)
+[32mPASSED![0m
+Time :  18.95 seconds
+
+[36m[[[pandas-106]]][0m
+[[[ Node ]]]
+@Appender(_index_shared_docs['get_indexer_non_unique'] % _index_doc_kwargs)
+def get_indexer_non_unique(self, target):
+    target = ensure_index(target)
+    (pself, ptarget) = self._maybe_promote(target)
+    if pself is not self or ptarget is not target:
+        return pself.get_indexer_non_unique(ptarget)
+    if is_categorical(target):
+        tgt_values = np.asarray(target)
+    elif self.is_all_dates:
+        tgt_values = target.asi8
+    else:
+        tgt_values = target._ndarray_values
+    if isinstance(tgt_values, type(None)):
+        tgt_values = target._ndarray_values
+    (indexer, missing) = self._engine.get_indexer_non_unique(tgt_values)
+    return (ensure_platform_int(indexer), missing)
+[32mPASSED![0m
+Time :  1106.38 seconds
+
+[36m[[[pandas-138]]][0m
+Timeout!
+Time :  3602.01 seconds
+
+[36m[[[pandas-142]]][0m
+[[[ Node ]]]
+if is_timedelta:
+    res = arr[res_indexer]
+    lag = arr[lag_indexer]
+    mask = (arr[res_indexer] == na) | (arr[lag_indexer] == na)
+    if mask.any():
+        res = res.copy()
+        res[mask] = 0
+        lag = lag.copy()
+        lag[mask] = 0
+    result = res - lag
+    result[mask] = na
+    out_arr[res_indexer] = result
+else:
+    import numpy
+    if isinstance(arr, numpy.ndarray) and arr.dtype.type is numpy.bool_:
+        out_arr[res_indexer] = arr[res_indexer] ^ arr[lag_indexer]
+    else:
+        out_arr[res_indexer] = arr[res_indexer] - arr[lag_indexer]
+[32mPASSED![0m
+Time :  36.76 seconds
+
+[36m[[[pandas-152]]][0m
+[[[ Node ]]]
+to_concat = [self] + list(to_append)
+[32mPASSED![0m
+Time :  7.48 seconds
+
+PASSED :  6 / 7
+[36m[[[scrapy-1]]][0m
+[[[ Node ]]]
+if url_pattern.match:
+    message = 'allowed_domains accepts only domains, not URLs. Ignoring URL entry %s in allowed_domains.' % domain
+    warnings.warn(message, URLWarning)
+[32mPASSED![0m
+Time :  2.85 seconds
+
+[36m[[[scrapy-2]]][0m
+[[[ Node ]]]
+def __setitem__(self, key, value):
+    if not isinstance(self.limit, type(None)):
+        while len(self) >= self.limit:
+            self.popitem(last=False)
+    super(LocalCache, self).__setitem__(key, value)
+[32mPASSED![0m
+Time :  2.82 seconds
+
+[36m[[[scrapy-17]]][0m
+[31mFAILED...[0m
+Time :  84.91 seconds
+
+[36m[[[scrapy-29]]][0m
+[[[ Node ]]]
+def request_httprepr(request):
+    """Return the raw HTTP representation (as bytes) of the given request.
+    This is provided only for reference since it's not the actual stream of
+    bytes that will be send when performing the request (that's controlled
+    by Twisted).
+    """
+    parsed = urlparse_cached(request)
+    path = urlunparse(('', '', parsed.path or '/', parsed.params, parsed.query, ''))
+    s = to_bytes(request.method) + b' ' + to_bytes(path) + b' HTTP/1.1\r\n'
+    if not isinstance(parsed.hostname, type(None)):
+        s += b'Host: ' + to_bytes(parsed.hostname) + b'\r\n'
+    if request.headers:
+        s += request.headers.to_string() + b'\r\n'
+    s += b'\r\n'
+    s += request.body
+    return s
+[32mPASSED![0m
+Time :  34.19 seconds
+
+[36m[[[scrapy-40]]][0m
+[[[ Node ]]]
+def to_unicode(text, encoding=None, errors='strict'):
+    """Return the unicode representation of a bytes object `text`. If `text`
+    is already an unicode object, return it as-is."""
+    if isinstance(text, six.text_type):
+        return text
+    try:
+        if not isinstance(text, (bytes, six.text_type)):
+            raise TypeError('to_unicode must receive a bytes, str or unicode object, got %s' % type(text).__name__)
+    except TypeError:
+        return text
+    if encoding is None:
+        encoding = 'utf-8'
+    return text.decode(encoding, errors)
+[32mPASSED![0m
+Time :  139.25 seconds
+
+PASSED :  4 / 5
+PASSED :  0 / 0
+[36m[[[tornado-9]]][0m
+[[[ Node ]]]
+if isinstance(args, list) or isinstance(args, tuple):
+    parsed_query = parse_qsl(parsed_url.query, keep_blank_values=True)
+    parsed_query.extend(args)
+else:
+    err = "'args' parameter should be dict, list or tuple. Not {0}".format(type(args))
+    if isinstance(err, str):
+        return url
+    raise TypeError(err)
+[32mPASSED![0m
+Time :  1.51 seconds
+
+PASSED :  1 / 1
+PASSED :  0 / 0
+[36m[[[youtubedl-11]]][0m
+[[[ Node ]]]
+def str_to_int(int_str):
+    """ A more relaxed version of int_or_none """
+    if int_str is None:
+        return None
+    if isinstance(int_str, int):
+        return int(int_str)
+    int_str = re.sub('[,\\.\\+]', '', int_str)
+    return int(int_str)
+[32mPASSED![0m
+Time :  5.97 seconds
+
+PASSED :  1 / 1
+Total :  16 / 18

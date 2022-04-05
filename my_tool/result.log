@@ -1,0 +1,1254 @@
+[36m[[[airflow-3831]]][0m
+[[[ Node ]]]
+if len(path_components) < 2:
+    raise Exception('Invalid Google Cloud Storage (GCS) object path: {}.'.format(file_name))
+[32mPASSED![0m
+Time :  8.15 seconds
+
+[36m[[[airflow-4674]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    works.work()
+  File "/home/wonseok/pyfix/my_tool/work.py", line 539, in work
+    neg_file_node = self.files[neg_filename]
+'/home/wonseok/benchmark/airflow-4674/tests/test_configuration.py'
+Time :  1.57 seconds
+
+[36m[[[airflow-5686]]][0m
+[[[ Node ]]]
+if self.http_conn_id:
+    conn = self.get_connection(self.http_conn_id)
+    if conn.host and '://' in conn.host:
+        self.base_url = conn.host
+    else:
+        schema = conn.schema if conn.schema else 'http'
+        if conn.host and '://' in conn.host:
+            self.base_url = conn.host
+        else:
+            schema = conn.schema if conn.schema else 'http'
+            self.base_url = schema + '://' + ('' if isinstance(conn.host, type(None)) else conn.host)
+    if conn.port:
+        self.base_url = self.base_url + ':' + str(conn.port)
+    if conn.login:
+        session.auth = (conn.login, conn.password)
+    if conn.extra:
+        try:
+            session.headers.update(conn.extra_dejson)
+        except TypeError:
+            self.log.warn('Connection to %s has invalid extra field.', conn.host)
+[32mPASSED![0m
+Time :  10.06 seconds
+
+[36m[[[airflow-6036]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+[36m[[[airflow-8151]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+[36m[[[airflow-14513]]][0m
+[[[ Node ]]]
+while True:
+    logs = self.read_pod_logs(pod, timestamps=True, since_seconds=read_logs_since_sec)
+    for line in logs:
+        (timestamp, message) = self.parse_log_line(line.decode('utf-8'))
+        last_log_time = pendulum.parse(timestamp)
+        self.log.info(message)
+    time.sleep(1)
+    if not self.base_container_is_running(pod):
+        break
+    self.log.warning('Pod %s log read interrupted', pod.metadata.name)
+    if isinstance(last_log_time, type(None)):
+        continue
+    delta = pendulum.now() - last_log_time
+    read_logs_since_sec = math.ceil(delta.total_seconds())
+[32mPASSED![0m
+Time :  31.0 seconds
+
+[36m[[[airflow-14686]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+[36m[[[airflow-15395]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+PASSED :  3 / 8
+[36m[[[beets-3360]]][0m
+[[[ Node ]]]
+def uri(self, path):
+    if not isinstance(path, bytes):
+        return PurePosixPath(path).as_uri()
+[32mPASSED![0m
+Time :  1.89 seconds
+
+PASSED :  1 / 1
+PASSED :  0 / 0
+[36m[[[core-1972]]][0m
+[[[ Node ]]]
+check = condition.from_config(action)(self.hass, variables)
+[32mPASSED![0m
+Time :  20.55 seconds
+
+[36m[[[core-8065]]][0m
+[31mFAILED...[0m
+Time :  61.01 seconds
+
+[36m[[[core-20233]]][0m
+[[[ Node ]]]
+try:
+    variables['value_json'] = json.loads(value)
+except ValueError:
+    pass
+except TypeError:
+    pass
+[32mPASSED![0m
+Time :  3.53 seconds
+
+[36m[[[core-21734]]][0m
+[31mFAILED...[0m
+Time :  106.18 seconds
+
+[36m[[[core-29829]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+[36m[[[core-32222]]][0m
+[[[ Node ]]]
+if self.is_wired != self.client.is_wired:
+    if not self.wired_bug:
+        self.wired_bug = dt_util.utcnow()
+    since_last_seen = dt_util.utcnow() - self.wired_bug
+else:
+    self.wired_bug = None
+    if isinstance(self.client.last_seen, type(None)):
+        return False
+    since_last_seen = dt_util.utcnow() - dt_util.utc_from_timestamp(float(self.client.last_seen))
+[32mPASSED![0m
+Time :  23.71 seconds
+
+[36m[[[core-32318]]][0m
+[31mFAILED...[0m
+Time :  0.01 seconds
+
+[36m[[[core-38605]]][0m
+[31mFAILED...[0m
+Time :  87.94 seconds
+
+[36m[[[core-40034]]][0m
+[[[ Node ]]]
+while to_process:
+    config = to_process.popleft()
+    import homeassistant
+    if isinstance(config, homeassistant.helpers.template.Template):
+        continue
+    condition = config[CONF_CONDITION]
+    if condition in ('and', 'not', 'or'):
+        to_process.extend(config['conditions'])
+        continue
+    entity_ids = config.get(CONF_ENTITY_ID)
+    if isinstance(entity_ids, str):
+        entity_ids = [entity_ids]
+    if entity_ids is not None:
+        referenced.update(entity_ids)
+[[[ Node ]]]
+while to_process:
+    config = to_process.popleft()
+    import homeassistant
+    if isinstance(config, homeassistant.helpers.template.Template):
+        continue
+    condition = config[CONF_CONDITION]
+    if condition in ('and', 'not', 'or'):
+        to_process.extend(config['conditions'])
+        continue
+    if condition != 'device':
+        continue
+    device_id = config.get(CONF_DEVICE_ID)
+    if device_id is not None:
+        referenced.add(device_id)
+[32mPASSED![0m
+Time :  21.35 seconds
+
+PASSED :  4 / 9
+[36m[[[luigi-1836]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+PASSED :  0 / 1
+[36m[[[numpy-9999]]][0m
+[31mFAILED...[0m
+Time :  243.48 seconds
+
+[36m[[[numpy-10473]]][0m
+[[[ Node ]]]
+for k in range(0, m - n + 1):
+    d = scale * r[k]
+    q[k] = d
+    import numpy
+    if isinstance(r, numpy.ndarray) and r.dtype.type is numpy.float64:
+        r = numpy.complex128(r)
+    r[k:k + n + 1] -= d * v
+[32mPASSED![0m
+Time :  13.72 seconds
+
+[36m[[[numpy-19094]]][0m
+[[[ Node ]]]
+if hasattr(i, '__parameters__'):
+    import typing
+    if isinstance(i, typing._GenericAlias):
+        continue
+    value = i[next(parameters)]
+else:
+    value = i
+[32mPASSED![0m
+Time :  5.37 seconds
+
+PASSED :  2 / 3
+[36m[[[pandas-15941]]][0m
+[[[ Node ]]]
+def is_string_dtype(arr_or_dtype):
+    if isinstance(arr_or_dtype, type(None)):
+        return False
+    dtype = _get_dtype(arr_or_dtype)
+    return dtype.kind in ('O', 'S', 'U') and (not is_period_dtype(dtype))
+[[[ Node ]]]
+def is_timedelta64_ns_dtype(arr_or_dtype):
+    if isinstance(arr_or_dtype, type(None)):
+        return False
+    tipo = _get_dtype(arr_or_dtype)
+    return tipo == _TD_DTYPE
+[[[ Node ]]]
+def is_string_like_dtype(arr_or_dtype):
+    if isinstance(arr_or_dtype, type(None)):
+        return False
+    dtype = _get_dtype(arr_or_dtype)
+    return dtype.kind in ('S', 'U')
+[32mPASSED![0m
+Time :  20.09 seconds
+
+[36m[[[pandas-17430]]][0m
+[31mFAILED...[0m
+Time :  425.14 seconds
+
+[36m[[[pandas-17609]]][0m
+[[[ Node ]]]
+defaults = ('',) * n_wo_defaults + tuple(spec.defaults)
+[32mPASSED![0m
+Time :  3.48 seconds
+
+[36m[[[pandas-18831]]][0m
+Timeout!
+Time :  3600.01 seconds
+
+[36m[[[pandas-18849]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    works.work()
+  File "/home/wonseok/pyfix/my_tool/work.py", line 539, in work
+    neg_file_node = self.files[neg_filename]
+'/home/wonseok/benchmark/pandas-18849/pandas/tests/indexes/datetimes/test_arithmetic.py'
+Time :  0.3 seconds
+
+[36m[[[pandas-19013]]][0m
+[31mFAILED...[0m
+Time :  1072.77 seconds
+
+[36m[[[pandas-19276]]][0m
+[[[ Node ]]]
+def _assert_tzawareness_compat(self, other):
+    import pandas
+    if isinstance(other, pandas._libs.tslibs.nattype.NaTType):
+        return None
+    other_tz = getattr(other, 'tzinfo', None)
+    if is_datetime64tz_dtype(other):
+        other_tz = other.dtype.tz
+    if self.tz is None:
+        if other_tz is not None:
+            raise TypeError('Cannot compare tz-naive and tz-aware datetime-like objects.')
+    elif other_tz is None:
+        raise TypeError('Cannot compare tz-naive and tz-aware datetime-like objects')
+[32mPASSED![0m
+Time :  10.19 seconds
+
+[36m[[[pandas-20938]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    works.work()
+  File "/home/wonseok/pyfix/my_tool/work.py", line 539, in work
+    neg_file_node = self.files[neg_filename]
+'/home/wonseok/benchmark/pandas-20938/pandas/tests/io/test_excel.py'
+Time :  2.35 seconds
+
+[36m[[[pandas-20968]]][0m
+[[[ Node ]]]
+def boxplot_frame_groupby(grouped, subplots=True, column=None, fontsize=None, rot=0, grid=True, ax=None, figsize=None, layout=None, sharey=True, sharex=False, **kwds):
+    """
+    Make box plots from DataFrameGroupBy data.
+
+    Parameters
+    ----------
+    grouped : Grouped DataFrame
+    subplots :
+        * ``False`` - no subplots will be used
+        * ``True`` - create a subplot for each group
+    column : column name or list of names, or vector
+        Can be any valid input to groupby
+    fontsize : int or string
+    rot : label rotation angle
+    grid : Setting this to True will show the grid
+    ax : Matplotlib axis object, default None
+    figsize : A tuple (width, height) in inches
+    layout : tuple (optional)
+        (rows, columns) for the layout of the plot
+    `**kwds` : Keyword Arguments
+        All other plotting keyword arguments to be passed to
+        matplotlib's boxplot function
+
+    Returns
+    -------
+    dict of key/value = group key/DataFrame.boxplot return value
+    or DataFrame.boxplot return value in case subplots=figures=False
+
+    Examples
+    --------
+    >>> import pandas
+    >>> import numpy as np
+    >>> import itertools
+    >>>
+    >>> tuples = [t for t in itertools.product(range(1000), range(4))]
+    >>> index = pandas.MultiIndex.from_tuples(tuples, names=['lvl0', 'lvl1'])
+    >>> data = np.random.randn(len(index),4)
+    >>> df = pandas.DataFrame(data, columns=list('ABCD'), index=index)
+    >>>
+    >>> grouped = df.groupby(level='lvl1')
+    >>> boxplot_frame_groupby(grouped)
+    >>>
+    >>> grouped = df.unstack(level='lvl1').groupby(level=0, axis=1)
+    >>> boxplot_frame_groupby(grouped, subplots=False)
+    """
+    _raise_if_no_mpl()
+    _converter._WARN = False
+    if subplots is True:
+        naxes = len(grouped)
+        (fig, axes) = _subplots(naxes=naxes, squeeze=False, ax=ax, sharex=sharex, sharey=sharey, figsize=figsize, layout=layout)
+        axes = _flatten(axes)
+        from pandas.core.series import Series
+        ret = Series()
+        for ((key, group), ax) in zip(grouped, axes):
+            d = group.boxplot(ax=ax, column=column, fontsize=fontsize, rot=rot, grid=grid, **kwds)
+            ax.set_title(pprint_thing(key))
+            ret.loc[key] = d
+        fig.subplots_adjust(bottom=0.15, top=0.9, left=0.1, right=0.9, wspace=0.2)
+    else:
+        from pandas.core.reshape.concat import concat
+        (keys, frames) = zip(*grouped)
+        if grouped.axis == 0:
+            df = concat(frames, keys=keys, axis=1)
+        elif len(frames) > 1:
+            df = frames[0].join(frames[1:])
+        else:
+            df = frames[0]
+        ret = df.boxplot(column=column, fontsize=fontsize, rot=rot, grid=grid, ax=ax, figsize=figsize, layout=layout, **kwds)
+    return ret
+[32mPASSED![0m
+Time :  61.79 seconds
+
+[36m[[[pandas-21540]]][0m
+[[[ Node ]]]
+result.rename(columns=lambda x: record_prefix + str(x), inplace=True)
+[32mPASSED![0m
+Time :  97.6 seconds
+
+[36m[[[pandas-21590]]][0m
+[[[ Node ]]]
+if is_numeric_dtype(values) or is_timedelta64_dtype(values):
+    arr = operator.neg(values)
+else:
+    import numpy
+    if isinstance(values, numpy.ndarray) and values.dtype.type is numpy.object_:
+        arr = operator.neg(values)
+    else:
+        raise TypeError('Unary negative expects numeric dtype, not {}'.format(values.dtype))
+[[[ Node ]]]
+if is_numeric_dtype(values) or is_timedelta64_dtype(values):
+    arr = operator.pos(values)
+else:
+    import numpy
+    if isinstance(values, numpy.ndarray) and values.dtype.type is numpy.object_:
+        arr = operator.pos(values)
+    else:
+        raise TypeError('Unary plus expects numeric dtype, not {}'.format(values.dtype))
+[32mPASSED![0m
+Time :  2082.84 seconds
+
+[36m[[[pandas-22072]]][0m
+[[[ Node ]]]
+cat = Categorical(values, ordered=False)
+[32mPASSED![0m
+Time :  26.0 seconds
+
+[36m[[[pandas-22198]]][0m
+[[[ Node ]]]
+result[(locs == 0) & (where.values < self.values[first])] = -1
+[32mPASSED![0m
+Time :  36.69 seconds
+
+[36m[[[pandas-22378]]][0m
+[[[ Node ]]]
+if is_extension_array_dtype(left) or is_extension_array_dtype(right):
+    if not isinstance(right, str):
+        return dispatch_to_extension_op(op, left, right)
+elif is_datetime64_dtype(left) or is_datetime64tz_dtype(left):
+    result = dispatch_to_index_op(op, left, right, pd.DatetimeIndex)
+    return construct_result(left, result, index=left.index, name=res_name, dtype=result.dtype)
+elif is_timedelta64_dtype(left):
+    result = dispatch_to_index_op(op, left, right, pd.TimedeltaIndex)
+    return construct_result(left, result, index=left.index, name=res_name, dtype=result.dtype)
+[32mPASSED![0m
+Time :  514.67 seconds
+
+[36m[[[pandas-22804]]][0m
+[[[ Node ]]]
+def _recursive_extract(data, path, seen_meta, level=0):
+    if isinstance(data, dict):
+        data = [data]
+    if len(path) > 1:
+        for obj in data:
+            for (val, key) in zip(meta, meta_keys):
+                if level + 1 == len(val):
+                    seen_meta[key] = _pull_field(obj, val[-1])
+            _recursive_extract(obj[path[0]], path[1:], seen_meta, level=level + 1)
+    else:
+        for obj in data:
+            recs = _pull_field(obj, path[0])
+            lengths.append(len(recs))
+            for (val, key) in zip(meta, meta_keys):
+                if level + 1 > len(val):
+                    meta_val = seen_meta[key]
+                else:
+                    try:
+                        meta_val = _pull_field(obj, val[level:])
+                    except KeyError as e:
+                        if errors == 'ignore':
+                            meta_val = np.nan
+                        else:
+                            raise KeyError("Try running with errors='ignore' as key {err} is not always present".format(err=e))
+                meta_vals[key].append(meta_val)
+            records.extend(recs)
+[32mPASSED![0m
+Time :  109.31 seconds
+
+[36m[[[pandas-24572]]][0m
+Timeout!
+Time :  3600.03 seconds
+
+[36m[[[pandas-25533]]][0m
+[[[ Node ]]]
+try:
+    if takeable:
+        self._values[label] = value
+    else:
+        self.index._engine.set_value(self._values, label, value)
+except KeyError:
+    self.loc[label] = value
+except TypeError:
+    self.loc[label] = value
+[32mPASSED![0m
+Time :  4.72 seconds
+
+[36m[[[pandas-25759]]][0m
+[[[ Node ]]]
+if is_list_like_indexer(key):
+    arr = np.array(key)
+    len_axis = len(self.obj._get_axis(axis))
+    import numpy
+    if not (isinstance(arr, numpy.ndarray) and numpy.issubdtype(arr.dtype, numpy.number)):
+        raise IndexError('.iloc requires numeric indexers, got')
+    if len(arr) and (arr.max() >= len_axis or arr.min() < -len_axis):
+        raise IndexError('positional indexers are out-of-bounds')
+else:
+    raise ValueError('Can only index by location with a [{types}]'.format(types=self._valid_types))
+[32mPASSED![0m
+Time :  105.95 seconds
+
+[36m[[[pandas-26324]]][0m
+[31mFAILED...[0m
+Time :  0.03 seconds
+
+[36m[[[pandas-26765]]][0m
+[[[ Node ]]]
+try:
+    loc = cat.categories.get_loc(key)
+except KeyError:
+    return False
+except TypeError:
+    return False
+[32mPASSED![0m
+Time :  11.28 seconds
+
+[36m[[[pandas-28251]]][0m
+[[[ Node ]]]
+if is_timedelta:
+    res = arr[res_indexer]
+    lag = arr[lag_indexer]
+    mask = (arr[res_indexer] == na) | (arr[lag_indexer] == na)
+    if mask.any():
+        res = res.copy()
+        res[mask] = 0
+        lag = lag.copy()
+        lag[mask] = 0
+    result = res - lag
+    result[mask] = na
+    out_arr[res_indexer] = result
+else:
+    import numpy
+    if isinstance(arr, numpy.ndarray) and arr.dtype.type is numpy.bool_:
+        out_arr[res_indexer] = arr[res_indexer] ^ arr[lag_indexer]
+    else:
+        out_arr[res_indexer] = arr[res_indexer] - arr[lag_indexer]
+[32mPASSED![0m
+Time :  517.58 seconds
+
+[36m[[[pandas-28412]]][0m
+[[[ Node ]]]
+to_concat = [self] + list(to_append)
+[32mPASSED![0m
+Time :  34.0 seconds
+
+[36m[[[pandas-29103]]][0m
+[[[ Node ]]]
+def maybe_downcast_to_dtype(result, dtype):
+    """ try to cast to the specified dtype (e.g. convert back to bool/int
+    or could be an astype of float64->float32
+    """
+    do_round = False
+    if is_scalar(result):
+        return result
+    elif isinstance(result, ABCDataFrame):
+        return result
+    if isinstance(dtype, str):
+        if dtype == 'infer':
+            inferred_type = lib.infer_dtype(ensure_object(result.ravel()), skipna=False)
+            if inferred_type == 'boolean':
+                dtype = 'bool'
+            elif inferred_type == 'integer':
+                dtype = 'int64'
+            elif inferred_type == 'datetime64':
+                dtype = 'datetime64[ns]'
+            elif inferred_type == 'timedelta64':
+                dtype = 'timedelta64[ns]'
+            elif inferred_type == 'floating':
+                dtype = 'int64'
+                if issubclass(result.dtype.type, np.number):
+                    do_round = True
+            else:
+                dtype = 'object'
+        dtype = np.dtype(dtype)
+    import numpy
+    if isinstance(result, numpy.ndarray) and result.dtype.type is numpy.object_:
+        return result
+    converted = maybe_downcast_numeric(result, dtype, do_round)
+    if converted is not result:
+        return converted
+    if dtype.kind in ['M', 'm'] and result.dtype.kind in ['i', 'f']:
+        if hasattr(dtype, 'tz'):
+            if dtype.tz:
+                from pandas import to_datetime
+                result = to_datetime(result).tz_localize('utc')
+                result = result.tz_convert(dtype.tz)
+        else:
+            result = result.astype(dtype)
+    elif dtype.type is Period:
+        from pandas.core.arrays import PeriodArray
+        try:
+            return PeriodArray(result, freq=dtype.freq)
+        except TypeError:
+            pass
+    return result
+[32mPASSED![0m
+Time :  5.16 seconds
+
+[36m[[[pandas-30225]]][0m
+[31mFAILED...[0m
+Time :  1940.75 seconds
+
+[36m[[[pandas-30532]]][0m
+[31mFAILED...[0m
+Time :  1391.87 seconds
+
+[36m[[[pandas-31477]]][0m
+[[[ Node ]]]
+try:
+    return self._cython_agg_general(how=alias, alt=npfunc, numeric_only=numeric_only, min_count=min_count)
+except DataError:
+    pass
+except NotImplementedError as err:
+    if 'function is not implemented for this dtype' in str(err):
+        pass
+    else:
+        raise
+except TypeError:
+    pass
+[32mPASSED![0m
+Time :  4.43 seconds
+
+[36m[[[pandas-31905]]][0m
+[31mFAILED...[0m
+Time :  264.22 seconds
+
+[36m[[[pandas-32223]]][0m
+[[[ Node ]]]
+try:
+    result = type(block.values)._from_sequence(result.ravel(), dtype=block.values.dtype)
+except ValueError:
+    result = result.reshape(1, -1)
+except TypeError:
+    result = result.reshape(1, -1)
+[32mPASSED![0m
+Time :  55.85 seconds
+
+[36m[[[pandas-32953]]][0m
+[[[ Node ]]]
+def __init__(self, objs, axis=0, join: str='outer', keys=None, levels=None, names=None, ignore_index: bool=False, verify_integrity: bool=False, copy: bool=True, sort=False):
+    import collections
+    if issubclass(objs.__class__, collections.abc.Mapping):
+        objs = dict(objs)
+    if isinstance(objs, (NDFrame, str)):
+        raise TypeError(f'first argument must be an iterable of pandas objects, you passed an object of type "{type(objs).__name__}"')
+    if join == 'outer':
+        self.intersect = False
+    elif join == 'inner':
+        self.intersect = True
+    else:
+        raise ValueError('Only can inner (intersect) or outer (union) join the other axis')
+    if isinstance(objs, dict):
+        if keys is None:
+            keys = list(objs.keys())
+        objs = [objs[k] for k in keys]
+    else:
+        objs = list(objs)
+    if len(objs) == 0:
+        raise ValueError('No objects to concatenate')
+    if keys is None:
+        objs = list(com.not_none(*objs))
+    else:
+        clean_keys = []
+        clean_objs = []
+        for (k, v) in zip(keys, objs):
+            if v is None:
+                continue
+            clean_keys.append(k)
+            clean_objs.append(v)
+        objs = clean_objs
+        name = getattr(keys, 'name', None)
+        keys = Index(clean_keys, name=name)
+    if len(objs) == 0:
+        raise ValueError('All objects passed were None')
+    ndims = set()
+    for obj in objs:
+        if not isinstance(obj, (Series, DataFrame)):
+            msg = f"cannot concatenate object of type '{type(obj)}'; only Series and DataFrame objs are valid"
+            raise TypeError(msg)
+        obj._consolidate(inplace=True)
+        ndims.add(obj.ndim)
+    sample = None
+    if len(ndims) > 1:
+        max_ndim = max(ndims)
+        for obj in objs:
+            if obj.ndim == max_ndim and np.sum(obj.shape):
+                sample = obj
+                break
+    else:
+        non_empties = [obj for obj in objs if sum(obj.shape) > 0 or isinstance(obj, Series)]
+        if len(non_empties) and (keys is None and names is None and (levels is None) and (not self.intersect)):
+            objs = non_empties
+            sample = objs[0]
+    if sample is None:
+        sample = objs[0]
+    self.objs = objs
+    if isinstance(sample, Series):
+        axis = DataFrame._get_axis_number(axis)
+    else:
+        axis = sample._get_axis_number(axis)
+    self._is_frame = isinstance(sample, ABCDataFrame)
+    if self._is_frame:
+        axis = 1 if axis == 0 else 0
+    self._is_series = isinstance(sample, ABCSeries)
+    if not 0 <= axis <= sample.ndim:
+        raise AssertionError(f'axis must be between 0 and {sample.ndim}, input was {axis}')
+    if len(ndims) > 1:
+        current_column = 0
+        max_ndim = sample.ndim
+        (self.objs, objs) = ([], self.objs)
+        for obj in objs:
+            ndim = obj.ndim
+            if ndim == max_ndim:
+                pass
+            elif ndim != max_ndim - 1:
+                raise ValueError('cannot concatenate unaligned mixed dimensional NDFrame objects')
+            else:
+                name = getattr(obj, 'name', None)
+                if ignore_index or name is None:
+                    name = current_column
+                    current_column += 1
+                if self._is_frame and axis == 1:
+                    name = 0
+                obj = sample._constructor({name: obj})
+            self.objs.append(obj)
+    self.axis = axis
+    self.keys = keys
+    self.names = names or getattr(keys, 'names', None)
+    self.levels = levels
+    self.sort = sort
+    self.ignore_index = ignore_index
+    self.verify_integrity = verify_integrity
+    self.copy = copy
+    self.new_axes = self._get_new_axes()
+[32mPASSED![0m
+Time :  8.95 seconds
+
+[36m[[[pandas-33373]]][0m
+[[[ Node ]]]
+try:
+    new_data = to_datetime(new_data, errors='raise', unit=date_unit)
+except (ValueError, OverflowError):
+    continue
+except TypeError:
+    continue
+[32mPASSED![0m
+Time :  11.2 seconds
+
+[36m[[[pandas-33663]]][0m
+[31mFAILED...[0m
+Time :  1414.48 seconds
+
+[36m[[[pandas-34220]]][0m
+[31mFAILED...[0m
+Time :  798.94 seconds
+
+[36m[[[pandas-36950]]][0m
+[31mFAILED...[0m
+Time :  91.58 seconds
+
+[36m[[[pandas-37096]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    for neg_info in neg_infos :
+  File "/home/wonseok/pyfix/my_tool/work.py", line 584, in work
+    for localize in localize_list : # 같은 점수대가 있을 수도 있으니!
+  File "/home/wonseok/pyfix/my_tool/work.py", line 449, in patch_only_once
+  File "/home/wonseok/pyfix/my_tool/work.py", line 334, in spec_inference
+    make_template = MakeTemplate(neg_file_node, target_arg, target_typ, diff, [template], neg_args)
+'NoneType' object is not iterable
+Time :  13.08 seconds
+
+[36m[[[pandas-37547]]][0m
+Timeout!
+Time :  3600.04 seconds
+
+[36m[[[pandas-37736]]][0m
+[31mFAILED...[0m
+Time :  2862.78 seconds
+
+[36m[[[pandas-38220]]][0m
+Timeout!
+Time :  3600.07 seconds
+
+[36m[[[pandas-38431]]][0m
+[[[ Node ]]]
+j = i if isinstance(self.index_col, type(None)) else self.index_col[i]
+[32mPASSED![0m
+Time :  14.94 seconds
+
+[36m[[[pandas-39028-1]]][0m
+[31mFAILED...[0m
+Time :  1624.78 seconds
+
+[36m[[[pandas-39028-2]]][0m
+[31mFAILED...[0m
+Time :  1954.33 seconds
+
+[36m[[[pandas-39095]]][0m
+Timeout!
+Time :  3600.09 seconds
+
+[36m[[[pandas-40180]]][0m
+[31mFAILED...[0m
+Time :  0.04 seconds
+
+[36m[[[pandas-41155]]][0m
+[31mFAILED...[0m
+Time :  1474.58 seconds
+
+[36m[[[pandas-41406]]][0m
+[[[ Node ]]]
+try:
+    res = idx._get_string_slice(key)
+    warnings.warn('Indexing a DataFrame with a datetimelike index using a single string to slice the rows, like `frame[string]`, is deprecated and will be removed in a future version. Use `frame.loc[string]` instead.', FutureWarning, stacklevel=3)
+    return res
+except (KeyError, ValueError, NotImplementedError):
+    return None
+except TypeError:
+    return None
+[32mPASSED![0m
+Time :  4.65 seconds
+
+[36m[[[pandas-41915]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    for neg_info in neg_infos :
+  File "/home/wonseok/pyfix/my_tool/work.py", line 539, in work
+    prev_remain_test = self.remain_test
+'/home/wonseok/benchmark/pandas-41915/pandas/tests/indexes/multi/test_setops.py'
+Time :  1.74 seconds
+
+PASSED :  22 / 45
+[36m[[[rasa-8704]]][0m
+[[[ Node ]]]
+def __init__(self, message: Text=None) -> None:
+    self.message = message
+    super(UnsupportedModelError, self).__init__(message)
+[32mPASSED![0m
+Time :  7.28 seconds
+
+PASSED :  1 / 1
+[36m[[[requests-3179]]][0m
+[[[ Node ]]]
+def json(self, **kwargs):
+    """Returns the json-encoded content of a response, if any.
+
+        :param \\*\\*kwargs: Optional arguments that ``json.loads`` takes.
+        """
+    if self.content and (not self.encoding and len(self.content) > 3):
+        encoding = guess_json_utf(self.content)
+        if encoding is not None:
+            try:
+                return complexjson.loads(self.content.decode(encoding), **kwargs)
+            except UnicodeDecodeError:
+                pass
+    return complexjson.loads(self.text, **kwargs)
+[32mPASSED![0m
+Time :  27.03 seconds
+
+[36m[[[requests-3368]]][0m
+[[[ Node ]]]
+if not isinstance(chunk_size, int):
+    if not isinstance(chunk_size, type(None)):
+        raise TypeError('chunk_size must be an int, it is instead a %s.' % type(chunk_size))
+[32mPASSED![0m
+Time :  28.31 seconds
+
+[36m[[[requests-3390]]][0m
+[[[ Node ]]]
+def check_header_validity(header):
+    """Verifies that header value doesn't contain leading whitespace or
+    return characters. This prevents unintended header injection.
+
+    :param header: tuple, in the format (name, value).
+    """
+    (name, value) = header
+    if isinstance(value, bytes):
+        pat = _CLEAN_HEADER_REGEX_BYTE
+    else:
+        pat = _CLEAN_HEADER_REGEX_STR
+    if not (isinstance(value, str) or isinstance(value, bytes)):
+        raise InvalidHeader
+    if not pat.match(value):
+        raise InvalidHeader('Invalid return character or leading space in header: %s' % name)
+[32mPASSED![0m
+Time :  28.02 seconds
+
+[36m[[[requests-4723]]][0m
+[[[ Node ]]]
+if no_proxy:
+    no_proxy = (host for host in no_proxy.replace(' ', '').split(',') if host)
+    if isinstance(parsed.hostname, type(None)):
+        return True
+    if is_ipv4_address(parsed.hostname):
+        for proxy_ip in no_proxy:
+            if is_valid_cidr(proxy_ip):
+                if address_in_network(parsed.hostname, proxy_ip):
+                    return True
+            elif parsed.hostname == proxy_ip:
+                return True
+    else:
+        host_with_port = parsed.hostname
+        if parsed.port:
+            host_with_port += ':{0}'.format(parsed.port)
+        for host in no_proxy:
+            if parsed.hostname.endswith(host) or host_with_port.endswith(host):
+                return True
+[32mPASSED![0m
+Time :  14.96 seconds
+
+PASSED :  4 / 4
+[36m[[[rich-919]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+PASSED :  0 / 1
+[36m[[[salt-33908]]][0m
+inference_typ_dict :  {'Dict': 4}
+None Type Casting Other Type
+Type :  unicode
+[[[ Node ]]]
+if key not in ({} if new is None else new):
+    ret[key] = {'new': '', 'old': old[key]}
+elif new[key] != old[key]:
+    ret[key] = {'old': old[key], 'new': new[key]}
+[32mPASSED![0m
+Time :  11.12 seconds
+
+[36m[[[salt-38947]]][0m
+[[[ Node ]]]
+return ' '.join(['-o {0}'.format(opt) for opt in ([] if self.ssh_options is None else self.ssh_options)])
+[32mPASSED![0m
+Time :  2.75 seconds
+
+[36m[[[salt-50958]]][0m
+[31mFAILED...[0m
+Time :  0.01 seconds
+
+[36m[[[salt-52624]]][0m
+[[[ Node ]]]
+if isinstance(self.opts['batch'], str) and '%' in self.opts['batch']:
+    res = partition(float(self.opts['batch'].strip('%')))
+    if res < 1:
+        return int(math.ceil(res))
+    else:
+        return int(res)
+else:
+    return int(self.opts['batch'])
+[32mPASSED![0m
+Time :  6.01 seconds
+
+[36m[[[salt-52710]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+[36m[[[salt-53394]]][0m
+[[[ Node ]]]
+def __decompressContent(coding, pgctnt):
+    """
+    Decompress returned HTTP content depending on the specified encoding.
+    Currently supports identity/none, deflate, and gzip, which should
+    cover 99%+ of the content on the internet.
+    """
+    if isinstance(pgctnt, type(None)):
+        return True
+    log.trace('Decompressing %s byte content with compression type: %s', len(pgctnt), coding)
+    if coding == 'deflate':
+        pgctnt = zlib.decompress(pgctnt, -zlib.MAX_WBITS)
+    elif coding == 'gzip':
+        buf = io.BytesIO(pgctnt)
+        f = gzip.GzipFile(fileobj=buf)
+        pgctnt = f.read()
+    elif coding == 'sdch':
+        raise ValueError('SDCH compression is not currently supported')
+    elif coding == 'br':
+        raise ValueError('Brotli compression is not currently supported')
+    elif coding == 'compress':
+        raise ValueError('LZW compression is not currently supported')
+    elif coding == 'identity':
+        pass
+    log.trace('Content size after decompression: %s', len(pgctnt))
+    return pgctnt
+[32mPASSED![0m
+Time :  5.54 seconds
+
+[36m[[[salt-54240]]][0m
+[31mFAILED...[0m
+Time :  103.2 seconds
+
+[36m[[[salt-54785]]][0m
+[31mFAILED...[0m
+Time :  1546.63 seconds
+
+[36m[[[salt-56094]]][0m
+[[[ Node ]]]
+def find_module(self, module_name, package_path=None):
+    if module_name.startswith('tornado'):
+        return self
+    return None
+[32mPASSED![0m
+Time :  2.4 seconds
+
+[36m[[[salt-56381]]][0m
+[[[ Node ]]]
+ret['comment'] = '  '.join(['' if not ret['comment'] else str(ret['comment']), 'The state would be retried every {1} seconds (with a splay of up to {3} seconds) a maximum of {0} times or until a result of {2} is returned'.format(low['retry']['attempts'], low['retry']['interval'], low['retry']['until'], low['retry']['splay'])])
+[32mPASSED![0m
+Time :  101.31 seconds
+
+PASSED :  6 / 10
+[36m[[[sanic-1334]]][0m
+[[[ Node ]]]
+for bp in chain(blueprints):
+    if isinstance(bp.url_prefix, type(None)):
+        bp.url_prefix = ''
+    bp.url_prefix = url_prefix + bp.url_prefix
+    bps.append(bp)
+[32mPASSED![0m
+Time :  3.61 seconds
+
+[36m[[[sanic-2008-1]]][0m
+[[[ Node ]]]
+def register(app, uri: str, file_or_directory: Union[str, bytes, PurePath], pattern, use_modified_since, use_content_range, stream_large_files, name: str='static', host=None, strict_slashes=None, content_type=None):
+    """
+    Register a static directory handler with Sanic by adding a route to the
+    router and registering a handler.
+
+    :param app: Sanic
+    :param file_or_directory: File or directory path to serve from
+    :type file_or_directory: Union[str,bytes,Path]
+    :param uri: URL to serve from
+    :type uri: str
+    :param pattern: regular expression used to match files in the URL
+    :param use_modified_since: If true, send file modified time, and return
+                               not modified if the browser's matches the
+                               server's
+    :param use_content_range: If true, process header for range requests
+                              and sends the file part that is requested
+    :param stream_large_files: If true, use the file_stream() handler rather
+                              than the file() handler to send the file
+                              If this is an integer, this represents the
+                              threshold size to switch to file_stream()
+    :param name: user defined name used for url_for
+    :type name: str
+    :param content_type: user defined content type for header
+    :return: registered static routes
+    :rtype: List[sanic.router.Route]
+    """
+    if isinstance(file_or_directory, bytes):
+        file_or_directory = file_or_directory.decode('utf-8')
+    elif isinstance(file_or_directory, PurePath):
+        file_or_directory = str(file_or_directory)
+    if not (isinstance(file_or_directory, str)):
+        raise ValueError
+    if not path.isfile(file_or_directory):
+        uri += '<file_uri:' + pattern + '>'
+    if not name.startswith('_static_'):
+        name = f'_static_{name}'
+    _handler = wraps(_static_request_handler)(partial(_static_request_handler, file_or_directory, use_modified_since, use_content_range, stream_large_files, content_type=content_type))
+    (_routes, _) = app.route(uri, methods=['GET', 'HEAD'], name=name, host=host, strict_slashes=strict_slashes)(_handler)
+    return _routes
+[32mPASSED![0m
+Time :  6.03 seconds
+
+[36m[[[sanic-2008-2]]][0m
+[[[ Node ]]]
+async def _static_request_handler(file_or_directory, use_modified_since, use_content_range, stream_large_files, request, content_type=None, file_uri=None):
+    import pathlib
+    if isinstance(file_or_directory, pathlib.PosixPath):
+        file_or_directory = str(file_or_directory)
+    elif isinstance(file_or_directory, bytes):
+        file_or_directory = str(file_or_directory, 'utf-8')
+    if file_uri and '../' in file_uri:
+        raise InvalidUsage('Invalid URL')
+    root_path = file_path = file_or_directory
+    if file_uri:
+        file_path = path.join(file_or_directory, sub('^[/]*', '', file_uri))
+    file_path = path.abspath(unquote(file_path))
+    if not file_path.startswith(path.abspath(unquote(root_path))):
+        error_logger.exception(f'File not found: path={file_or_directory}, relative_url={file_uri}')
+        raise FileNotFound('File not found', path=file_or_directory, relative_url=file_uri)
+    try:
+        headers = {}
+        stats = None
+        if use_modified_since:
+            stats = await stat_async(file_path)
+            modified_since = strftime('%a, %d %b %Y %H:%M:%S GMT', gmtime(stats.st_mtime))
+            if request.headers.get('If-Modified-Since') == modified_since:
+                return HTTPResponse(status=304)
+            headers['Last-Modified'] = modified_since
+        _range = None
+        if use_content_range:
+            _range = None
+            if not stats:
+                stats = await stat_async(file_path)
+            headers['Accept-Ranges'] = 'bytes'
+            headers['Content-Length'] = str(stats.st_size)
+            if request.method != 'HEAD':
+                try:
+                    _range = ContentRangeHandler(request, stats)
+                except HeaderNotFound:
+                    pass
+                else:
+                    del headers['Content-Length']
+                    for (key, value) in _range.headers.items():
+                        headers[key] = value
+        headers['Content-Type'] = content_type or guess_type(file_path)[0] or 'text/plain'
+        if request.method == 'HEAD':
+            return HTTPResponse(headers=headers)
+        else:
+            if stream_large_files:
+                if type(stream_large_files) == int:
+                    threshold = stream_large_files
+                else:
+                    threshold = 1024 * 1024
+                if not stats:
+                    stats = await stat_async(file_path)
+                if stats.st_size >= threshold:
+                    return await file_stream(file_path, headers=headers, _range=_range)
+            return await file(file_path, headers=headers, _range=_range)
+    except ContentRangeError:
+        raise
+    except Exception:
+        error_logger.exception(f'File not found: path={file_or_directory}, relative_url={file_uri}')
+        raise FileNotFound('File not found', path=file_or_directory, relative_url=file_uri)
+[32mPASSED![0m
+Time :  45.52 seconds
+
+PASSED :  3 / 3
+[36m[[[scikitlearn-7064]]][0m
+[[[ Node ]]]
+def fit(self, X, y, sample_weight=None):
+    """Fit the SVM model according to the given training data.
+
+        Parameters
+        ----------
+        X : {array-like, sparse matrix}, shape (n_samples, n_features)
+            Training vectors, where n_samples is the number of samples
+            and n_features is the number of features.
+            For kernel="precomputed", the expected shape of X is
+            (n_samples, n_samples).
+
+        y : array-like, shape (n_samples,)
+            Target values (class labels in classification, real numbers in
+            regression)
+
+        sample_weight : array-like, shape (n_samples,)
+            Per-sample weights. Rescale C per sample. Higher weights
+            force the classifier to put more emphasis on these points.
+
+        Returns
+        -------
+        self : object
+            Returns self.
+
+        Notes
+        ------
+        If X and y are not C-ordered and contiguous arrays of np.float64 and
+        X is not a scipy.sparse.csr_matrix, X and/or y may be copied.
+
+        If X is a dense array, then the other methods will not support sparse
+        matrices as input.
+        """
+    rnd = check_random_state(self.random_state)
+    sparse = sp.isspmatrix(X)
+    if sparse and self.kernel == 'precomputed':
+        raise TypeError('Sparse precomputed kernels are not supported.')
+    self._sparse = sparse and (not callable(self.kernel))
+    (X, y) = check_X_y(X, y, dtype=np.float64, order='C', accept_sparse='csr')
+    y = self._validate_targets(y)
+    sample_weight = np.asarray([] if sample_weight is None else sample_weight, dtype=np.float64)
+    solver_type = LIBSVM_IMPL.index(self._impl)
+    if solver_type != 2 and X.shape[0] != y.shape[0]:
+        raise ValueError('X and y have incompatible shapes.\n' + 'X has %s samples, but y has %s.' % (X.shape[0], y.shape[0]))
+    if self.kernel == 'precomputed' and X.shape[0] != X.shape[1]:
+        raise ValueError('X.shape[0] should be equal to X.shape[1]')
+    if sample_weight.shape[0] > 0 and sample_weight.shape[0] != X.shape[0]:
+        raise ValueError('sample_weight and X have incompatible shapes: %r vs %r\nNote: Sparse matrices cannot be indexed w/boolean masks (use `indices=True` in CV).' % (sample_weight.shape, X.shape))
+    if self.gamma == 'auto':
+        self._gamma = 1.0 / X.shape[1]
+    else:
+        self._gamma = self.gamma
+    kernel = self.kernel
+    if callable(kernel):
+        kernel = 'precomputed'
+    fit = self._sparse_fit if self._sparse else self._dense_fit
+    if self.verbose:
+        print('[LibSVM]', end='')
+    seed = rnd.randint(np.iinfo('i').max)
+    if isinstance(kernel, bytes):
+        kernel = str(kernel, 'utf-8')
+    fit(X, y, sample_weight, solver_type, kernel, random_seed=seed)
+    self.shape_fit_ = X.shape
+    self._intercept_ = self.intercept_.copy()
+    self._dual_coef_ = self.dual_coef_
+    if self._impl in ['c_svc', 'nu_svc'] and len(self.classes_) == 2:
+        self.intercept_ *= -1
+        self.dual_coef_ = -self.dual_coef_
+    return self
+[32mPASSED![0m
+Time :  3.56 seconds
+
+[36m[[[scikitlearn-7259]]][0m
+[31mFAILED...[0m
+Time :  0.0 seconds
+
+[36m[[[scikitlearn-8973]]][0m
+[[[ Node ]]]
+folds = list(cv.split(X, y=y))
+[32mPASSED![0m
+Time :  3.15 seconds
+
+[36m[[[scikitlearn-12603]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    for neg_info in neg_infos :
+  File "/home/wonseok/pyfix/my_tool/work.py", line 539, in work
+    prev_remain_test = self.remain_test
+'/home/wonseok/benchmark/scikitlearn-12603/sklearn/utils/testing.py'
+Time :  0.92 seconds
+
+[36m[[[scikitlearn-17233]]][0m
+[31mFAILED...[0m
+Time :  1627.85 seconds
+
+PASSED :  2 / 5
+[36m[[[tornado-1689]]][0m
+[[[ Node ]]]
+def check_xsrf_cookie(self):
+    """Verifies that the ``_xsrf`` cookie matches the ``_xsrf`` argument.
+
+        To prevent cross-site request forgery, we set an ``_xsrf``
+        cookie and include the same value as a non-cookie
+        field with all ``POST`` requests. If the two do not match, we
+        reject the form submission as a potential forgery.
+
+        The ``_xsrf`` value may be set as either a form field named ``_xsrf``
+        or in a custom HTTP header named ``X-XSRFToken`` or ``X-CSRFToken``
+        (the latter is accepted for compatibility with Django).
+
+        See http://en.wikipedia.org/wiki/Cross-site_request_forgery
+
+        Prior to release 1.1.1, this check was ignored if the HTTP header
+        ``X-Requested-With: XMLHTTPRequest`` was present.  This exception
+        has been shown to be insecure and has been removed.  For more
+        information please see
+        http://www.djangoproject.com/weblog/2011/feb/08/security/
+        http://weblog.rubyonrails.org/2011/2/8/csrf-protection-bypass-in-ruby-on-rails
+
+        .. versionchanged:: 3.2.2
+           Added support for cookie version 2.  Both versions 1 and 2 are
+           supported.
+        """
+    token = self.get_argument('_xsrf', None) or self.request.headers.get('X-Xsrftoken') or self.request.headers.get('X-Csrftoken')
+    if not token:
+        raise HTTPError(403, "'_xsrf' argument missing from POST")
+    (_, token, _) = self._decode_xsrf_token(token)
+    (_, expected_token, _) = self._get_raw_xsrf_token()
+    if isinstance(token, type(None)):
+        raise HTTPError(403, ".*'_xsrf' argument has invalid format")
+    if not _time_independent_equals(utf8(token), utf8(expected_token)):
+        raise HTTPError(403, 'XSRF cookie does not match POST argument')
+[32mPASSED![0m
+Time :  617.92 seconds
+
+PASSED :  1 / 1
+[36m[[[transformers-8052]]][0m
+[33mERROR...[0m
+  File "/home/wonseok/pyfix/my_tool/./test_main.py", line 215, in run
+    for neg_info in neg_infos :
+  File "/home/wonseok/pyfix/my_tool/work.py", line 584, in work
+    for localize in localize_list : # 같은 점수대가 있을 수도 있으니!
+  File "/home/wonseok/pyfix/my_tool/work.py", line 449, in patch_only_once
+  File "/home/wonseok/pyfix/my_tool/work.py", line 321, in spec_inference
+    target_typ = neg_args.get(target_arg, [])
+'self.callback_list'
+Time :  38.79 seconds
+
+PASSED :  0 / 1
+PASSED :  0 / 0
+Total :  49 / 93

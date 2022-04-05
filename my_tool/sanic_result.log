@@ -1,0 +1,213 @@
+sanic has 4 projects
+[36m[[[sanic-1334]]][0m
+Arg_Type_Info :  {'str': 5}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp.url_prefix, type(None)):
+    bp.url_prefix = ''
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp.url_prefix, type(None)):
+    return '<pyfix_template>'
+Arg_Type_Info :  {}
+Template :  [<Template.Skip: 6>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if not isinstance(url_prefix, str):
+
+    def chain(nested):
+        """itertools.chain() but leaves strings untouched"""
+        for i in nested:
+            if isinstance(i, (list, tuple)):
+                yield from chain(i)
+            else:
+                yield i
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(url_prefix, str):
+    return '<pyfix_template>'
+Arg_Type_Info :  {}
+Template :  [<Template.Skip: 6>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if not isinstance(bp, sanic.blueprints.Blueprint):
+
+    def chain(nested):
+        """itertools.chain() but leaves strings untouched"""
+        for i in nested:
+            if isinstance(i, (list, tuple)):
+                yield from chain(i)
+            else:
+                yield i
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp, sanic.blueprints.Blueprint):
+    return '<pyfix_template>'
+Arg_Type_Info :  {'str': 5}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp.url_prefix, type(None)):
+    bp.url_prefix = ''
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp.url_prefix, type(None)):
+    return '<pyfix_template>'
+Arg_Type_Info :  {}
+Template :  [<Template.Skip: 6>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if not isinstance(url_prefix, str):
+    bps = []
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(url_prefix, str):
+    return '<pyfix_template>'
+Arg_Type_Info :  {}
+Template :  [<Template.Skip: 6>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if not isinstance(bp, sanic.blueprints.Blueprint):
+    bps = []
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp, sanic.blueprints.Blueprint):
+    return '<pyfix_template>'
+Arg_Type_Info :  {'str': 5}
+Template :  [<Template.InLoopContinue: 8>, <Template.InLoopBreak: 9>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp.url_prefix, type(None)):
+    continue
+Arg_Type_Info :  {'str': 5}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-1334/sanic/blueprints.py validate
+if isinstance(bp.url_prefix, type(None)):
+    bp.url_prefix = ''
+Filename :  /home/wonseok/benchmark/sanic-1334/sanic/blueprints.py
+[[[ Patch Node ]]]
+if isinstance(bp.url_prefix, type(None)):
+    bp.url_prefix = ''
+[32mPASSED![0m
+Time :  6.14 seconds
+
+[36m[[[sanic-2008-1]]][0m
+Arg_Type_Info :  {'str': 57}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+str
+/home/wonseok/benchmark/sanic-2008-1/sanic/static.py validate
+if isinstance(file_or_directory, object):
+    file_or_directory = str(file_or_directory)
+/home/wonseok/benchmark/sanic-2008-1/sanic/static.py validate
+if isinstance(file_or_directory, object):
+    return _routes
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+Arg_Type_Info :  {'str': 1}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    content_type = ''
+/home/wonseok/benchmark/sanic-2008-1/sanic/app.py validate
+if isinstance(content_type, type(None)):
+    return static_register(self, uri, file_or_directory, pattern, use_modified_since, use_content_range, stream_large_files, name, host, strict_slashes, content_type)
+[31mFAILED...[0m
+Time :  16.72 seconds
+
+[36m[[[sanic-2008-2]]][0m
+Arg_Type_Info :  {'str': 57}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+str
+/home/wonseok/benchmark/sanic-2008-2/sanic/static.py validate
+if isinstance(file_path, bytes):
+    file_path = str(file_path)
+[33mERROR...[0m
+'NoneType' object has no attribute '_fields'
+Time :  0.56 seconds
+
+[36m[[[sanic-2008-3]]][0m
+Arg_Type_Info :  {'str': 57}
+Template :  [<Template.TypeCasting: 1>, <Template.Return: 5>]
+str
+/home/wonseok/benchmark/sanic-2008-3/sanic/static.py validate
+if isinstance(file_path, pathlib.PosixPath):
+    file_path = str(file_path)
+[33mERROR...[0m
+'NoneType' object has no attribute '_fields'
+Time :  0.56 seconds
+
+PASSED :  1 / 4
