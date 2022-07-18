@@ -1,0 +1,14 @@
+{
+	"py_version": "3.7.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "539b8134194bf41526d2dc9e1b194c6e54eb683e",
+	"code_files": [
+		"doc/source/whatsnew/v1.3.0.rst",
+		"pandas/compat/numpy/function.py",
+		"pandas/core/indexes/base.py"
+	],
+	"test_files": [
+		"pandas/tests/reductions/test_reductions.py"
+	]
+}

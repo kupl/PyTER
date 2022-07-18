@@ -1,0 +1,13 @@
+{
+	"py_version": "3.6.9",
+	"repo": "salt",
+	"git": "https://github.com/saltstack/salt.git",
+	"fixed_pr_id": "b6d64f504a6249c16e427fffbf856efddd7a9532",
+	"code_files": [
+		"salt/modules/http.py",
+		"salt/utils/http.py"
+	],
+	"test_files": [
+		"tests/unit/utils/test_http.py"
+	]
+}

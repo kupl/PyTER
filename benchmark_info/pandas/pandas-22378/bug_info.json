@@ -1,0 +1,12 @@
+{
+	"py_version": "3.6.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "a3e90398402f63015870892e9b644c9f034ad4b0",
+	"code_files": [
+		"pandas/core/ops.py"
+	],
+	"test_files": [
+		"pandas/tests/arithmetic/test_object.py"
+	]
+}

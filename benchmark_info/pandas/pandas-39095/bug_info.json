@@ -1,0 +1,13 @@
+{
+	"py_version": "3.7.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "413eba4a480b9ffa28da2aa8a258e9bc0f5a9b1d",
+	"code_files": [
+		"doc/source/whatsnew/v1.3.0.rst",
+		"pandas/core/indexes/base.py"
+	],
+	"test_files": [
+		"pandas/tests/frame/methods/test_reindex.py"
+	]
+}

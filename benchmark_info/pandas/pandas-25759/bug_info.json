@@ -1,0 +1,13 @@
+{
+	"py_version": "3.6.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "51c6a05477ffb5835ee52fc0bbb26e2f64f13bf7",
+	"code_files": [
+		"doc/source/whatsnew/v0.25.0.rst",
+		"pandas/core/indexing.py"
+	],
+	"test_files": [
+		"pandas/tests/indexing/test_iloc.py"
+	]
+}

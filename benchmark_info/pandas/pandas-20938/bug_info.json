@@ -1,0 +1,13 @@
+{
+	"py_version": "3.6.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "ec4609eecbd7fe4d46291b092bfe93f130b77ee5",
+	"code_files": [
+		"doc/source/whatsnew/v0.23.0.txt",
+		"pandas/io/excel.py"
+	],
+	"test_files": [
+		"pandas/tests/io/test_excel.py"
+	]
+}

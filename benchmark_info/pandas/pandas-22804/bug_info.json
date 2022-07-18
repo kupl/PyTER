@@ -1,0 +1,13 @@
+{
+	"py_version": "3.6.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "31a351258ad36392a8251c195f7e0869b90c7467",
+	"code_files": [
+		"doc/source/whatsnew/v0.24.0.rst",
+		"pandas/io/json/normalize.py"
+	],
+	"test_files": [
+		"pandas/tests/io/json/test_normalize.py"
+	]
+}

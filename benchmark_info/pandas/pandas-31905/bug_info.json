@@ -1,0 +1,16 @@
+{
+	"py_version": "3.7.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "020dcce17e3bd0983fca5b02556bd431140ab371",
+	"code_files": [
+		"doc/source/whatsnew/v1.1.0.rst",
+		"pandas/core/indexes/base.py",
+		"pandas/core/series.py"
+	],
+	"test_files": [
+		"pandas/tests/indexing/test_categorical.py",
+		"pandas/tests/indexing/test_loc.py",
+		"pandas/tests/indexing/test_scalar.py"
+	]
+}

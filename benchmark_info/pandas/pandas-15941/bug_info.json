@@ -1,0 +1,13 @@
+{
+	"py_version": "3.6.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "bc2fa160b9d281889b344e7bc15352998e7b0955",
+	"code_files": [
+		"doc/source/whatsnew/v0.20.0.txt",
+		"pandas/types/common.py"
+	],
+	"test_files": [
+		"pandas/tests/types/test_common.py"
+	]
+}

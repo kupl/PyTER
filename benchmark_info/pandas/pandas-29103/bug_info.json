@@ -1,0 +1,13 @@
+{
+	"py_version": "3.7.9",
+	"repo": "pandas",
+	"git": "https://github.com/pandas-dev/pandas.git",
+	"fixed_pr_id": "30362ed828bebdd58d4f1f74d70236d32547d52a",
+	"code_files": [
+		"pandas/core/dtypes/cast.py",
+		"pandas/core/groupby/generic.py"
+	],
+	"test_files": [
+		"pandas/tests/dtypes/cast/test_downcast.py"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"py_version": "3.7.9",
+	"repo": "core",
+	"git": "https://github.com/home-assistant/core.git",
+	"fixed_pr_id": "ecd076c5e430f8414987b59287805c309bb35191",
+	"code_files": [
+		"homeassistant/components/unifi/device_tracker.py"
+	],
+	"test_files": [
+		"tests/components/unifi/test_device_tracker.py"
+	]
+}
