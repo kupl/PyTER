@@ -203,6 +203,13 @@ class GoogleCloudBucketHelperTest(unittest.TestCase):
         gcs_bucket_helper = GoogleCloudBucketHelper()
         gcs_bucket_helper._gcs_hook = mock.Mock()
 
+        try :
+            gcs_bucket_helper.google_cloud_to_local(file_name)
+        except TypeError as e :
+            raise e
+        except :   
+            pass
+
         with self.assertRaises(Exception) as context:
             gcs_bucket_helper.google_cloud_to_local(file_name)
 

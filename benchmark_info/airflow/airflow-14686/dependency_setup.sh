@@ -8,7 +8,7 @@ source $HOME/.cargo/env
 
 pip install --upgrade pip
 pip install -r ./pyter_requirements.txt
-pip install -e ".[devel]"
+pip install -e .
 export PYTHONIOENCODING=utf-8
 
 pip install apache-airflow-providers-sqlite==1.0.1 apache-airflow-providers-ftp==1.0.1 apache-airflow-providers-http==1.1.0 apache-airflow-providers-imap==1.0.1

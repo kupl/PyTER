@@ -1,0 +1,220 @@
+#!/bin/bash
+usage="-w work_dir
+             The working directory to compile the project. Default will be the current directory.
+"
+
+case $1 in
+ -[h?] | --help)
+    cat <<-____HALP
+        Usage: ${0##*/} [ --help ]
+        $usage
+____HALP
+        exit 0;;
+esac
+
+###Read the flag of checkout
+while getopts p:i:v:w: flag
+do
+    case "${flag}" in
+        w) work_dir=${OPTARG};;
+    esac
+done
+
+###Update the work directory
+if [ "$work_dir" == "" ]; then 
+   work_dir=$(pwd)
+fi
+
+if [[ $work_dir == */ ]]; then 
+   temp_work_dir="$work_dir"
+   work_dir=${temp_work_dir::-1}
+fi
+
+###Check work directory 
+if [[ ! -e "$work_dir/bugsinpy_bug.info" ]]; then
+   echo "This is not a checkout project folder"
+   exit
+elif [[ ! -e "$work_dir/bugsinpy_requirements.txt" ]]; then
+   echo "This is not a checkout project folder"
+   exit
+elif [[ ! -e "$work_dir/bugsinpy_run_test.sh" ]]; then
+   echo "This is not a checkout project folder"
+   exit
+fi
+
+###Check dos2unix
+#check_dos2unix=$(dos2unix --version 2>&1)
+#if [ "$check_dos2unix" == *"not found"* ]; then
+#   echo "Please install dos2unix (sudo apt-get dos2unix)"
+#   exit
+#fi
+
+###Remove environment if exist
+rm -r -f env/
+
+###Add environment
+#python -m venv env
+
+###Activate environment
+if [ -d "env/Scripts" ]; then
+  source env/Scripts/activate
+else
+  check_dos2unix=$(dos2unix --version 2>&1)
+	if [ "$check_dos2unix" == *"not found"* ]; then
+	   echo "Please install dos2unix (sudo apt-get dos2unix)"
+	   exit
+	fi
+  #source env/bin/activate
+  dos2unix $work_dir/bugsinpy_requirements.txt
+fi
+###Add pythonpath
+pythonpath_set=""
+pythonpath_without_folder=""
+buggy_commit=""
+fix_commit=""
+
+###Read bug.info file
+DONE=false
+until $DONE ;do
+read || DONE=true
+if [[ "$REPLY" == "buggy_commit_id"* ]]; then
+   buggy_commit="$(cut -d'"' -f 2 <<< $REPLY)"
+elif [[ "$REPLY" == "fixed_commit_id"* ]]; then
+   fix_commit="$(cut -d'"' -f 2 <<< $REPLY)"
+elif [[ "$REPLY" == "test_file"* ]]; then
+   test_file_all="$(cut -d'"' -f 2 <<< $REPLY)"
+   IFS=';' read -r -a test_file <<< "$test_file_all"
+elif [[ "$REPLY" == "pythonpath"* ]]; then
+   pythonpath_all="$(cut -d'"' -f 2 <<< $REPLY)"
+   if [ "$pythonpath_all" != "" ]; then
+       if [[ $work_dir != /* ]]; then
+           work_dir_py=${work_dir:1}
+           temp_folder=":${work_dir_py}/"
+       else
+           temp_folder=":${work_dir}/"
+       fi
+       check_py="$(cut -d';' -f 1 <<< $pythonpath_all; )"
+       string2="$(cut -d'/' -f 1 <<< $check_py/ )"
+       temp_change_py=";$pythonpath_all"
+       deli=";$string2"
+       pythonpath_set=${temp_change_py//$deli/$temp_folder}
+       pythonpath_set="${pythonpath_set:1}"
+       pythonpath_set=$(echo "$pythonpath_set" | sed s#//*#/#g)
+   fi
+fi
+done < "$work_dir/bugsinpy_bug.info"
+
+
+###Read setup.sh
+  run_setup_all=""
+  if [[ -f "$work_dir/bugsinpy_setup.sh" ]]; then
+    DONE=false
+    until $DONE ;do
+    read || DONE=true
+       run_setup_all+="$REPLY;"
+       echo $REPLY
+    done < "$work_dir/bugsinpy_setup.sh"
+  fi
+  
+  IFS=';' read -r -a run_setup <<< "$run_setup_all"
+
+###Run setup.sh
+#dos2unix $work_dir/bugsinpy_requirements.txt
+#pip install -r "$work_dir/bugsinpy_requirements.txt"
+if grep -q '[^[:space:]]' "$work_dir/bugsinpy_requirements.txt"; then
+    cat "$work_dir/bugsinpy_requirements.txt" | sed -e '/^\s*#.*$/d' -e '/^\s*$/d' | xargs -n 1 pip install
+fi
+
+for index in "${!run_setup[@]}"
+do
+   run_setup_trail=${run_setup[index]} 
+   run_setup_now=$(echo $run_setup_trail | sed -e 's/\r//g')
+   $run_setup_now
+done
+  
+###Install requirement
+#pip install -r "$work_dir/bugsinpy_requirements.txt"
+if grep -q '[^[:space:]]' "$work_dir/bugsinpy_requirements.txt"; then
+    cat "$work_dir/bugsinpy_requirements.txt" | sed -e '/^\s*#.*$/d' -e '/^\s*$/d' | xargs -n 1 pip install
+fi
+
+pip install -e .
+
+#deactivate
+
+
+###Add pythonpath
+  if [ "$pythonpath_set" != "" ]; then
+     if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+        saveReply=""
+        pythonpath_exist="NO"
+        should_change="NO"
+        DONE=false
+        until $DONE ;do
+        read || DONE=true
+        if [[ "$pythonpath_exist" == "YES" ]]; then
+            if [[ "$REPLY" != "export PYTHONPATH"* ]]; then
+               should_change="YES"
+            fi
+            pythonpath_exist="YES1"
+        fi
+        if [[ "$REPLY" == "PYTHONPATH="* ]]; then
+            pythonpath_exist="YES"
+            tes='"'
+            if [[ "$REPLY" != *"$pythonpath_set:"* ]]; then
+               should_change="YES"
+               saveReply=$REPLY
+               string1="${REPLY%:*}"
+               string2="${REPLY##*:}"
+               if [[ "$string2" == *"PYTHONPATH"* ]]; then
+                  echo "$string1:$pythonpath_set:$string2"
+               else
+                  temp="$"
+                  temp_py="PYTHONPATH"
+                  temp2=${REPLY%$tes*}
+                  echo "$temp2:$pythonpath_set:$temp$temp_py$tes"
+               fi
+            fi
+        fi 
+        done <  ~/.bashrc 
+        if [[ "$pythonpath_exist" == "NO" ]]; then
+            should_change="NO"
+            temp_path_not_exist='PYTHONPATH="$pythonpath_set:$PYTHONPATH"'
+            echo "$temp_path_not_exist" >> ~/.bashrc 
+            echo "export PYTHONPATH" >> ~/.bashrc 
+            source ~/.bashrc
+        fi
+        if [[ "$should_change" == "YES" ]]; then
+            echo "SHOULD CHANGE"
+            sed -i.bak '/PYTHONPATH=/d' ~/.bashrc
+            if [[ "$pythonpath_exist" == "YES1" ]]; then
+                sed -i.bak '/export PYTHONPATH/d' ~/.bashrc
+            fi
+
+            
+            string1="${saveReply%:*}"
+            string2="${saveReply##*:}"
+            if [[ "$string2" == *"PYTHONPATH"* ]]; then
+               string1="${saveReply%%/*}"
+               string2="$(cut -d'"' -f 2 <<< $saveReply)"
+               delimeter='"'
+               echo "$pythonpath_set"
+               echo "$string1"
+               echo "$string1$pythonpath_set:$string2$delimeter" >> ~/.bashrc
+            else
+               temp="$"
+               temp_py="PYTHONPATH"
+               temp2=${saveReply%$tes*}
+               echo "$temp2:$pythonpath_set:$temp$temp_py$tes" >> ~/.bashrc
+            fi
+            echo "export PYTHONPATH" >> ~/.bashrc
+            source ~/.bashrc
+        fi
+      fi
+  fi
+
+
+###Add compile flag
+echo "1" > "$work_dir/bugsinpy_compile_flag"
+
+
