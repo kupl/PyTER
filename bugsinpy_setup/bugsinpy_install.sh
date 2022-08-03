@@ -11,7 +11,6 @@ do
         project='youtube-dl'
     fi
 
-
     bug_info=/pyter/BugsInPy/projects/${project}/bugs/${number}/bug.info
     echo $bug_info
     information=$(<${bug_info})
@@ -29,9 +28,10 @@ do
     cd /pyter/BugsInPy/benchmark
     if [[ $project == "youtube-dl" ]]; then
         project="youtubedl"
+        mv youtube-dl $project-$number
+    else 
+        mv $project $project-$number
     fi
-
-    mv $project $project-$number
     cd $project-$number
 
     pyenv install $py_version -s
