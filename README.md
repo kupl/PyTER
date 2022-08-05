@@ -71,7 +71,7 @@ python -u ./pyter_tool/my_tool/test_main.py -d "/pyter/benchmark" -c ""
 ```
 
 It takes quite a long time.
-If you want to see only correct result, then change option of `-c` from "" to "y"
+If you want to see only correct result, then change option of `-c` from "" to "p"
 
 The results of PyTER are stored in `./result/total.result` and you can find detailed information about specific program in `./result/<speicif-program>.result`.
 This step contains all of PyTER's patch generation except for dynamic analysis: (1) Static Analysis, (2) Fault Localization, (3) Patch Generation.
@@ -86,17 +86,25 @@ First, download BugsInPy framework:
 git clone https://github.com/soarsmu/BugsInPy
 ```
 
+You should copy `bugsinpy-compile` file for our framework:
+
 ```
 \cp /pyter/bugsinpy_setup/bugsinpy-compile /pyter/BugsInPy/framework/bin/bugsinpy-compile
 ```
+
+You can download BugsInPy benchmark programs and build by the follwing command:
 
 ```
 ./bugsinpy_setup/bugsinpy_install.sh
 ```
 
+You can change testfiles of BugsInPy benchmark for our framework:
+
 ```
 ./bugsinpy_setup/bugsinpy_setup.sh
 ```
+
+You can install libraries to run becnhmark properly:
 
 ```
 ./bugsinpy_setup/bugsinpy_ready.sh
@@ -115,8 +123,13 @@ For example, you can find dynamic analysis result of pandas-17609 program in `/p
 
 ### 3. Running PyTER
 
-You can run our reapir framework PyTER for all programs in TypeBugs:
+You can run our reapir framework PyTER for all programs in BugsInPy:
 
 ```
 python -u ./pyter_tool/my_tool/test_main.py -d "/pyter/BugsInPy/benchmark" -b "bugsinpy" -c "" 
 ```
+
+It takes quite a long time.
+If you want to see only correct result, then change option of `-c` from "" to "p"
+
+The results of PyTER are stored in `./result/bugsinpy_total.result` and you can find detailed information about specific program in `./result/<speicif-program>.result`.
