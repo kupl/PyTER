@@ -44,9 +44,6 @@ You should setup serveral paths to run properly our framework:
 
 ```
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wonseok/.pyenv/plugins/pyenv-virtualenv/shims:/home/wonseok/.pyenv/shims:/home/wonseok/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/pyter/BugsInPy/framework/bin
-```
-
-```
 source ~/.bashrc
 ```
 
