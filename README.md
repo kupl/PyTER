@@ -19,8 +19,10 @@ For more technical details, please consult our paper or contact us.
 
 We provide docker container for convinience.
 This container consists of only example cases: requests projects in TypeBugs (4 cases) and luigi projects in BugsInPy (7 cases) because providing all benchmarks is time-consuming and large in capacity too much.
-You can download our docker conatiner: [here]
-If you hope to run all benchmarks, then please follow scripts in INSTALL.md
+
+You can download our docker conatiner: [here](https://doi.org/10.6084/m9.figshare.20448573.v1)
+
+If you hope to run all benchmarks, then please follow scripts in [INSTALL.md](/INSTALL.md)
 
 ### 1. Import docker container
 
