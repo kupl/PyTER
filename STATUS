@@ -1,0 +1,5 @@
+We suggest for the Avaliable and Reusable badges.
+We believe PyTER artifact can be obtained the badges for the following reasons:
+
+* The source codes of PyTER are avilable on GitHub (https://github.com/kupl/pyter\_tool). We also provided the benchmarks used in the evaluation and proper scripts for reproducing the main results of the paper.
+* Furthermore, We provided instructions and explanations to run PyTER for other type error cases in Python. Researchers are able to evaluate PyTER easily in their research.
