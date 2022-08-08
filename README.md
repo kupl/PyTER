@@ -15,6 +15,8 @@ For more technical details, please consult our paper or contact us.
 * `bugsinpy_info` : Information and configuration for building BugsInPy benchmark.
 * `bugsinpy_setup` : Sciprts for installing BugsInPy benchmark.
 
+The detailed information of PyTER framework, then please visit this github repository: [link](https://github.com/kupl/pyter_tool)
+
 # Installation
 
 We provide docker container for convinience.
