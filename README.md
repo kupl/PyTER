@@ -10,7 +10,7 @@ For more technical details, please consult our paper or contact us.
 
 # Contents of PyTER
 
-* `all_result` : All result of PyTER on benchmarks. It consists of original file (*.py) and patched file (*.py_solutoin)
+* `all_result` : All result of PyTER on benchmarks. It consists of original file (\*.py) and patched file (\*.py_solutoin)
 * `benchmark_info` : Information and configuration for building TypeBugs benchmark.
 * `bugsinpy_info` : Information and configuration for building BugsInPy benchmark.
 * `bugsinpy_setup` : Sciprts for installing BugsInPy benchmark.
@@ -22,7 +22,7 @@ The detailed information of PyTER framework, then please visit this github repos
 We provide docker container for convinience.
 This container consists of only example cases: requests projects in TypeBugs (4 cases) and luigi projects in BugsInPy (7 cases) because providing all benchmarks is time-consuming and large in capacity too much.
 
-You can download our docker conatiner: [here](https://doi.org/10.6084/m9.figshare.20448573.v1)
+You can download our docker conatiner: [here](https://doi.org/10.6084/m9.figshare.20448573.v1) (5 GB)
 
 If you hope to run all benchmarks, then please follow scripts in [INSTALL.md](/INSTALL.md)
 
