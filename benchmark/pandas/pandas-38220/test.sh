@@ -1,1 +1,0 @@
-pytest pandas/tests/frame/methods/test_drop.py::TestDataFrameDrop::test_drop_with_non_unique_multiindex 

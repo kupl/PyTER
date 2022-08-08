@@ -1,1 +1,0 @@
-pytest tests/unit/cloud/clouds/test_ec2.py::EC2TestCase::test_get_imageid

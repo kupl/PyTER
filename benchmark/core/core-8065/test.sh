@@ -1,1 +1,0 @@
-pytest tests/helpers/test_entity_component.py::TestHelpersEntityComponent::test_setting_up_group

@@ -1,1 +1,0 @@
-pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response

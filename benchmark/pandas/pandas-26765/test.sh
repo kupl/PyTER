@@ -1,1 +1,0 @@
-pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_with_interval_index

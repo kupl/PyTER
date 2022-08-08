@@ -1,1 +1,0 @@
-pytest kivy/tests/test_urlrequest.py::test_ca_file

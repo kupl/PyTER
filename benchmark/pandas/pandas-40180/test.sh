@@ -1,1 +1,0 @@
-pytest pandas/tests/reductions/test_reductions.py::TestSeriesReductions::test_numpy_all_any

@@ -1,1 +1,0 @@
-pytest pandas/tests/io/formats/test_to_html.py::TestToHTML::test_to_html_truncate_multi_index_sparse_off 
