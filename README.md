@@ -26,13 +26,21 @@ If you hope to run all benchmarks, then please follow scripts in [INSTALL.md](/I
 
 ### 1. Import docker container
 
+You can import our container as following script:
+
 ```
 docker import exmaple.tar pyter
 ```
 
+After then, you can run docker through this script:
+
 ```
 docker run -it pyter /bin/bash
 ```
+
+### 2. Setup
+
+You should setup serveral paths to run properly our framework:
 
 ```
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wonseok/.pyenv/plugins/pyenv-virtualenv/shims:/home/wonseok/.pyenv/shims:/home/wonseok/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/pyter/BugsInPy/framework/bin
@@ -41,6 +49,8 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 ```
 source ~/.bashrc
 ```
+
+When you move to `pyter` folder, then you can reproduce our results:
 
 ```
 cd pyter
