@@ -1,12 +1,48 @@
+# PyTER
+
+PyTER is the first technique that can automatically fix type errors in Python.
+The key novelty of PyTER is its type-aware technique that uses type information to increase performance of fault localization and patch geneartion.
+To do so, PyTER inferences the incorrect and correct types of candidate variables using dynamic and static analyses.
+We utilize the difference of those types to localize buggy locations accurately and prioritize candidate patches that are likely to repair the given error properly.
+We implemented the dynamic analysis on top of PyAnnotate, a framework to instrument Python source code.
+Other techniques were developed by authors in about 8,000 lines of Python code (v.3.9.1).
+For more technical details, please consult our paper or contact us.
+
+# Contents of PyTER
+
+* `all_result` : All result of PyTER on benchmarks. It consists of original file (*.py) and patched file (*.py_solutoin)
+* `benchmark_info` : Information and configuration for building TypeBugs benchmark.
+* `bugsinpy_info` : Information and configuration for building BugsInPy benchmark.
+* `bugsinpy_setup` : Sciprts for installing BugsInPy benchmark.
+
 # Installation
 
 We provide docker container for convinience.
-This container consists of only example cases: requests projects in TypeBugs (4 cases) and luigi projects in BugsInPy (7 cases) because providing all benchmarks is too much time-consumed and large capacity.
+This container consists of only example cases: requests projects in TypeBugs (4 cases) and luigi projects in BugsInPy (7 cases) because providing all benchmarks is time-consuming and large in capacity too much.
 You can download our docker conatiner: [here]
 If you hope to run all benchmarks, then please follow scripts in INSTALL.md
 
 ### 1. Import docker container
 
+```
+docker import exmaple.tar pyter
+```
+
+```
+docker run -it pyter /bin/bash
+```
+
+```
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wonseok/.pyenv/plugins/pyenv-virtualenv/shims:/home/wonseok/.pyenv/shims:/home/wonseok/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/pyter/BugsInPy/framework/bin
+```
+
+```
+source ~/.bashrc
+```
+
+```
+cd pyter
+```
 
 # Reproducing Our Results in the Paper
 
