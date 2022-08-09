@@ -49,13 +49,25 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 source ~/.bashrc
 ```
 
-When you move to `pyter` folder, then you can reproduce our results:
+When you move to `pyter` folder, then you are ready to reproduce our results:
 
 ```
 cd pyter
 ```
 
 # Reproducing Our Results in the Paper
+
+The docker container consists of as following structure:
+
+```
+pyter
+L benchmark : contains requests projects provided in TypeBugs benchmark
+L BugsInPy : BugsInPy framework
+  L benchmark : : contains luigi projects provided in BugsInPy benchmark
+  L ...
+L pyter_tool : PyTER framework
+L ...
+```
 
 ### 1. Running Dynamic Analysis
 
@@ -67,6 +79,10 @@ You will get result of dynamic analysis by this script:
 
 The result of dynamic analysis will be stored in `/<each project folder>/pyter` folder.
 For example, you can find dynamic analysis result of requests-3179 program in `/pyter/benchmark/requests-3179/pyter`.
+There are two important files in the dynamic analysis:
+
+* `neg.json` : candidate variables and types of those variables when running negative test cases 
+* `pos.json` : candidate variables and types of those variables when running positive test cases
 
 ### 2. Running PyTER
 
@@ -93,6 +109,10 @@ You will get result of dynamic analysis by this script:
 
 The result of dynamic analysis will be stored in `/<each project folder>/pyter` folder.
 For example, you can find dynamic analysis result of luigi-4 program in `/pyter/benchmark/luigi-4/pyter`.
+There are two important files in the dynamic analysis:
+
+* `neg.json` : candidate variables and types of those variables when running negative test cases 
+* `pos.json` : candidate variables and types of those variables when running positive test cases
 
 ### 2. Running PyTER
 
