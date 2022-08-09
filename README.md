@@ -10,7 +10,8 @@ For more technical details, please consult our paper or contact us.
 
 # Contents of PyTER
 
-* `all_result` : All result of PyTER on benchmarks. It consists of original file (\*.py) and patched file (\*.py_solutoin)
+* `evaluate/all_result` : The file provided by PyTER on all benchmarks. It consists of original file (\*.py) and patched file (\*.py_solutoin)
+* `evaluate/evaluate.pyter : All result of PyTER on benchmarks. 
 * `benchmark_info` : Information and configuration for building TypeBugs benchmark.
 * `bugsinpy_info` : Information and configuration for building BugsInPy benchmark.
 * `bugsinpy_setup` : Sciprts for installing BugsInPy benchmark.
