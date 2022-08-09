@@ -1,0 +1,154 @@
++-------------------------------------------------------------------+
+|bug_id                        |  source|    result| time_to_running|
++-------------------------------------------------------------------+
+|airflow-3831-buggy            |    Ours| INCORRECT|           56.18|
+|airflow-4674-buggy            |    Ours| INCORRECT|            0.02|
+|airflow-5686-buggy            |    Ours|   CORRECT|           14.67|
+|airflow-6036-buggy            |    Ours|   CORRECT|           42.15|
+|airflow-8151-buggy            |    Ours| INCORRECT|           16.45|
+|airflow-14513-buggy           |    Ours|   CORRECT|          190.96|
+|airflow-14686-buggy           |    Ours| PLAUSIBLE|           32.92|
+|beets-3360-buggy              |    Ours| PLAUSIBLE|             3.6|
+|core-1972-buggy               |    Ours|   CORRECT|            2.24|
+|core-8065-buggy               |    Ours|   CORRECT|           10.59|
+|core-20233-buggy              |    Ours|   CORRECT|            3.83|
+|core-21734-buggy              |    Ours| INCORRECT|          355.27|
+|core-29829-buggy              |    Ours| PLAUSIBLE|          305.77|
+|core-32222-buggy              |    Ours|   CORRECT|            8.35|
+|core-32318-buggy              |    Ours| INCORRECT|            0.03|
+|core-38605-buggy              |    Ours| INCORRECT|            95.3|
+|core-40034-buggy              |    Ours|   CORRECT|           16.91|
+|kivy-6954-buggy               |    Ours| PLAUSIBLE|           54.33|
+|luigi-1836-buggy              |    Ours| PLAUSIBLE|            1.53|
+|numpy-9999-buggy              |    Ours| INCORRECT|          662.21|
+|numpy-10473-buggy             |    Ours| PLAUSIBLE|           11.52|
+|numpy-19094-buggy             |    Ours| PLAUSIBLE|            2.75|
+|pandas-15941-buggy            |    Ours|   CORRECT|           11.82|
+|pandas-17430-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-17609-buggy            |    Ours|   CORRECT|           28.39|
+|pandas-18831-buggy            |    Ours| INCORRECT|         1194.79|
+|pandas-18849-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-19013-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-19276-buggy            |    Ours|   CORRECT|            9.81|
+|pandas-20938-buggy            |    Ours| INCORRECT|            4.96|
+|pandas-20968-buggy            |    Ours|   CORRECT|           59.33|
+|pandas-21540-buggy            |    Ours|   CORRECT|           29.91|
+|pandas-21590-buggy            |    Ours|   CORRECT|          414.03|
+|pandas-22072-buggy            |    Ours|   CORRECT|            6.42|
+|pandas-22198-buggy            |    Ours|   CORRECT|          339.53|
+|pandas-22378-buggy            |    Ours| PLAUSIBLE|          650.99|
+|pandas-22804-buggy            |    Ours|   CORRECT|           30.55|
+|pandas-24572-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-25533-buggy            |    Ours|   CORRECT|            5.17|
+|pandas-25759-buggy            |    Ours|   CORRECT|         3190.64|
+|pandas-26324-buggy            |    Ours| INCORRECT|            0.75|
+|pandas-26765-buggy            |    Ours|   CORRECT|           20.96|
+|pandas-28251-buggy            |    Ours| PLAUSIBLE|          314.55|
+|pandas-28412-buggy            |    Ours| PLAUSIBLE|            6.54|
+|pandas-29103-buggy            |    Ours| PLAUSIBLE|            3.21|
+|pandas-30225-buggy            |    Ours| INCORRECT|         1625.52|
+|pandas-30532-buggy            |    Ours| INCORRECT|          302.42|
+|pandas-31477-buggy            |    Ours| PLAUSIBLE|            8.01|
+|pandas-31905-buggy            |    Ours| INCORRECT|          209.39|
+|pandas-32223-buggy            |    Ours| PLAUSIBLE|           55.27|
+|pandas-32953-buggy            |    Ours|   CORRECT|            5.63|
+|pandas-33373-buggy            |    Ours|   CORRECT|            13.7|
+|pandas-33663-buggy            |    Ours| INCORRECT|         2267.97|
+|pandas-34220-buggy            |    Ours| INCORRECT|           482.1|
+|pandas-36950-buggy            |    Ours|   CORRECT|            5.42|
+|pandas-37096-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-37547-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-37736-buggy            |    Ours| INCORRECT|         1374.94|
+|pandas-38220-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-38431-buggy            |    Ours|   CORRECT|           18.28|
+|pandas-39028-1-buggy          |    Ours| INCORRECT|         1520.43|
+|pandas-39028-2-buggy          |    Ours|   TIMEOUT|         3600.00|
+|pandas-39095-buggy            |    Ours| PLAUSIBLE|         1224.47|
+|pandas-40180-buggy            |    Ours| INCORRECT|            1.07|
+|pandas-41155-buggy            |    Ours|   TIMEOUT|         3600.00|
+|pandas-41406-buggy            |    Ours| PLAUSIBLE|            6.08|
+|pandas-41915-buggy            |    Ours| INCORRECT|             9.0|
+|rasa-8704-buggy               |    Ours|   CORRECT|             7.3|
+|requests-3179-buggy           |    Ours|   CORRECT|            37.8|
+|requests-3368-buggy           |    Ours|   CORRECT|           24.46|
+|requests-3390-buggy           |    Ours|   CORRECT|          593.75|
+|requests-4723-buggy           |    Ours|   CORRECT|           14.93|
+|rich-919-buggy                |    Ours|   TIMEOUT|            3600|
+|salt-33908-buggy              |    Ours|   CORRECT|            7.47|
+|salt-38947-buggy              |    Ours|   CORRECT|             3.2|
+|salt-50958-buggy              |    Ours| INCORRECT|            0.02|
+|salt-52624-buggy              |    Ours|   CORRECT|            4.83|
+|salt-53394-buggy              |    Ours|   CORRECT|            9.41|
+|salt-54240-buggy              |    Ours| INCORRECT|          134.79|
+|salt-54785-buggy              |    Ours| INCORRECT|          560.71|
+|salt-56094-buggy              |    Ours|   CORRECT|            2.24|
+|salt-56381-buggy              |    Ours|   CORRECT|          121.12|
+|sanic-1334-buggy              |    Ours|   CORRECT|            1.99|
+|sanic-2008-1-buggy            |    Ours|   CORRECT|           75.84|
+|sanic-2008-2-buggy            |    Ours|   CORRECT|           52.71|
+|scikitlearn-7064-buggy        |    Ours|   CORRECT|            3.79|
+|scikitlearn-7259-buggy        |    Ours| INCORRECT|          245.27|
+|scikitlearn-8973-buggy        |    Ours|   CORRECT|            3.08|
+|scikitlearn-12603-buggy       |    Ours| PLAUSIBLE|          307.75|
+|scikitlearn-17233-buggy       |    Ours| INCORRECT|          1483.4|
+|tornado-1689-buggy            |    Ours|   CORRECT|          199.23|
+|Zappa-388-buggy               |    Ours|   CORRECT|          151.81|
+|Zappa-1434-buggy              |    Ours| INCORRECT|         3176.08|
+|ansible-1-buggy               |Bugsinpy| INCORRECT|         2549.68|
+|fastapi-1-buggy               |Bugsinpy| INCORRECT|             0.0|
+|fastapi-7-buggy               |Bugsinpy| INCORRECT|            2.97|
+|keras-4-buggy                 |Bugsinpy| INCORRECT|         1633.08|
+|keras-21-buggy                |Bugsinpy| INCORRECT|            0.26|
+|keras-22-buggy                |Bugsinpy| INCORRECT|         1806.97|
+|keras-34-buggy                |Bugsinpy|   TIMEOUT|         3600.00|
+|keras-39-buggy                |Bugsinpy|   CORRECT|            15.6|
+|luigi-3-buggy                 |Bugsinpy| INCORRECT|           76.08|
+|luigi-4-buggy                 |Bugsinpy|   CORRECT|            3.27|
+|luigi-6-buggy                 |Bugsinpy| INCORRECT|            8.02|
+|luigi-14-buggy                |Bugsinpy| PLAUSIBLE|            4.83|
+|luigi-22-buggy                |Bugsinpy| PLAUSIBLE|            3.35|
+|luigi-25-buggy                |Bugsinpy|   CORRECT|            3.21|
+|luigi-26-buggy                |Bugsinpy|   CORRECT|             6.9|
+|matplotlib-15-buggy           |Bugsinpy| INCORRECT|            0.02|
+|pandas-12-buggy               |Bugsinpy| INCORRECT|          355.63|
+|pandas-13-buggy               |Bugsinpy| INCORRECT|         1906.17|
+|pandas-30-buggy               |Bugsinpy|   CORRECT|           11.95|
+|pandas-31-buggy               |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-36-buggy               |Bugsinpy| PLAUSIBLE|           19.03|
+|pandas-48-buggy               |Bugsinpy|   CORRECT|           77.28|
+|pandas-49-buggy               |Bugsinpy|   CORRECT|           18.56|
+|pandas-51-buggy               |Bugsinpy| PLAUSIBLE|           38.99|
+|pandas-53-buggy               |Bugsinpy| PLAUSIBLE|          117.63|
+|pandas-57-buggy               |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-71-buggy               |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-72-buggy               |Bugsinpy| PLAUSIBLE|         3259.09|
+|pandas-79-buggy               |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-99-buggy               |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-103-buggy              |Bugsinpy| INCORRECT|          386.32|
+|pandas-106-buggy              |Bugsinpy|   CORRECT|         1623.11|
+|pandas-110-buggy              |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-111-buggy              |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-112-buggy              |Bugsinpy| PLAUSIBLE|          153.18|
+|pandas-138-buggy              |Bugsinpy|   CORRECT|           73.58|
+|pandas-142-buggy              |Bugsinpy|   CORRECT|          422.77|
+|pandas-145-buggy              |Bugsinpy|   TIMEOUT|         3600.00|
+|pandas-146-buggy              |Bugsinpy| PLAUSIBLE|           43.68|
+|pandas-152-buggy              |Bugsinpy|   CORRECT|            9.73|
+|pandas-158-buggy              |Bugsinpy|   TIMEOUT|         3600.00|
+|scrapy-1-buggy                |Bugsinpy|   CORRECT|            2.22|
+|scrapy-2-buggy                |Bugsinpy|   CORRECT|            4.54|
+|scrapy-8-buggy                |Bugsinpy| INCORRECT|             0.0|
+|scrapy-17-buggy               |Bugsinpy|   CORRECT|            2.71|
+|scrapy-20-buggy               |Bugsinpy| INCORRECT|           42.86|
+|scrapy-23-buggy               |Bugsinpy| INCORRECT|           35.31|
+|scrapy-27-buggy               |Bugsinpy| PLAUSIBLE|            4.96|
+|scrapy-29-buggy               |Bugsinpy|   CORRECT|            2.02|
+|scrapy-30-buggy               |Bugsinpy| INCORRECT|           10.87|
+|scrapy-40-buggy               |Bugsinpy|   CORRECT|           14.62|
+|spacy-5-buggy                 |Bugsinpy| PLAUSIBLE|           79.78|
+|tornado-7-buggy               |Bugsinpy| INCORRECT|            0.02|
+|tornado-9-buggy               |Bugsinpy|   CORRECT|            1.49|
+|tqdm-3-buggy                  |Bugsinpy| INCORRECT|             0.0|
+|youtubedl-11-buggy            |Bugsinpy|   CORRECT|            6.43|
+|youtubedl-16-buggy            |Bugsinpy|   TIMEOUT|         3600.00|
++-------------------------------------------------------------------+
