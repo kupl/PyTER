@@ -792,7 +792,7 @@ class Response(object):
         :param \*\*kwargs: Optional arguments that ``json.loads`` takes.
         """
 
-        if isinstance(self.content, int) and (not self.encoding and len(self.content) > 3):
+        if self.content and (not self.encoding and len(self.content) > 3):
             encoding = guess_json_utf(self.content)
             if encoding is not None:
                 try:
