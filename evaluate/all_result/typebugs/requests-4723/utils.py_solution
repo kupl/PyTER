@@ -690,14 +690,18 @@ def set_environ(env_name, value):
 
 
 def should_bypass_proxies(url, no_proxy):
-    if isinstance(no_proxy, type(None)):
-        return True
-    '\n    Returns whether we should bypass proxies or not.\n\n    :rtype: bool\n    '
+    """
+    Returns whether we should bypass proxies or not.
+
+    :rtype: bool
+    """
     get_proxy = lambda k: os.environ.get(k) or os.environ.get(k.upper())
     no_proxy_arg = no_proxy
     if no_proxy is None:
         no_proxy = get_proxy('no_proxy')
     parsed = urlparse(url)
+    if isinstance(parsed.hostname, type(None)):
+        return True
     if no_proxy:
         no_proxy = (host for host in no_proxy.replace(' ', '').split(',') if host)
         if is_ipv4_address(parsed.hostname):
