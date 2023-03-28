@@ -1,1 +1,1 @@
-pytest pandas/tests/groupby/test_transform.py::test_pct_change
+pytest pandas/tests/groupby/test_transform.py::test_pct_change_neg
