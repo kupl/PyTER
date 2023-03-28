@@ -1,1 +1,1 @@
-pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label
+pytest pandas/tests/frame/test_asof.py::TestFrameAsof::test_time_zone_aware_index
