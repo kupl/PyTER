@@ -60,7 +60,7 @@ For example, you can find dynamic analysis result of pandas-17609 program in `/p
 
 ### 3. Running PyTER
 
-You can run our reapir framework PyTER for all programs in TypeBugs:
+You can run our repair framework PyTER for all programs in TypeBugs:
 
 ```
 python -u ./pyter_tool/my_tool/test_main.py -d "/pyter/benchmark" -c "" 
@@ -119,7 +119,7 @@ For example, you can find dynamic analysis result of pandas-17609 program in `/p
 
 ### 3. Running PyTER
 
-You can run our reapir framework PyTER for all programs in BugsInPy:
+You can run our repair framework PyTER for all programs in BugsInPy:
 
 ```
 python -u ./pyter_tool/my_tool/test_main.py -d "/pyter/BugsInPy/benchmark" -b "bugsinpy" -c "" 
