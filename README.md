@@ -32,7 +32,7 @@ If you hope to run all benchmarks, then please follow scripts in [INSTALL.md](/I
 You can import our container as following script:
 
 ```
-docker import exmaple.tar pyter
+docker import example.tar pyter
 ```
 
 After then, you can run docker through this script:
@@ -46,7 +46,7 @@ docker run -it pyter /bin/bash
 You should setup serveral paths to run properly our framework:
 
 ```
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wonseok/.pyenv/plugins/pyenv-virtualenv/shims:/home/wonseok/.pyenv/shims:/home/wonseok/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/pyter/BugsInPy/framework/bin
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.pyenv/plugins/pyenv-virtualenv/shims:$HOME/.pyenv/shims:$HOME/.pyenv/bin:/pyter/BugsInPy/framework/bin
 source ~/.bashrc
 ```
 

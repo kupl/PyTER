@@ -1,1 +1,1 @@
-docker run -e LC_ALL=C.UTF-8 -v /etc/localtime:/etc/localtime:ro -e TZ=Asia/Seoul -it pyter /bin/bash
+docker run -e LC_ALL=C.UTF-8 -v /etc/localtime:/etc/localtime:ro -e TZ=$(cat /etc/timezone) -it pyter /bin/bash

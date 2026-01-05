@@ -56,7 +56,7 @@ You will get result of dynamic analysis by this script:
 ```
 
 The result of dynamic analysis will be stored in `/<each_program_path>/pyter` folder.
-For example, you can find dynamic analysis result of pandas-17609 program in `/pyter/benchmark/pandas-113/pyter`.
+For example, you can find dynamic analysis result of pandas-17609 program in `/pyter/benchmark/pandas-17609/pyter`.
 
 ### 3. Running PyTER
 
@@ -115,7 +115,7 @@ You will get result of dynamic analysis by this script:
 ```
 
 The result of dynamic analysis will be stored in `/<each_program_path>/pyter` folder.
-For example, you can find dynamic analysis result of pandas-17609 program in `/pyter/benchmark/pandas-113/pyter`.
+For example, you can find dynamic analysis result of pandas-103 program in `/pyter/BugsInPy/benchmark/pandas-103/pyter`.
 
 ### 3. Running PyTER
 
